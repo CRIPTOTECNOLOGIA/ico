@@ -17,7 +17,7 @@
         <title>HTML Template</title>
 
         <!-- Google font -->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
 
         <!-- Bootstrap -->
         <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
@@ -50,7 +50,7 @@
         <!-- Header -->
         <header id="home">
             <!-- Background Image -->
-            <div class="bg-img" style="background-image: url('./img/background1.jpg');">
+            <div class="bg-img" style="background-image: url('./img/img-home/blockchaine.png');">
                 <div class="overlay"></div>
             </div>
             <!-- /Background Image -->
@@ -63,8 +63,8 @@
                         <!-- Logo -->
                         <div class="navbar-brand">
                             <a href="index.html">
-                                <img class="logo" src="img/logo.png" alt="logo">
-                                <img class="logo-alt" src="img/logo-alt.png" alt="logo">
+                                <img class="logo" src="img/img-logo/GH_04.png" alt="logo">
+                                <img class="logo-alt" src="img/img-logo/GH_04.png" alt="logo">
                             </a>
                         </div>
                         <!-- /Logo -->
@@ -78,18 +78,29 @@
 
                     <!--  Main navigation  -->
                     <ul class="main-nav nav navbar-nav navbar-right">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#service">Services</a></li>
-                        <li><a href="#pricing">Prices</a></li>
-                        <li><a href="#team">Team</a></li>
-                        <li class="has-dropdown"><a href="#blog">Blog</a>
+                        <li><a href="#inicio">Inico</a></li>
+                        <li><a href="#queEs">¿Que es?</a></li>
+                        <li><a href="#portfolio">Características</a></li>
+                        <li class="has-dropdown"><a href="#GoldenSpace">Golden Space</a>
                             <ul class="dropdown">
-                                <li><a href="blog-single.html">blog post</a></li>
+                                <li><a href="blog-single.html">¿Que Es?</a></li>
                             </ul>
                         </li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li class="has-dropdown"><a href="#">Tokens</a>
+                            <ul class="dropdown">
+                                <li><a href="#distribucion">Distribucion</a></li>
+                                <li><a href="#uso">Uso</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#team">Equipo</a></li>
+                        <li><a href="#team">Linea de Tiempo</a></li>
+                        <li class="has-dropdown"><a href="#">Libro Blanco</a>
+                            <ul class="dropdown">
+                                <li><a href="blog-single.html">Español</a></li>
+                                <li><a href="blog-single.html">Ingles</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#contact">Contacto</a></li>
                     </ul>
                     <!-- /Main navigation -->
 
@@ -124,7 +135,7 @@
         <!-- /Header -->
 
         <!-- About -->
-        <div id="about" class="section md-padding">
+        <div id="queEs" class="section md-padding">
 
             <!-- Container -->
             <div class="container">
