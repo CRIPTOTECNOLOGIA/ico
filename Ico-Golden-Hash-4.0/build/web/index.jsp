@@ -30,7 +30,7 @@
         <link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
 
         <!-- Font Awesome Icon -->
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- Custom stlylesheet -->
         <link type="text/css" rel="stylesheet" href="css/style.css" />
@@ -78,12 +78,13 @@
 
                     <!--  Main navigation  -->
                     <ul class="main-nav nav navbar-nav navbar-right">
-                        <li><a href="#inicio">Inico</a></li>
-                        <li><a href="#queEs">¿Que es?</a></li>
-                        <li><a href="#portfolio">Características</a></li>
-                        <li class="has-dropdown"><a href="#GoldenSpace">Golden Space</a>
+                        <li><a href="#home">Inico</a></li>
+                        <li><a href="#about">¿Que es?</a></li>
+                        <li><a href="#portafolio">Características</a></li>
+                        <li class="has-dropdown">
+                            <a href="#service" >Golden Space</a>
                             <ul class="dropdown">
-                                <li><a href="blog-single.html">¿Que Es?</a></li>
+                                <li><a href="#features">¿Que Es?</a></li>
                             </ul>
                         </li>
                         <li class="has-dropdown"><a href="#">Tokens</a>
@@ -138,22 +139,22 @@
                             <!-- Fila 1 -->
                             <div class="row">
                                 <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <a class="hexagono_1">
-                                        <span class="hexagono-content_1">
+                                    <a class="hexagono">
+                                        <span class="hexagono-content">
                                             <strong>Pre Ico</strong> 50% Bonificacion
                                         </span>
                                     </a>
                                 </div>
                                 <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <a class="hexagono_2">
-                                        <span class="hexagono-content_2">
+                                    <a class="hexagono">
+                                        <span class="hexagono-content">
                                             <strong>Etapa 1</strong> 30% Bonificacion
                                         </span>
                                     </a>
                                 </div>
                                 <div class="col-sm-12 col-md-12 col-lg-4">
-                                    <a class="hexagono_3">
-                                        <span class="hexagono-content_3">
+                                    <a class="hexagono">
+                                        <span class="hexagono-content">
                                             <strong>Etapa 2</strong> 25% Bonificacion
                                         </span>
                                     </a>
@@ -162,22 +163,22 @@
                             <!-- Fila 2 -->
                             <div class="row" style="margin-top: 10em;">
                                 <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <a class="hexagono_4">
-                                        <span class="hexagono-content_4">
+                                    <a class="hexagono">
+                                        <span class="hexagono-content">
                                             <strong>Etapa 3</strong> 20% Bonificacion
                                         </span>
                                     </a>
                                 </div>
                                 <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <a class="hexagono_5">
-                                        <span class="hexagono-content_5">
+                                    <a class="hexagono">
+                                        <span class="hexagono-content">
                                             <strong>Etapa 4</strong> 15% Bonificacion
                                         </span>
                                     </a>
                                 </div>
                                 <div class="col-sm-12 col-md-12 col-lg-4">
-                                    <a class="hexagono_6">
-                                        <span class="hexagono-content_6">
+                                    <a class="hexagono">
+                                        <span class="hexagono-content">
                                             <strong>Etapa 5</strong> 10% Bonificacion
                                         </span>
                                     </a>
@@ -192,253 +193,152 @@
         </header>
         <!-- /Header -->
 
-        <!-- About -->
-        <div id="queEs" class="section md-padding">
-
+        <!-- Que es -->
+        <div id="about" class="section md-padding">
             <!-- Container -->
             <div class="container">
-
                 <!-- Row -->
                 <div class="row">
-
                     <!-- Section header -->
                     <div class="section-header text-center">
-                        <h2 class="title">Welcome to Website</h2>
+                        <h2 class="title">Golden Hash</h2>
                     </div>
                     <!-- /Section header -->
 
-                    <!-- about -->
-                    <div class="col-md-4">
-                        <div class="about">
-                            <i class="fa fa-cogs"></i>
-                            <h3>Fully Customizible</h3>
-                            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
-                            <a href="#">Read more</a>
-                        </div>
+                    <!-- Que es Golden Hash -->
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <p>
+                           Es una moneda que te da acceso a una red de almacenamiento
+                           encriptada, te ofrece la oportunidad de adquirir espacio
+                           exclusivo en nuestros pool de servidores, en donde su
+                           información se encuentra respaldada por la tecnología
+                           blockchain, lo cual le permitirá tener la seguridad que
+                           realmente necesita. 
+                        </p>
                     </div>
-                    <!-- /about -->
-
-                    <!-- about -->
-                    <div class="col-md-4">
-                        <div class="about">
-                            <i class="fa fa-magic"></i>
-                            <h3>Awesome Features</h3>
-                            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
-                            <a href="#">Read more</a>
-                        </div>
+                    <!-- /Que es Golden Hash -->
+                    
+                    <!-- Video  -->
+                    <div class="col-sm-12 col-md-6 col-lg-6 video_about">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/S-D-uQnIGaU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
-                    <!-- /about -->
-
-                    <!-- about -->
-                    <div class="col-md-4">
-                        <div class="about">
-                            <i class="fa fa-mobile"></i>
-                            <h3>Fully Responsive</h3>
-                            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
-                            <a href="#">Read more</a>
-                        </div>
-                    </div>
-                    <!-- /about -->
-
+                    <!-- /And Video -->
                 </div>
                 <!-- /Row -->
-
             </div>
             <!-- /Container -->
-
         </div>
         <!-- /About -->
 
 
-        <!-- Portfolio -->
-        <div id="portfolio" class="section md-padding bg-grey">
-
+        <!-- Caracteristicas -->
+        <div id="portafolio" class="section md-padding bg-grey">
             <!-- Container -->
             <div class="container">
-
                 <!-- Row -->
                 <div class="row">
-
                     <!-- Section header -->
                     <div class="section-header text-center">
-                        <h2 class="title">Featured Works</h2>
+                        <h2 class="title">Caracteristicas</h2>
                     </div>
                     <!-- /Section header -->
-
-                    <!-- Work -->
-                    <div class="col-md-4 col-xs-6 work">
-                        <img class="img-responsive" src="./img/work1.jpg" alt="">
-                        <div class="overlay"></div>
-                        <div class="work-content">
-                            <span>Category</span>
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="work-link">
-                                <a href="#"><i class="fa fa-external-link"></i></a>
-                                <a class="lightbox" href="./img/work1.jpg"><i class="fa fa-search"></i></a>
-                            </div>
+                    <!-- Seguridad -->
+                    <div class="col-md-6">
+                        <div class="about">
+                            <i class="fa fa-lock"></i>
+                            <h3>Seguridad</h3>
+                            <p>
+                                Golden Hash maneja todas sus transacciones bajo
+                                el protocolo SSL, con el respaldo de la tecnología
+                                blockchain, para validar el espacio de almacenamiento
+                                adquirido por los usuarios, evitando las vulnerabilidades.                                
+                            </p>
                         </div>
                     </div>
-                    <!-- /Work -->
-
-                    <!-- Work -->
-                    <div class="col-md-4 col-xs-6 work">
-                        <img class="img-responsive" src="./img/work2.jpg" alt="">
-                        <div class="overlay"></div>
-                        <div class="work-content">
-                            <span>Category</span>
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="work-link">
-                                <a href="#"><i class="fa fa-external-link"></i></a>
-                                <a class="lightbox" href="./img/work2.jpg"><i class="fa fa-search"></i></a>
-                            </div>
+                    <!-- /Seguridad -->
+                    
+                    <!-- Rapidez en transacciones -->
+                    <div class="col-md-6">
+                        <div class="about">
+                            <i class="fa fa-clock-o"></i>
+                            <h3>Rapidez en transacciones</h3>
+                            <p>
+                                Las transacciones son más rápidas, debido a que se ejecutan
+                                en el entorno de Ethereum, donde el tiempo requerido para que
+                                un bloque se confirme, es de tan solo 16 segundos.
+                                <br>   
+                                <br>
+                            </p>
                         </div>
                     </div>
-                    <!-- /Work -->
-
-                    <!-- Work -->
-                    <div class="col-md-4 col-xs-6 work">
-                        <img class="img-responsive" src="./img/work3.jpg" alt="">
-                        <div class="overlay"></div>
-                        <div class="work-content">
-                            <span>Category</span>
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="work-link">
-                                <a href="#"><i class="fa fa-external-link"></i></a>
-                                <a class="lightbox" href="./img/work3.jpg"><i class="fa fa-search"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Work -->
-
-                    <!-- Work -->
-                    <div class="col-md-4 col-xs-6 work">
-                        <img class="img-responsive" src="./img/work4.jpg" alt="">
-                        <div class="overlay"></div>
-                        <div class="work-content">
-                            <span>Category</span>
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="work-link">
-                                <a href="#"><i class="fa fa-external-link"></i></a>
-                                <a class="lightbox" href="./img/work4.jpg"><i class="fa fa-search"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Work -->
-
-                    <!-- Work -->
-                    <div class="col-md-4 col-xs-6 work">
-                        <img class="img-responsive" src="./img/work5.jpg" alt="">
-                        <div class="overlay"></div>
-                        <div class="work-content">
-                            <span>Category</span>
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="work-link">
-                                <a href="#"><i class="fa fa-external-link"></i></a>
-                                <a class="lightbox" href="./img/work5.jpg"><i class="fa fa-search"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Work -->
-
-                    <!-- Work -->
-                    <div class="col-md-4 col-xs-6 work">
-                        <img class="img-responsive" src="./img/work6.jpg" alt="">
-                        <div class="overlay"></div>
-                        <div class="work-content">
-                            <span>Category</span>
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="work-link">
-                                <a href="#"><i class="fa fa-external-link"></i></a>
-                                <a class="lightbox" href="./img/work6.jpg"><i class="fa fa-search"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Work -->
-
-                </div>
+                    <!-- /rapidez en trasancciones -->
+                    
+                    
+                </div>                
                 <!-- /Row -->
-
+                <div class="row">
+                    <!-- VErsatilidad -->
+                    <div class="col-md-6">
+                        <div class="about">
+                            <i class="fa fa-gears"></i>
+                            <h3>Versatilidad</h3>
+                            <p>
+                                Golden Hash posee un amplio rango de usos, debido
+                                al desarrollo de la plataforma Golden Space, en donde
+                                puede usarse para tener un espacio de almacenamiento.                                
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Descentralizada -->
+                    <div class="col-md-6">
+                        <div class="about">
+                            <i class="fa fa-group"></i>
+                            <h3>Descentralizada</h3>
+                            <p>
+                                Golden Hash es descentralizada, debido a que permite
+                                la participación de la comunidad, sin depender de un
+                                ente regulatorio (intermedirarios).                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- /Container -->
 
         </div>
         <!-- /Portfolio -->
 
-        <!-- Service -->
+        <!-- Golden space -->
         <div id="service" class="section md-padding">
-
+            
             <!-- Container -->
             <div class="container">
-
                 <!-- Row -->
                 <div class="row">
-
                     <!-- Section header -->
                     <div class="section-header text-center">
-                        <h2 class="title">What we offer</h2>
+                        <h2 class="title">Golden Space</h2>
                     </div>
                     <!-- /Section header -->
-
-                    <!-- service -->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="service">
-                            <i class="fa fa-diamond"></i>
-                            <h3>App Development</h3>
-                            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-                        </div>
+                    
+                    <!-- Golden Space -->
+                    <div class="col-md-6">
+                        <p class="text-goldenSpace">
+                            Es una plataforma multidisciplinar y de servicio
+                            de almacenamiento de datos exclusivo de Golden-Hash.
+                            Se desarrolla en Hyperledger, la más importante de todas
+                            las tecnologías de Blockchain privadas que actualmente
+                            existen en este ecosistema. Reúne un conjunto de
+                            capacidades de gestión y administración con diseño muy
+                            flexible de la información, que permite el despliegue de
+                            Smart Contracts, llamados en este caso "Chaincodes"
+                            (desarrollados en el lenguaje de programacón de Google
+                            'Golang').
+                        </p>
                     </div>
-                    <!-- /service -->
-
-                    <!-- service -->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="service">
-                            <i class="fa fa-rocket"></i>
-                            <h3>Graphic Design</h3>
-                            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-                        </div>
+                    <div class="col-md-6">
+                        <img src="img/golden_space.png" class="img-responsive" >
                     </div>
-                    <!-- /service -->
-
-                    <!-- service -->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="service">
-                            <i class="fa fa-cogs"></i>
-                            <h3>Creative Idea</h3>
-                            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-                        </div>
-                    </div>
-                    <!-- /service -->
-
-                    <!-- service -->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="service">
-                            <i class="fa fa-diamond"></i>
-                            <h3>Marketing</h3>
-                            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-                        </div>
-                    </div>
-                    <!-- /service -->
-
-                    <!-- service -->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="service">
-                            <i class="fa fa-pencil"></i>
-                            <h3>Awesome Support</h3>
-                            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-                        </div>
-                    </div>
-                    <!-- /service -->
-
-                    <!-- service -->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="service">
-                            <i class="fa fa-flask"></i>
-                            <h3>Brand Design</h3>
-                            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-                        </div>
-                    </div>
-                    <!-- /service -->
-
                 </div>
                 <!-- /Row -->
 
@@ -449,7 +349,7 @@
         <!-- /Service -->
 
 
-        <!-- Why Choose Us -->
+        <!-- Que es golden Space -->
         <div id="features" class="section md-padding bg-grey">
 
             <!-- Container -->
@@ -461,35 +361,46 @@
                     <!-- why choose us content -->
                     <div class="col-md-6">
                         <div class="section-header">
-                            <h2 class="title">Why Choose Us</h2>
-                        </div>
-                        <p>Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris. Ultrices sagittis orci a scelerisque purus.</p>
-                        <div class="feature">
-                            <i class="fa fa-check"></i>
-                            <p>Quis varius quam quisque id diam vel quam elementum.</p>
+                            <h2 class="title">¿Que es Golden Space?</h2>
                         </div>
                         <div class="feature">
                             <i class="fa fa-check"></i>
-                            <p>Mauris augue neque gravida in fermentum.</p>
+                            <p>
+                                La información almacenada es de uso exclusivo del cliente, debido a que la 
+                                blockchain, por naturaleza evita su modificación, una vez que el dato haya sido guardado.
+                            </p>
                         </div>
                         <div class="feature">
                             <i class="fa fa-check"></i>
-                            <p>Orci phasellus egestas tellus rutrum.</p>
+                            <p>
+                                El ingreso o inicio de sesión a través del móvil con un código QR o sin móvil con código 
+                                PIN y contraseña.
+                            </p>
                         </div>
                         <div class="feature">
                             <i class="fa fa-check"></i>
-                            <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium.</p>
+                            <p>
+                                Golden Space busca que el usuario tenga una TARIFA UNICA DE PAGO, y que sus monedas GOLDEN HASH, 
+                                sirvan para canjear espacio de almacenamiento.
+                            </p>
+                        </div>
+                        <div class="feature">
+                            <i class="fa fa-check"></i>
+                            <p>
+                                La interfaz de Golden Space es de diseño flexible, destaca por su facilidad de manejo 
+                                y un gestor de archivos que brilla por su sencillez.
+                            </p>
                         </div>
                     </div>
                     <!-- /why choose us content -->
 
                     <!-- About slider -->
-                    <div class="col-md-6">
+                    <div class="col-md-6" style="margin-top: 5em;">
                         <div id="about-slider" class="owl-carousel owl-theme">
-                            <img class="img-responsive" src="./img/about1.jpg" alt="">
-                            <img class="img-responsive" src="./img/about2.jpg" alt="">
-                            <img class="img-responsive" src="./img/about1.jpg" alt="">
-                            <img class="img-responsive" src="./img/about2.jpg" alt="">
+                            <img class="img-responsive" src="./img/img-goldenSpace/estapa1-criptoseguridad.jpg" alt="">
+                            <img class="img-responsive" src="./img/img-goldenSpace/etapa2-inicio.jpg" alt="">
+                            <img class="img-responsive" src="./img/img-goldenSpace/etapa3-funcionamiento.jpg" alt="">
+                            <img class="img-responsive" src="./img/img-goldenSpace/etapa4-interfaz.jpg" alt="">
                         </div>
                     </div>
                     <!-- /About slider -->
@@ -502,167 +413,100 @@
 
         </div>
         <!-- /Why Choose Us -->
-
-
-        <!-- Numbers -->
-        <div id="numbers" class="section sm-padding">
-
-            <!-- Background Image -->
-            <div class="bg-img" style="background-image: url('./img/background2.jpg');">
-                <div class="overlay"></div>
-            </div>
-            <!-- /Background Image -->
-
-            <!-- Container -->
-            <div class="container">
-
-                <!-- Row -->
-                <div class="row">
-
-                    <!-- number -->
-                    <div class="col-sm-3 col-xs-6">
-                        <div class="number">
-                            <i class="fa fa-users"></i>
-                            <h3 class="white-text"><span class="counter">451</span></h3>
-                            <span class="white-text">Happy clients</span>
-                        </div>
-                    </div>
-                    <!-- /number -->
-
-                    <!-- number -->
-                    <div class="col-sm-3 col-xs-6">
-                        <div class="number">
-                            <i class="fa fa-trophy"></i>
-                            <h3 class="white-text"><span class="counter">12</span></h3>
-                            <span class="white-text">Awards won</span>
-                        </div>
-                    </div>
-                    <!-- /number -->
-
-                    <!-- number -->
-                    <div class="col-sm-3 col-xs-6">
-                        <div class="number">
-                            <i class="fa fa-coffee"></i>
-                            <h3 class="white-text"><span class="counter">154</span>K</h3>
-                            <span class="white-text">Cups of Coffee</span>
-                        </div>
-                    </div>
-                    <!-- /number -->
-
-                    <!-- number -->
-                    <div class="col-sm-3 col-xs-6">
-                        <div class="number">
-                            <i class="fa fa-file"></i>
-                            <h3 class="white-text"><span class="counter">45</span></h3>
-                            <span class="white-text">Projects completed</span>
-                        </div>
-                    </div>
-                    <!-- /number -->
-
-                </div>
-                <!-- /Row -->
-
-            </div>
-            <!-- /Container -->
-
-        </div>
-        <!-- /Numbers -->
-
+        
         <!-- Pricing -->
         <div id="pricing" class="section md-padding">
-
             <!-- Container -->
             <div class="container">
-
                 <!-- Row -->
                 <div class="row">
 
                     <!-- Section header -->
                     <div class="section-header text-center">
-                        <h2 class="title">Pricing Table</h2>
+                        <h2 class="title">Uso de Tokens</h2>
                     </div>
                     <!-- /Section header -->
 
-                    <!-- pricing -->
-                    <div class="col-sm-4">
-                        <div class="pricing">
-                            <div class="price-head">
-                                <span class="price-title">Basic plan</span>
-                                <div class="price">
-                                    <h3>$9<span class="duration">/ month</span></h3>
-                                </div>
+                    <!-- Nav Tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="active">
+                        <a class="titulos " data-toggle="tab" href="#Desarrollo_Investigación">Desarrollo e Investigación</a>
+                    </li>
+                    <li >
+                        <a class="titulos" data-toggle="tab" href="#Marketing">Marketing</a>
+                    </li>
+                    <li >
+                        <a class="titulos" data-toggle="tab" href="#Operaciones_Negocios">Operaciones y Negocios</a>
+                    </li>
+                    <li >
+                        <a class="titulos" data-toggle="tab" href="#Legal_Administrativo">Legal y Administrativo</a>
+                    </li>
+                </ul>
+                <!-- Tab Panes -->
+                <div class="tab-content">
+                    <div id="Desarrollo_Investigación" class="container tab-pane active">
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-4 col-lg-4">
+                                <img src="img/img-graficas/40blue.png" class="img-responsive" alt="">
                             </div>
-                            <ul class="price-content">
-                                <li>
-                                    <p>1GB Disk Space</p>
-                                </li>
-                                <li>
-                                    <p>100 Email Account</p>
-                                </li>
-                                <li>
-                                    <p>24/24 Support</p>
-                                </li>
-                            </ul>
-                            <div class="price-btn">
-                                <button class="outline-btn">Purchase now</button>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /pricing -->
-
-                    <!-- pricing -->
-                    <div class="col-sm-4">
-                        <div class="pricing">
-                            <div class="price-head">
-                                <span class="price-title">Silver plan</span>
-                                <div class="price">
-                                    <h3>$19<span class="duration">/ month</span></h3>
-                                </div>
-                            </div>
-                            <ul class="price-content">
-                                <li>
-                                    <p>1GB Disk Space</p>
-                                </li>
-                                <li>
-                                    <p>100 Email Account</p>
-                                </li>
-                                <li>
-                                    <p>24/24 Support</p>
-                                </li>
-                            </ul>
-                            <div class="price-btn">
-                                <button class="outline-btn">Purchase now</button>
+                            <div class="col-sm-12 col-md-8 col-lg-8">
+                                <h3 class="titulo_menu">Desarrollo e Investigación</h3>
+                                <p class="texto_menu">
+                                    Se impulsará el desarrollo de la plataforma de almacenamiento GoldenSpace, incrementando su capacidad de soporte y transferencia
+                                    bajo el enfoque de mejora continua, con la incorporación de nuevas alternativas para el acceso
+                                    remoto e inmediato a los datos, como aplicaciones para múltiples sistemas.
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <!-- /pricing -->
-
-                    <!-- pricing -->
-                    <div class="col-sm-4">
-                        <div class="pricing">
-                            <div class="price-head">
-                                <span class="price-title">Gold plan</span>
-                                <div class="price">
-                                    <h3>$39<span class="duration">/ month</span></h3>
-                                </div>
+                    <div id="Marketing" class="container tab-pane fade">
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-4 col-lg-4">
+                                <img src="img/img-graficas/30blue.png" class="img-responsive" alt="">
                             </div>
-                            <ul class="price-content">
-                                <li>
-                                    <p>1GB Disk Space</p>
-                                </li>
-                                <li>
-                                    <p>100 Email Account</p>
-                                </li>
-                                <li>
-                                    <p>24/24 Support</p>
-                                </li>
-                            </ul>
-                            <div class="price-btn">
-                                <button class="outline-btn">Purchase now</button>
+                            <div class="col-sm-12 col-md-8 col-lg-8">
+                                <h3 class="titulo_menu">Marketing</h3>
+                                <p class="texto_menu">
+                                    Se desarrollará una campaña de Marketing intensiva y ambiciosa en varios idiomas, para la fidelización de usuarios en la región,
+                                    y así fomentar el nivel de conocimiento y recordación de la marca Golden Hash, como la opción líder en Soluciones de Almacenamiento
+                                    para todos, con la perspectiva alineada a lograr un alcance global.
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <!-- /pricing -->
+                    <div id="Operaciones_Negocios" class="container tab-pane fade">
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-4 col-lg-4">
+                                <img src="img/img-graficas/20blue.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="col-sm-12 col-md-8 col-lg-8">
+                                <h3 class="titulo_menu">Operaciones y Negocios</h3>
+                                <p class="texto_menu">
+                                    Consolidar el negocio a través de asociaciones estratégicas, accionistas adicionales de integración de contenido, para valorizar en
+                                    el mercado de criptomonedas, nuestra ficha XGH, en beneficio de nuestros inversionistas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Legal_Administrativo" class="container tab-pane fade">
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-4 col-lg-4">
+                                <img src="img/img-graficas/10blue.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="col-sm-12 col-md-8 col-lg-8">
+                                <h3 class="titulo_menu">Legal y Administrativo</h3>
+                                <p class="texto_menu">
+                                    Fondos destinados a la solvencia de gastos de administración, contabilidad, rentas, asesoría legal y otros servicios propios o de
+                                    terceros requeridos para la evolución del proyecto.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 </div>
                 <!-- Row -->
@@ -1073,11 +917,23 @@
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/owl.carousel.min.js"></script>
         <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
-
         <script type="text/javascript" src="js/main.js"></script>   
-        <script src="js/flipclock.js"></script>
-        <script src="js/asignador_contador.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/jquery.countdown.js"></script>
+        <script>
+                                    /**
+                                     * WARNING: I set this coundtown to be running until the end of times.
+                                     * So when you'll init the plugin, follow how it's done in plugin documentation.
+                                     */
 
+                                    //jQuery example
+                                    $('#simply-countdown-losange').simplyCountdown({
+                                        year: 2018,
+                                        month: 6,
+                                        day: 23,
+                                        hour: 10,
+                                        enableUtc: false
+                                    });
+        </script>
     </body>
 
 </html>

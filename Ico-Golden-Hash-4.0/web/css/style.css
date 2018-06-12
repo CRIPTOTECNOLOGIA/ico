@@ -65,7 +65,7 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 38px;
 }
 
 h3 {
@@ -101,7 +101,6 @@ a:hover, a:focus {
 .white-text {
     color: #FFF;
     letter-spacing: 8px;
-    top: 50%
 }
 
 ::-moz-selection {
@@ -132,8 +131,8 @@ ul, ol {
 }
 
 .sm-padding {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 
@@ -185,6 +184,7 @@ ul, ol {
 
 .section-header .title {
     text-transform: capitalize;
+    letter-spacing: 8px;
 }
 
 .title:after {
@@ -199,6 +199,7 @@ ul, ol {
 .text-center .title:after {
     margin: 20px auto 0px;
 }
+
 
 /* --  Input  -- */
 
@@ -598,7 +599,7 @@ header {
     position: absolute;
     left: 0px;
     right: 0px;
-    top: 35%;
+    top: 55%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -703,20 +704,20 @@ header {
 }
 
 /* Hexagono */
-.hexagono_1 {
-  position: absolute;
+.hexagono {
+  position: relative;
   display: block;
   background-color: #28AFFA;
   width: 110px;
   height: 63.9534883721px;
   transition: all .5s ease-out;
 }
-.hexagono_1:hover {
+.hexagono:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   transition: all .5s ease-out;
 }
-.hexagono_1::after {
+.hexagono::after {
   content: '';
   display: block;
   position: absolute;
@@ -727,7 +728,7 @@ header {
           transform: rotate(60deg);
   background-color: inherit;
 }
-.hexagono_1::before {
+.hexagono::before {
   content: '';
   display: block;
   position: absolute;
@@ -739,7 +740,7 @@ header {
   background-color: inherit;
 }
 
-.hexagono-content_1 {
+.hexagono-content {
   position: absolute;
   z-index: 1000;
   width: 90%;
@@ -757,9 +758,11 @@ header {
   font-weight: normal;
   font-size: 2rem;
 }
-.hexagono-content_1 strong {
+.hexagono-content strong {
   display: block;
 }
+
+
 
 /*------------------------------------*\
 	About
@@ -771,6 +774,12 @@ header {
     padding: 40px 20px;
     border: 1px solid #EEE;
     margin: 15px 0px;
+}
+
+.about:hover{
+    background-color: #1C1D21;
+    -webkit-transition: 0.2s width;
+    transition: 0.2s width;
 }
 
 .about i {
@@ -805,121 +814,24 @@ header {
     color: #fff;
 }
 
+#about p{
+    font-size: 26px;
+    text-align: justify;
+    margin-top: 2em;
+}
 
 /*------------------------------------*\
 	Portfolio
 \*------------------------------------*/
 
-.work {
-    position: relative;
-    padding: 20px;
+#portafolio h3{
+    font-size: 28px;
 }
 
-.work>img {
-  width: 100%;
+#portafolio p{
+    font-size: 22px;
+    text-align: justify;
 }
-
-.work .overlay {
-    background: #1C1D21;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    opacity: 0;
-    -webkit-transition: 0.2s opacity;
-    transition: 0.2s opacity;
-    -webkit-transition-delay: 0.2s;
-    transition-delay: 0.2s;
-}
-
-.work:hover .overlay {
-    -webkit-transition-delay: 0s;
-    transition-delay: 0s;
-    opacity: 0.8;
-}
-
-.work .work-content {
-    position: absolute;
-    left: 25px;
-    right: 25px;
-    top: 50%;
-    text-align: center;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-.work .work-content h3 {
-    -webkit-transform: translateY(100%);
-    -ms-transform: translateY(100%);
-    transform: translateY(100%);
-    opacity: 0;
-    color: #FFF;
-    margin-bottom: 10px;
-    -webkit-transition: 0.2s all;
-    transition: 0.2s all;
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s;
-}
-
-.work:hover .work-content h3 {
-    -webkit-transform: translateY(0%);
-    -ms-transform: translateY(0%);
-    transform: translateY(0%);
-    opacity: 1;
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s;
-}
-
-.work .work-content span {
-    display: block;
-    text-transform: uppercase;
-    -webkit-transform: translateY(100%);
-    -ms-transform: translateY(100%);
-    transform: translateY(100%);
-    opacity: 0;
-    color: #6195FF;
-    margin-bottom: 5px;
-    -webkit-transition: 0.2s all;
-    transition: 0.2s all;
-    -webkit-transition-delay: 0.2s;
-    transition-delay: 0.2s;
-}
-
-.work:hover .work-content span {
-    -webkit-transform: translateY(0%);
-    -ms-transform: translateY(0%);
-    transform: translateY(0%);
-    opacity: 1;
-    -webkit-transition-delay: 0s;
-    transition-delay: 0s;
-}
-
-.work .work-link {
-    text-align: center;
-    margin-top: 20px;
-    opacity: 0;
-    -webkit-transition: 0.2s opacity;
-    transition: 0.2s opacity;
-}
-
-.work .work-link a {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background-color: #6195FF;
-    color: #FFF;
-    line-height: 50px;
-    text-align: center;
-}
-
-.work:hover .work-link {
-    -webkit-transition-delay: 0.2s;
-    transition-delay: 0.2s;
-    opacity: 1;
-}
-
 
 /*------------------------------------*\
 	Services
@@ -967,6 +879,12 @@ header {
     color: #fff;
 }
 
+#service .text-goldenSpace{
+    font-size: 24px;
+    text-align: justify;
+    margin-top: 1em;
+}
+
 /*------------------------------------*\
 	Why choose us
 \*------------------------------------*/
@@ -983,119 +901,19 @@ header {
     margin-right: 5px;
 }
 
-/*------------------------------------*\
-	Numbers
-\*------------------------------------*/
-
-.number {
-    text-align: center;
-    margin: 15px 0px;
+#features p{
+    font-size: 18px;
 }
-
-.number i {
-    color: #6195FF;
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.number h3 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
 
 /*------------------------------------*\
-	Pricing
+	Uso de Tokens
 \*------------------------------------*/
 
-.pricing {
-    position: relative;
+#pricing .titulos{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #45668E;
     text-align: center;
-    border: 1px solid #EEE;
-    background-color: #FFF;
-    z-index: 11;
-    margin: 15px 0px;
-}
-
-.pricing::after {
-    content: "";
-    background-color: #1C1D21;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 0%;
-    z-index: -1;
-    -webkit-transition: 0.2s height;
-    transition: 0.2s height;
-}
-
-.pricing:hover:after {
-    height: 100%;
-}
-
-.pricing .price-head {
-    position: relative;
-    margin-bottom: 20px;
-}
-
-.pricing .price-title {
-    display: block;
-    padding: 40px 0px 20px;
-    text-transform: uppercase;
-    -webkit-transition: 0.2s color;
-    transition: 0.2s color;
-}
-
-.pricing:hover .price-title {
-    color: #6195FF;
-}
-
-.pricing .price {
-    position: relative;
-    width: 140px;
-    height: 140px;
-    line-height: 140px;
-    text-align: center;
-    margin: auto;
-    border-radius: 50%;
-    border: 2px solid #6195FF;
-}
-
-.pricing .price h3 {
-  font-size: 42px;
-  margin: 0px;
-  -webkit-transition: 0.2s color;
-  transition: 0.2s color;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-  top: 50%;
-  position: absolute;
-  left: 0;
-  right: 0;
-}
-
-.pricing:hover .price h3 {
-    color: #fff;
-}
-
-.pricing .duration {
-    display: block;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #10161A;
-    -webkit-transition: 0.2s color;
-    transition: 0.2s color;
-}
-
-.pricing:hover .duration {
-    color: #fff;
-}
-
-.pricing .price-btn {
-    padding-top: 20px;
-    padding-bottom: 40px;
+    font-size: 22px;
 }
 
 /*------------------------------------*\
