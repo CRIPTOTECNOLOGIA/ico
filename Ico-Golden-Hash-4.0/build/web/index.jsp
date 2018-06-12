@@ -31,7 +31,7 @@
         <link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
 
         <!-- Font Awesome Icon -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
         <!-- Custom stlylesheet -->
         <link type="text/css" rel="stylesheet" href="css/style.css" />
@@ -133,11 +133,54 @@
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6" style="margin-top: 3em;">
-                            <a class="hexagono">
-                                <span class="hexagono-content">
-                                    <strong>IRONIC</strong> HACK
-                                </span>
-                            </a>
+                            <!-- Fila 1 -->
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <a class="hexagono_1">
+                                        <span class="hexagono-content_1">
+                                            <strong>Pre Ico</strong> 50% Bonificacion
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <a class="hexagono_2">
+                                        <span class="hexagono-content_2">
+                                            <strong>Etapa 1</strong> 30% Bonificacion
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-4">
+                                    <a class="hexagono_3">
+                                        <span class="hexagono-content_3">
+                                            <strong>Etapa 2</strong> 25% Bonificacion
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Fila 2 -->
+                            <div class="row" style="margin-top: 10em;">
+                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <a class="hexagono_4">
+                                        <span class="hexagono-content_4">
+                                            <strong>Etapa 3</strong> 20% Bonificacion
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <a class="hexagono_5">
+                                        <span class="hexagono-content_5">
+                                            <strong>Etapa 4</strong> 15% Bonificacion
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-4">
+                                    <a class="hexagono_6">
+                                        <span class="hexagono-content_6">
+                                            <strong>Etapa 5</strong> 10% Bonificacion
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
