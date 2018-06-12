@@ -45,7 +45,7 @@ Table OF Contents
 /* -- typography -- */
 
 body {
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 16px;
     line-height: 1.6;
     overflow-x: hidden;
@@ -53,7 +53,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 20px;
@@ -264,8 +264,13 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     padding: 0;
 }
 
-.navbar-brand .logo, .navbar-brand .logo-alt {
-    max-height: 50px;
+.navbar-brand .logo{
+    max-height: 80px;
+    display: block;
+}
+
+ .navbar-brand .logo-alt {
+    max-height: 120px;
     display: block;
 }
 
@@ -310,6 +315,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 #nav.fixed-nav {
+    font-size: 20px!important;
     position: fixed;
     left: 0;
     right: 0;
@@ -320,6 +326,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 #nav.nav-transparent {
     background: transparent;
+    height: 80px;
 }
 
 
@@ -340,6 +347,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     }
     #nav.nav-transparent:not(.fixed-nav) .main-nav>li>a {
         color: #fff;
+        font-size: 18px;
     }
     .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
         background: transparent;
@@ -348,7 +356,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     .main-nav>li>a:after {
         content: "";
         display: block;
-        background-color: #6195FF;
+        background-color: #45668E;
         height: 2px;
         width: 0%;
         -webkit-transition: 0.2s width;
