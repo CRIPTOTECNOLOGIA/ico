@@ -1073,29 +1073,11 @@
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/owl.carousel.min.js"></script>
         <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
-<<<<<<< HEAD
+
         <script type="text/javascript" src="js/main.js"></script>   
         <script src="js/flipclock.js"></script>
         <script src="js/asignador_contador.js" type="text/javascript"></script>
-=======
-        <script type="text/javascript" src="js/main.js"></script>
-        <script type="text/javascript" src="js/jquery.countdown.js"></script>
-        
-        <script>
-            /**
-            * WARNING: I set this coundtown to be running until the end of times.
-            * So when you'll init the plugin, follow how it's done in plugin documentation.
-            */
-            //jQuery example
-            $('#simply-countdown-losange').simplyCountdown({
-                year: 2018,
-                month: 6,
-                day: 23,
-                hour: 10,
-                enableUtc: false
-            });
-        </script>
->>>>>>> origin
+
     </body>
 
 </html>

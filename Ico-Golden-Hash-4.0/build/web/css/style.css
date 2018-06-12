@@ -101,6 +101,7 @@ a:hover, a:focus {
 .white-text {
     color: #FFF;
     letter-spacing: 8px;
+    top: 50%
 }
 
 ::-moz-selection {
@@ -702,7 +703,7 @@ header {
 }
 
 /* Hexagono */
-.hexagono {
+.hexagono_1 {
   position: absolute;
   display: block;
   background-color: #28AFFA;
@@ -710,12 +711,12 @@ header {
   height: 63.9534883721px;
   transition: all .5s ease-out;
 }
-.hexagono:hover {
+.hexagono_1:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   transition: all .5s ease-out;
 }
-.hexagono::after {
+.hexagono_1::after {
   content: '';
   display: block;
   position: absolute;
@@ -726,7 +727,7 @@ header {
           transform: rotate(60deg);
   background-color: inherit;
 }
-.hexagono::before {
+.hexagono_1::before {
   content: '';
   display: block;
   position: absolute;
@@ -738,7 +739,7 @@ header {
   background-color: inherit;
 }
 
-.hexagono-content {
+.hexagono-content_1 {
   position: absolute;
   z-index: 1000;
   width: 90%;
@@ -756,7 +757,7 @@ header {
   font-weight: normal;
   font-size: 2rem;
 }
-.hexagono-content strong {
+.hexagono-content_1 strong {
   display: block;
 }
 
