@@ -6,7 +6,6 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 
     <head>
@@ -42,6 +41,9 @@
                 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
                 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+
+        <!-- Librerias contador -->
+        <link rel="stylesheet" href="css/flipclock.css">
     </head>
 
     <body>
@@ -102,6 +104,7 @@
 
                         <!-- home content -->
                         <div class="col-md-10 col-md-offset-1">
+                            <div class="clock" style="margin:2em;"></div>
                             <div class="home-content">
                                 <h1 class="white-text">We Are Creative Agency</h1>
                                 <p class="white-text">Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere.
@@ -959,8 +962,9 @@
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/owl.carousel.min.js"></script>
         <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
-
+        <script type="text/javascript" src="js/main.js"></script>   
+        <script src="js/flipclock.js"></script>
+        <script src="js/asignador_contador.js" type="text/javascript"></script>
     </body>
 
 </html>
