@@ -112,20 +112,35 @@
             <div class="home-wrapper">
                 <div class="container">
                     <div class="row">
-
                         <!-- home content -->
                         <div class="col-md-10 col-md-offset-1">
-                            <div class="clock" style="margin:2em;"></div>
                             <div class="home-content">
-                                <h1 class="white-text">We Are Creative Agency</h1>
-                                <p class="white-text">Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere.
+                                <h1 class="white-text">Golden Hash</h1>
+                                <p class="white-text">
+                                    SOLUCIONES DE ALMACENAMIENTO AL ALCANCE DE TODOS.
                                 </p>
-                                <button class="white-btn">Get Started!</button>
-                                <button class="main-btn">Learn more</button>
                             </div>
                         </div>
-                        <!-- /home content -->
-
+                        <!-- /home content -->                        
+                    </div>
+                    <!-- countdown -->
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="count-time" style="margin-top: 1em;">
+                                <div class="examples">
+                                    <div class="simply-countdown-losange" id="simply-countdown-losange">
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6" style="margin-top: 3em;">
+                            <a class="hexagono">
+                                <span class="hexagono-content">
+                                    <strong>IRONIC</strong> HACK
+                                </span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -689,7 +704,7 @@
                     <div class="col-sm-4">
                         <div class="team">
                             <div class="team-img">
-                                <img class="img-responsive" src="./img/team1.jpg" alt="">
+                                <img class="img-responsive" src="./img/FOTOS EQUIPO/arturo.jpeg" alt="">
                                 <div class="overlay">
                                     <div class="team-social">
                                         <a href="#"><i class="fa fa-facebook"></i></a>
@@ -699,7 +714,49 @@
                                 </div>
                             </div>
                             <div class="team-content">
-                                <h3>John Doe</h3>
+                                <h3>Arturo Izquierdo</h3>
+                                <span>CEO & Fundador</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /team -->
+                    
+                    <!-- team -->
+                    <div class="col-sm-4">
+                        <div class="team">
+                            <div class="team-img">
+                                <img class="img-responsive" src="./img/FOTOS EQUIPO/Javier.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="team-social">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h3>Javier</h3>
+                                <span>Co Fundador</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /team -->
+                    
+                    <!-- team -->
+                    <div class="col-sm-4">
+                        <div class="team">
+                            <div class="team-img">
+                                <img class="img-responsive" src="./img/FOTOS EQUIPO/david.jpeg" alt="">
+                                <div class="overlay">
+                                    <div class="team-social">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h3>David Casadiegos</h3>
                                 <span>Web Designer</span>
                             </div>
                         </div>
@@ -973,9 +1030,29 @@
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/owl.carousel.min.js"></script>
         <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+<<<<<<< HEAD
         <script type="text/javascript" src="js/main.js"></script>   
         <script src="js/flipclock.js"></script>
         <script src="js/asignador_contador.js" type="text/javascript"></script>
+=======
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/jquery.countdown.js"></script>
+        
+        <script>
+            /**
+            * WARNING: I set this coundtown to be running until the end of times.
+            * So when you'll init the plugin, follow how it's done in plugin documentation.
+            */
+            //jQuery example
+            $('#simply-countdown-losange').simplyCountdown({
+                year: 2018,
+                month: 6,
+                day: 23,
+                hour: 10,
+                enableUtc: false
+            });
+        </script>
+>>>>>>> origin
     </body>
 
 </html>
