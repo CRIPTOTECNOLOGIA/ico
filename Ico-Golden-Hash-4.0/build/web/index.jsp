@@ -6,7 +6,6 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 
     <head>
@@ -42,6 +41,9 @@
                 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
                 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+
+        <!-- Librerias contador -->
+        <link rel="stylesheet" href="css/flipclock.css">
     </head>
 
     <body>
@@ -745,7 +747,7 @@
                     <div class="col-sm-4">
                         <div class="team">
                             <div class="team-img">
-                                <img class="img-responsive" src="./img/team1.jpg" alt="">
+                                <img class="img-responsive" src="./img/FOTOS EQUIPO/arturo.jpeg" alt="">
                                 <div class="overlay">
                                     <div class="team-social">
                                         <a href="#"><i class="fa fa-facebook"></i></a>
@@ -755,7 +757,49 @@
                                 </div>
                             </div>
                             <div class="team-content">
-                                <h3>John Doe</h3>
+                                <h3>Arturo Izquierdo</h3>
+                                <span>CEO & Fundador</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /team -->
+                    
+                    <!-- team -->
+                    <div class="col-sm-4">
+                        <div class="team">
+                            <div class="team-img">
+                                <img class="img-responsive" src="./img/FOTOS EQUIPO/Javier.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="team-social">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h3>Javier</h3>
+                                <span>Co Fundador</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /team -->
+                    
+                    <!-- team -->
+                    <div class="col-sm-4">
+                        <div class="team">
+                            <div class="team-img">
+                                <img class="img-responsive" src="./img/FOTOS EQUIPO/david.jpeg" alt="">
+                                <div class="overlay">
+                                    <div class="team-social">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h3>David Casadiegos</h3>
                                 <span>Web Designer</span>
                             </div>
                         </div>
@@ -1029,6 +1073,11 @@
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/owl.carousel.min.js"></script>
         <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+<<<<<<< HEAD
+        <script type="text/javascript" src="js/main.js"></script>   
+        <script src="js/flipclock.js"></script>
+        <script src="js/asignador_contador.js" type="text/javascript"></script>
+=======
         <script type="text/javascript" src="js/main.js"></script>
         <script type="text/javascript" src="js/jquery.countdown.js"></script>
         
@@ -1046,6 +1095,7 @@
                 enableUtc: false
             });
         </script>
+>>>>>>> origin
     </body>
 
 </html>
