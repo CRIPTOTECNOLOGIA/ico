@@ -185,6 +185,12 @@ ul, ol {
 }
 
 .section-header .title {
+    text-transform: capitalize;
+    letter-spacing: 8px;
+}
+
+.section-header .title_time{
+    text-transform: capitalize;
     letter-spacing: 8px;
 }
 

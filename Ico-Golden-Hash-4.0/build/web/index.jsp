@@ -67,7 +67,7 @@
                         <div class="navbar-brand">
                             <a href="index.html">
                                 <img class="logo" src="img/img-logo/GH_04.png" alt="logo">
-                                <img class="logo-alt" src="img/img-logo/Logo Golden Hash Azul Oscuro.png" alt="logo">
+                                <img class="logo-alt" src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo">
                             </a>
                         </div>
                         <!-- /Logo -->
@@ -97,7 +97,7 @@
                             </ul>
                         </li>
                         <li><a href="#team">Equipo</a></li>
-                        <li><a href="#team">Linea de Tiempo</a></li>
+                        <li><a href="#timeline">Linea de Tiempo</a></li>
                         <li class="has-dropdown"><a href="#">Libro Blanco</a>
                             <ul class="dropdown">
                                 <li><a href="blog-single.html">Español</a></li>
@@ -107,7 +107,6 @@
                         <li><a href="#contact">Contacto</a></li>
                     </ul>
                     <!-- /Main navigation -->
-
                 </div>
             </nav>
             <!-- /Nav -->
@@ -483,204 +482,504 @@
                 </div>
             </div>
         </div>
-    </div>
 
 
-    <!-- Testimonial -->
-    <div id="testimonial" class="section md-padding">
+        <!-- Team -->
+        <div id="team" class="section md-padding">
+            <!-- Container -->
+            <div class="container">
+                <!-- Row -->
+                <div class="row">
+                    <!-- Section header -->
+                    <div class="section-header text-center">
+                        <h2 class="title">Nuestro Equipo</h2>
+                    </div>
+                    <!-- /Section header -->
+                    <!-- team -->
+                    <div class="col-sm-6" >
+                        <div class="team" style="width: 70%; margin: 0 auto;">
+                            <div class="team-img">
+                                <img class="img-responsive" style="border-radius: 50%;" src="./img/FOTOS EQUIPO/arturo.png" alt="">
+                                <div class="overlay">
+                                    <div class="team-social">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
 
-        <!-- Background Image -->
-        <div class="bg-img" style="background-image: url('./img/background3.jpg');">
-            <div class="overlay"></div>
-        </div>
-        <!-- /Background Image -->
-
-        <!-- Container -->
-        <div class="container">
-
-            <!-- Row -->
-            <div class="row">
-
-                <!-- Testimonial slider -->
-                <div class="col-md-10 col-md-offset-1">
-                    <div id="testimonial-slider" class="owl-carousel owl-theme">
-
-                        <!-- testimonial -->
-                        <div class="testimonial">
-                            <div class="testimonial-meta">
-                                <img src="./img/perso1.jpg" alt="">
-                                <h3 class="white-text">John Doe</h3>
-                                <span>Web Designer</span>
+                                    </div>
+                                </div>
                             </div>
-                            <p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
-                        </div>
-                        <!-- /testimonial -->
-
-                        <!-- testimonial -->
-                        <div class="testimonial">
-                            <div class="testimonial-meta">
-                                <img src="./img/perso2.jpg" alt="">
-                                <h3 class="white-text">John Doe</h3>
-                                <span>Web Designer</span>
+                            <div class="team-content">
+                                <h3>Arturo Izquierdo</h3>
+                                <span>CEO & Fundador</span>
                             </div>
-                            <p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
                         </div>
-                        <!-- /testimonial -->
+                    </div>
+                    <!-- /team -->                   
 
+                    <!-- team -->
+                    <div class="col-sm-6">
+                        <div class="team" style="width: 70%; margin: 0 auto;">
+                            <div class="team-img" style="width: 100%; height: 100%;">
+                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Javier.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="team-social">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>>>>>>>> origin
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h3>Javier</h3>
+                                <span>Co Fundador</span>
+                            </div>
+                        </div>
+                        <!-- /team -->
+                    </div>
+
+                    <!-- Lideres de desarrollo -->
+                    <div class="row" style="margin-top: 2em;">
+                        <!-- Section header -->
+                        <div class="section-header text-center" >
+                            <h2 class="title" >Equipo de Desarrollo</h2>
+                        </div>
+                        <!-- /Section header -->
+                        <!-- Lider ALejandro -->
+                        <div class="col-sm-6">
+                            <div class="team" style="width: 60%; margin: 0 auto;">
+                                <div class="team-img">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/alejandro.jpeg" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>Alejandro Yañez</h3>
+                                    <span>Lider de Desarrolo de Software</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Lider Mauricio -->
+                        <div class="col-sm-6">
+                            <div class="team" style="width: 60%; margin: 0 auto;">
+                                <div class="team-img">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Mauricio Acevedo.jpg" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>Mauricio Acevedo</h3>
+                                    <span>Líder en Desarrollo de Proyectos Informáticos</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Equipo de desarrollo 1 -->
+                    <div class="row" style="margin-top: 2em;">
+                        <!-- Luis Gelvis -->
+                        <div class="col-sm-4">
+                            <div class="team" style="width: 80%; margin: 0 auto;">
+                                <div class="team-img">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/luis.jpg" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>Luis Gelvis</h3>
+                                    <span>Desarrollador de Software</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- David Casadiegos -->
+                        <div class="col-sm-4">
+                            <div class="team" style="width: 80%; margin: 0 auto;">
+                                <div class="team-img">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/david.jpg" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>David Casadiegos</h3>
+                                    <span>Desarrollador de Software</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Wilmar Alvarado -->
+                        <div class="col-sm-4">
+                            <div class="team" style="width: 80%; margin: 0 auto;">
+                                <div class="team-img">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/wilmar.jpeg" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>Wilmar Alvarado</h3>
+                                    <span>Desarrollador de Software</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Equipo de desarrollo 2 -->
+                    <div class="row" style="margin-top: 2em;">
+                        <!-- MArlon Ramirez -->
+                        <div class="col-sm-4">
+                            <div class="team" style="width: 80%; margin: 0 auto;">
+                                <div class="team-img">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Marlon.png" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>Marlon Ramirez</h3>
+                                    <span>Ingeniero Desarrollador de Software</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Ruben Caballero -->
+                        <div class="col-sm-4">
+                            <div class="team" style="width: 80%; margin: 0 auto;">
+                                <div class="team-img">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Nicolas.png" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>Ruben Caballero</h3>
+                                    <span>Ingeniero de Electrónica y Comunicaciones</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Rafael Carvallo -->
+                        <div class="col-sm-4">
+                            <div class="team" style="width: 80%; margin: 0 auto;">
+                                <div class="team-img">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/WhatsApp Image 2018-06-07 at 12.09.30 PM.jpeg" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>Rafael Carvallo</h3>
+                                    <span>Ingeniero de Sistemas</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mercadeo -->
+                    <div class="row" style="margin-top: 2em;">
+                        <div class="section-header text-center">
+                            <h2 class="title">Equipo de Mercadeo</h2>
+                        </div>
+                        <!-- Lide de mercadeo -->
+                        <div class="col-sm-12">
+                            <div class="team" style="width: 30%; margin: 0 auto;">
+                                <div class="team-img">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ismael.jpg" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>Ismael Zambrano</h3>
+                                    <span>Líder de Mercadeo</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Equipo de mercadeo -->
+                    <div class="row" style="margin-top: 2em;">                    
+                        <!-- Leidy Gomes -->
+                        <div class="col-sm-4">
+                            <div class="team" style="width: 80%; margin: 0 auto;">
+                                <div class="team-img">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/leidy.jpg" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>Leidy Gómez</h3>
+                                    <span>Marketing Digital</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Oriana Pinillos -->
+                        <div class="col-sm-4">
+                            <div class="team" style="width: 80%; margin: 0 auto;">
+                                <div class="team-img">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/oriana.jpeg" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>Alejandra Pinillos</h3>
+                                    <span>Comunicadora Social</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Pietro Rivellaro -->
+                        <div class="col-sm-4">
+                            <div class="team" style="width: 80%; margin: 0 auto;">
+                                <div class="team-img">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/pietro.jpeg" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>Pietro rivellaro</h3>
+                                    <span>Ejecutivo de Marketing</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Equipo de Marketing 2 -->
+                    <div class="row" style="margin-top: 2em;">
+                        <!-- Ximena Jaimes -->
+                        <div class="col-sm-6">
+                            <div class="team" style="width: 50%; margin: 0 auto;">
+                                <div class="team-img">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/WhatsApp Image 2018-06-07 at 12.09.19 PM.jpeg" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>Ximena Jaimes</h3>
+                                    <span>Comunicadora Social</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Ibett Luque -->
+                        <div class="col-sm-6">
+                            <div class="team" style="width: 50%; margin: 0 auto;">
+                                <div class="team-img">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ibett.png" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>Ibett Luque</h3>
+                                    <span>Coaching Organizacional</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Departamento legal -->
+                    <div class="row" style="margin-top: 2em;">
+                        <div class="section-header text-center">
+                            <h2 class="title">Departamento Legal</h2>
+                        </div>
+                        <!-- Eduardo Ordoñez -->
+                        <div class="col-sm-4">
+                            <div class="team" style="width: 80%; margin: 0 auto;">
+                                <div class="team-img">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/JohanLider.png" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>Eduardo Ordoñez</h3>
+                                    <span>Líder del Departamento Legal</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carolina Peña -->
+                        <div class="col-sm-4">
+                            <div class="team" style="width: 80%; margin: 0 auto;">
+                                <div class="team-img">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/WhatsApp Image 2018-06-06 at 4.30.42 PM.jpeg" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>Carolina Peña</h3>
+                                    <span>Abogada</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carolina Peña -->
+                        <div class="col-sm-4">
+                            <div class="team" style="width: 80%; margin: 0 auto;">
+                                <div class="team-img">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ender.png" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>Andrés Cruz</h3>
+                                    <span>Abogado</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Departamento administrativo -->
+
+                    <div class="row" style="margin-top: 2em;">
+                        <div class="section-header text-center">
+                            <h2 class="title">Administración y Contabilidad</h2>
+                        </div>
+                        <!-- Susana Lizcano -->
+                        <div class="col-sm-4">
+                            <div class="team" style="width: 80%; margin: 0 auto;">
+                                <div class="team-img">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/susana.jpeg" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>Susana Lizcano</h3>
+                                    <span>Administradora</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Willington Serrano -->
+                        <div class="col-sm-4">
+                            <div class="team" style="width: 80%; margin: 0 auto;">
+                                <div class="team-img">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Wilinton.png" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>Willington Serrano</h3>
+                                    <span>Contador</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Monica Acevedo -->
+                        <div class="col-sm-4">
+                            <div class="team" style="width: 80%; margin: 0 auto;">
+                                <div class="team-img">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Monica.png" alt="">
+                                    <div class="overlay">
+                                        <div class="team-social">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h3>Monica Acevedo</h3>
+                                    <span>Administradora</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- /Testimonial slider -->
-
+                <!-- /Container -->
             </div>
-            <!-- /Row -->
-
+            <!-- /team -->
         </div>
-        <!-- /Container -->
-
-    </div>
-    <!-- /Testimonial -->
-
-    <!-- Team -->
-    <div id="team" class="section md-padding">
-
-        <!-- Container -->
-        <div class="container">
-
-            <!-- Row -->
-            <div class="row">
-
-                <!-- Section header -->
-                <div class="section-header text-center">
-                    <h2 class="title">Nuestro Equipo</h2>
-                </div>
-                <!-- /Section header -->
-
-                <!-- team -->
-                <div class="col-sm-6" >
-                    <div class="team" style="width: 70%; margin: 0 auto;">
-                        <div class="team-img"style="width: 100%; height: 100%;">
-                            <img class="img-responsive" style="border-radius: 50%;" src="./img/FOTOS EQUIPO/arturo.jpeg" alt="">
-                            <div class="overlay">
-                                <div class="team-social">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h3>Arturo Izquierdo</h3>
-                            <span>CEO & Fundador</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- /team -->
-
-                <!-- team -->
-                <div class="col-sm-6">
-                    <div class="team" style="width: 70%; margin: 0 auto;">
-                        <div class="team-img" style="width: 100%; height: 100%;">
-                            <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Javier.jpg" alt="">
-                            <div class="overlay">
-                                <div class="team-social">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h3>Javier</h3>
-                            <span>Co Fundador</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- /team -->
-
-                <!-- team -->
-                <div class="col-sm-4">
-                    <div class="team">
-                        <div class="team-img">
-                            <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/david.jpeg" alt="">
-                            <div class="overlay">
-                                <div class="team-social">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h3>David Casadiegos</h3>
-                            <span>Web Designer</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- /team -->
-
-                <!-- team -->
-                <div class="col-sm-4">
-                    <div class="team">
-                        <div class="team-img">
-                            <img class="img-responsive" src="./img/team2.jpg" alt="">
-                            <div class="overlay">
-                                <div class="team-social">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h3>John Doe</h3>
-                            <span>Web Designer</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- /team -->
-
-                <!-- team -->
-                <div class="col-sm-4">
-                    <div class="team">
-                        <div class="team-img">
-                            <img class="img-responsive" src="./img/team3.jpg" alt="">
-                            <div class="overlay">
-                                <div class="team-social">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h3>John Doe</h3>
-                            <span>Web Designer</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- /team -->
-
-            </div>
-            <!-- /Row -->
-
-        </div>
-        <!-- /Container -->
-
-    </div>
+        <!-- /Row -->
+    <!-- /Container -->
     <!-- /Team -->
 
     <!-- Timeline -->
     <div id="timeline" class="section md-padding">
-
         <!-- Container -->
         <div class="container">
-
             <!-- Row -->
             <div class="row">
-
                 <!-- Section header -->
                 <div class="section-header text-center">
-                    <h2 class="title">Línea de Tiempo</h2>
+                    <h2 class="title" style="color: #FFFFFF">Línea de Tiempo</h2>
                 </div>
                 <ul class="timeline">
                     <li class="timeline-inverted">
