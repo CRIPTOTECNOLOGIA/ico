@@ -503,7 +503,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        </div>\n");
       out.write("        <!-- /Pricing -->\n");
       out.write("\n");
-      out.write("        <div id=\"distribucion_tokens\" class=\"section md-padding\">\n");
+      out.write("        <div id=\"distribucion_tokens\" class=\"section md-padding\" style=\"background-color: #FAFAFA\">\n");
       out.write("            <div class=\"container\">\n");
       out.write("                <div class=\"row\">\n");
       out.write("                    <!-- Section header -->\n");
@@ -512,8 +512,8 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                    </div>\n");
       out.write("                    <!-- /Section header -->\n");
       out.write("                    <div class=\"row\">\n");
-      out.write("                    <div class=\"col-sm-12\">\n");
-      out.write("                        <div id=\"grafica\" style=\"width: 100%; height: 440px; margin: 0 auto; margin-top: 90px;\"></div>\n");
+      out.write("                        <div class=\"col-sm-12\" style=\"margin-top: -90px;\">\n");
+      out.write("                        <div id=\"grafica\" style=\"width: 100%; height: 440px;\"></div>\n");
       out.write("                    </div>\n");
       out.write("                </div>\n");
       out.write("            </div>\n");
@@ -924,6 +924,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        <script type=\"text/javascript\" src=\"js/main.js\"></script>   \n");
       out.write("        <script type=\"text/javascript\" src=\"js/jquery.countdown.js\"></script>\n");
       out.write("        <script src=\"js/grafica/highcharts.js\" type=\"text/javascript\"></script>\n");
+      out.write("        <script src=\"js/grafica/highcharts-3d.js\" type=\"text/javascript\"></script>\n");
       out.write("        <script>\n");
       out.write("            /**\n");
       out.write("             * WARNING: I set this coundtown to be running until the end of times.\n");
@@ -959,7 +960,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                //},\n");
       out.write("                plotOptions: {\n");
       out.write("                    pie: {\n");
-      out.write("                        allowPointSelect: true,\n");
+      out.write("                        allowPointSelect: false,\n");
       out.write("                        cursor: 'pointer',\n");
       out.write("                        depth: 35,\n");
       out.write("                        dataLabels: {\n");

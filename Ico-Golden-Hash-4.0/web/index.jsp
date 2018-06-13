@@ -64,7 +64,7 @@
                         <div class="navbar-brand">
                             <a href="index.html">
                                 <img class="logo" src="img/img-logo/GH_04.png" alt="logo">
-                                <img class="logo-alt" src="img/img-logo/Logo Golden Hash Azul Oscuro.png" alt="logo">
+                                <img class="logo-alt" src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo">
                             </a>
                         </div>
                         <!-- /Logo -->
