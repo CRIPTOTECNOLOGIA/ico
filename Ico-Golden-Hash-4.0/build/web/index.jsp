@@ -44,6 +44,9 @@
 
         <!-- Librerias contador -->
         <link rel="stylesheet" href="css/flipclock.css">
+
+        <!-- Línea de tiempo-->
+        <link href="css/timeline.css" rel="stylesheet" type="text/css"/>
     </head>
 
     <body>
@@ -474,484 +477,595 @@
                     <!-- /Section header -->
                     <div class="row">
                         <div class="col-sm-12" style="margin-top: -90px;">
-                        <div id="grafica" style="width: 100%; height: 440px;"></div>
+                            <div id="grafica" style="width: 100%; height: 440px;"></div>
+                        </div>
                     </div>
-                </div>
-            </div>
                 </div>
             </div>
         </div>
+    </div>
 
 
-        <!-- Testimonial -->
-        <div id="testimonial" class="section md-padding">
+    <!-- Testimonial -->
+    <div id="testimonial" class="section md-padding">
 
-            <!-- Background Image -->
-            <div class="bg-img" style="background-image: url('./img/background3.jpg');">
-                <div class="overlay"></div>
-            </div>
-            <!-- /Background Image -->
-
-            <!-- Container -->
-            <div class="container">
-
-                <!-- Row -->
-                <div class="row">
-
-                    <!-- Testimonial slider -->
-                    <div class="col-md-10 col-md-offset-1">
-                        <div id="testimonial-slider" class="owl-carousel owl-theme">
-
-                            <!-- testimonial -->
-                            <div class="testimonial">
-                                <div class="testimonial-meta">
-                                    <img src="./img/perso1.jpg" alt="">
-                                    <h3 class="white-text">John Doe</h3>
-                                    <span>Web Designer</span>
-                                </div>
-                                <p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
-                            </div>
-                            <!-- /testimonial -->
-
-                            <!-- testimonial -->
-                            <div class="testimonial">
-                                <div class="testimonial-meta">
-                                    <img src="./img/perso2.jpg" alt="">
-                                    <h3 class="white-text">John Doe</h3>
-                                    <span>Web Designer</span>
-                                </div>
-                                <p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
-                            </div>
-                            <!-- /testimonial -->
-
-                        </div>
-                    </div>
-                    <!-- /Testimonial slider -->
-
-                </div>
-                <!-- /Row -->
-
-            </div>
-            <!-- /Container -->
-
+        <!-- Background Image -->
+        <div class="bg-img" style="background-image: url('./img/background3.jpg');">
+            <div class="overlay"></div>
         </div>
-        <!-- /Testimonial -->
+        <!-- /Background Image -->
 
-        <!-- Team -->
-        <div id="team" class="section md-padding">
+        <!-- Container -->
+        <div class="container">
 
-            <!-- Container -->
-            <div class="container">
+            <!-- Row -->
+            <div class="row">
 
-                <!-- Row -->
-                <div class="row">
+                <!-- Testimonial slider -->
+                <div class="col-md-10 col-md-offset-1">
+                    <div id="testimonial-slider" class="owl-carousel owl-theme">
 
-                    <!-- Section header -->
-                    <div class="section-header text-center">
-                        <h2 class="title">Nuestro Equipo</h2>
-                    </div>
-                    <!-- /Section header -->
-
-                    <!-- team -->
-                    <div class="col-sm-6" >
-                        <div class="team" style="width: 70%; margin: 0 auto;">
-                            <div class="team-img"style="width: 100%; height: 100%;">
-                                <img class="img-responsive" style="border-radius: 50%;" src="./img/FOTOS EQUIPO/arturo.jpeg" alt="">
-                                <div class="overlay">
-                                    <div class="team-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content">
-                                <h3>Arturo Izquierdo</h3>
-                                <span>CEO & Fundador</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /team -->
-
-                    <!-- team -->
-                    <div class="col-sm-6">
-                        <div class="team" style="width: 70%; margin: 0 auto;">
-                            <div class="team-img" style="width: 100%; height: 100%;">
-                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Javier.jpg" alt="">
-                                <div class="overlay">
-                                    <div class="team-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content">
-                                <h3>Javier</h3>
-                                <span>Co Fundador</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /team -->
-
-                    <!-- team -->
-                    <div class="col-sm-4">
-                        <div class="team">
-                            <div class="team-img">
-                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/david.jpeg" alt="">
-                                <div class="overlay">
-                                    <div class="team-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content">
-                                <h3>David Casadiegos</h3>
+                        <!-- testimonial -->
+                        <div class="testimonial">
+                            <div class="testimonial-meta">
+                                <img src="./img/perso1.jpg" alt="">
+                                <h3 class="white-text">John Doe</h3>
                                 <span>Web Designer</span>
                             </div>
+                            <p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
                         </div>
-                    </div>
-                    <!-- /team -->
+                        <!-- /testimonial -->
 
-                    <!-- team -->
-                    <div class="col-sm-4">
-                        <div class="team">
-                            <div class="team-img">
-                                <img class="img-responsive" src="./img/team2.jpg" alt="">
-                                <div class="overlay">
-                                    <div class="team-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content">
-                                <h3>John Doe</h3>
+                        <!-- testimonial -->
+                        <div class="testimonial">
+                            <div class="testimonial-meta">
+                                <img src="./img/perso2.jpg" alt="">
+                                <h3 class="white-text">John Doe</h3>
                                 <span>Web Designer</span>
                             </div>
+                            <p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
                         </div>
-                    </div>
-                    <!-- /team -->
+                        <!-- /testimonial -->
 
-                    <!-- team -->
-                    <div class="col-sm-4">
-                        <div class="team">
-                            <div class="team-img">
-                                <img class="img-responsive" src="./img/team3.jpg" alt="">
-                                <div class="overlay">
-                                    <div class="team-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                    </div>
+                    </div>
+                </div>
+                <!-- /Testimonial slider -->
+
+            </div>
+            <!-- /Row -->
+
+        </div>
+        <!-- /Container -->
+
+    </div>
+    <!-- /Testimonial -->
+
+    <!-- Team -->
+    <div id="team" class="section md-padding">
+
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Row -->
+            <div class="row">
+
+                <!-- Section header -->
+                <div class="section-header text-center">
+                    <h2 class="title">Nuestro Equipo</h2>
+                </div>
+                <!-- /Section header -->
+
+                <!-- team -->
+                <div class="col-sm-6" >
+                    <div class="team" style="width: 70%; margin: 0 auto;">
+                        <div class="team-img"style="width: 100%; height: 100%;">
+                            <img class="img-responsive" style="border-radius: 50%;" src="./img/FOTOS EQUIPO/arturo.jpeg" alt="">
+                            <div class="overlay">
+                                <div class="team-social">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
                                 </div>
                             </div>
-                            <div class="team-content">
-                                <h3>John Doe</h3>
-                                <span>Web Designer</span>
-                            </div>
+                        </div>
+                        <div class="team-content">
+                            <h3>Arturo Izquierdo</h3>
+                            <span>CEO & Fundador</span>
                         </div>
                     </div>
-                    <!-- /team -->
-
                 </div>
-                <!-- /Row -->
+                <!-- /team -->
+
+                <!-- team -->
+                <div class="col-sm-6">
+                    <div class="team" style="width: 70%; margin: 0 auto;">
+                        <div class="team-img" style="width: 100%; height: 100%;">
+                            <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Javier.jpg" alt="">
+                            <div class="overlay">
+                                <div class="team-social">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-content">
+                            <h3>Javier</h3>
+                            <span>Co Fundador</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- /team -->
+
+                <!-- team -->
+                <div class="col-sm-4">
+                    <div class="team">
+                        <div class="team-img">
+                            <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/david.jpeg" alt="">
+                            <div class="overlay">
+                                <div class="team-social">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-content">
+                            <h3>David Casadiegos</h3>
+                            <span>Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- /team -->
+
+                <!-- team -->
+                <div class="col-sm-4">
+                    <div class="team">
+                        <div class="team-img">
+                            <img class="img-responsive" src="./img/team2.jpg" alt="">
+                            <div class="overlay">
+                                <div class="team-social">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-content">
+                            <h3>John Doe</h3>
+                            <span>Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- /team -->
+
+                <!-- team -->
+                <div class="col-sm-4">
+                    <div class="team">
+                        <div class="team-img">
+                            <img class="img-responsive" src="./img/team3.jpg" alt="">
+                            <div class="overlay">
+                                <div class="team-social">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-content">
+                            <h3>John Doe</h3>
+                            <span>Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- /team -->
 
             </div>
-            <!-- /Container -->
+            <!-- /Row -->
 
         </div>
-        <!-- /Team -->
+        <!-- /Container -->
 
-        <!-- Blog -->
-        <div id="blog" class="section md-padding bg-grey">
+    </div>
+    <!-- /Team -->
 
-            <!-- Container -->
-            <div class="container">
+    <!-- Timeline -->
+    <div id="timeline" class="section md-padding">
 
-                <!-- Row -->
-                <div class="row">
+        <!-- Container -->
+        <div class="container">
 
-                    <!-- Section header -->
-                    <div class="section-header text-center">
-                        <h2 class="title">Recents news</h2>
-                    </div>
-                    <!-- /Section header -->
+            <!-- Row -->
+            <div class="row">
 
-                    <!-- blog -->
-                    <div class="col-md-4">
-                        <div class="blog">
-                            <div class="blog-img">
-                                <img class="img-responsive" src="./img/blog1.jpg" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <ul class="blog-meta">
-                                    <li><i class="fa fa-user"></i>John doe</li>
-                                    <li><i class="fa fa-clock-o"></i>18 Oct</li>
-                                    <li><i class="fa fa-comments"></i>57</li>
-                                </ul>
-                                <h3>Molestie at elementum eu facilisis sed odio</h3>
-                                <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
-                                <a href="blog-single.html">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /blog -->
-
-                    <!-- blog -->
-                    <div class="col-md-4">
-                        <div class="blog">
-                            <div class="blog-img">
-                                <img class="img-responsive" src="./img/blog2.jpg" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <ul class="blog-meta">
-                                    <li><i class="fa fa-user"></i>John doe</li>
-                                    <li><i class="fa fa-clock-o"></i>18 Oct</li>
-                                    <li><i class="fa fa-comments"></i>57</li>
-                                </ul>
-                                <h3>Molestie at elementum eu facilisis sed odio</h3>
-                                <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
-                                <a href="blog-single.html">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /blog -->
-
-                    <!-- blog -->
-                    <div class="col-md-4">
-                        <div class="blog">
-                            <div class="blog-img">
-                                <img class="img-responsive"  src="./img/blog3.jpg" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <ul class="blog-meta">
-                                    <li><i class="fa fa-user"></i>John doe</li>
-                                    <li><i class="fa fa-clock-o"></i>18 Oct</li>
-                                    <li><i class="fa fa-comments"></i>57</li>
-                                </ul>
-                                <h3>Molestie at elementum eu facilisis sed odio</h3>
-                                <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
-                                <a href="blog-single.html">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /blog -->
-
+                <!-- Section header -->
+                <div class="section-header text-center">
+                    <h2 class="title">Línea de Tiempo</h2>
                 </div>
-                <!-- /Row -->
-
-            </div>
-            <!-- /Container -->
-
-        </div>
-        <!-- /Blog -->
-
-        <!-- Contact -->
-        <div id="contact" class="section md-padding">
-
-            <!-- Container -->
-            <div class="container">
-
-                <!-- Row -->
-                <div class="row">
-
-                    <!-- Section-header -->
-                    <div class="section-header text-center">
-                        <h2 class="title">Get in touch</h2>
-                    </div>
-                    <!-- /Section-header -->
-
-                    <!-- contact -->
-                    <div class="col-sm-4">
-                        <div class="contact">
-                            <i class="fa fa-phone"></i>
-                            <h3>Phone</h3>
-                            <p>512-421-3940</p>
+                <ul class="timeline">
+                    <li class="timeline-inverted">
+                        <div class="timeline-badge warning"><!--<img src="library/open-iconic-master/svg/action-redo.svg">--></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Marzo, 2017</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Concepción de la Idea: Proyecto Golden Hash.</p>
+                            </div>
                         </div>
-                    </div>
-                    <!-- /contact -->
-
-                    <!-- contact -->
-                    <div class="col-sm-4">
-                        <div class="contact">
-                            <i class="fa fa-envelope"></i>
-                            <h3>Email</h3>
-                            <p>email@support.com</p>
+                    </li>
+                    <li class="timeline">
+                        <div class="timeline-badge warning"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Junio, 2017</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Diseño y desarrollo de GoldenSpace (I fase) Soluciones a nivel de almacenamiento de datos.</p>
+                            </div>
                         </div>
-                    </div>
-                    <!-- /contact -->
-
-                    <!-- contact -->
-                    <div class="col-sm-4">
-                        <div class="contact">
-                            <i class="fa fa-map-marker"></i>
-                            <h3>Address</h3>
-                            <p>1739 Bubby Drive</p>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-badge warning"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Agosto, 2017</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Diseño y desarrollo de Imperium Wallet.</p>
+                            </div>
                         </div>
-                    </div>
-                    <!-- /contact -->
-
-                    <!-- contact form -->
-                    <div class="col-md-8 col-md-offset-2">
-                        <form class="contact-form">
-                            <input type="text" class="input" placeholder="Name">
-                            <input type="email" class="input" placeholder="Email">
-                            <input type="text" class="input" placeholder="Subject">
-                            <textarea class="input" placeholder="Message"></textarea>
-                            <button class="main-btn">Send message</button>
-                        </form>
-                    </div>
-                    <!-- /contact form -->
-
-                </div>
-                <!-- /Row -->
-
-            </div>
-            <!-- /Container -->
-
-        </div>
-        <!-- /Contact -->
-
-
-        <!-- Footer -->
-        <footer id="footer" class="sm-padding bg-dark">
-
-            <!-- Container -->
-            <div class="container">
-
-                <!-- Row -->
-                <div class="row">
-
-                    <div class="col-md-12">
-
-                        <!-- footer logo -->
-                        <div class="footer-logo">
-                            <a href="index.html"><img src="img/logo-alt.png" alt="logo"></a>
+                    </li>
+                    <li class="timeline">
+                        <div class="timeline-badge warning"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Enero, 2018</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Inversión en servidores dedicados y conformación de base de datos.</p>
+                            </div>
                         </div>
-                        <!-- /footer logo -->
-
-                        <!-- footer follow -->
-                        <ul class="footer-follow">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                        </ul>
-                        <!-- /footer follow -->
-
-                        <!-- footer copyright -->
-                        <div class="footer-copyright">
-                            <p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-badge warning"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Mayo, 2018</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Lanzamiento de Pre-ICO e ICO (90 días).</p>
+                            </div>
                         </div>
-                        <!-- /footer copyright -->
-
-                    </div>
-
-                </div>
-                <!-- /Row -->
-
-            </div>
-            <!-- /Container -->
-
-        </footer>
-        <!-- /Footer -->
-
-        <!-- Back to top -->
-        <div id="back-to-top"></div>
-        <!-- /Back to top -->
-
-        <!-- Preloader -->
-        <div id="preloader">
-            <div class="preloader">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
+                    </li>
+                    <li class="timeline">
+                        <div class="timeline-badge warning"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Septiembre, 2018</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Adjudicación del Programa de Referencias.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-badge warning"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Octubre, 2018</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Desarrollo de App y otras rutas de acceso para GoldenSpace (II fase).</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline">
+                        <div class="timeline-badge warning"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Noviembre, 2018</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Incorporación en las principales Exchanges.</p>
+                                <p>Markentig en redes y participación en eventos para penetración en el mercado global.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- /Section header -->
             </div>
         </div>
-        <!-- /Preloader -->
+        <!-- /Row -->
 
-        <!-- jQuery Plugins -->
-        <script type="text/javascript" src="js/jquery.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-        <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>   
-        <script type="text/javascript" src="js/jquery.countdown.js"></script>
-        <script src="js/grafica/highcharts.js" type="text/javascript"></script>
-        <script src="js/grafica/highcharts-3d.js" type="text/javascript"></script>
-        <script>
-            /**
-             * WARNING: I set this coundtown to be running until the end of times.
-             * So when you'll init the plugin, follow how it's done in plugin documentation.
-             */
+    </div>
 
-            //jQuery example
-            $('#simply-countdown-losange').simplyCountdown({
-                year: 2018,
-                month: 6,
-                day: 23,
-                hour: 10,
-                enableUtc: false
-            });
-        </script>
-        <script>
-            Highcharts.chart('grafica', {
-                colors: [' #45668e ', '#007F73 ', '#4ABDAC', '#7BB5FC', '#304763'],
-                chart: {
-                    backgroundColor: 'transparent',
-                    plotBorderWidth: null,
-                    type: 'pie',
-                    options3d: {
-                        enabled: true,
-                        alpha: 45,
-                        beta: 0
-                    }
-                },
-                //title: {
-                //   text: '',
-                //
-                //y: 50,
-                //},
-                plotOptions: {
-                    pie: {
-                        allowPointSelect: false,
-                        cursor: 'pointer',
-                        depth: 35,
-                        dataLabels: {
-                            enabled: false
-                        },
-                        showInLegend: true
-                    }
-                },
-                series: [{
-                        name: 'Porcentaje',
-                        colorByPoint: true,
-                        data: [{
-                                name: 'Pre-Ico + Ico. ',
-                                y: 50
-                            }, {
-                                name: 'Ventas.',
-                                y: 20
-                            }, {
-                                name: 'Recompensas por Referencias.',
-                                y: 14
-                            }, {
-                                name: 'Equipo.',
-                                y: 12
-                            }, {
-                                name: 'Responsabilidad Social.',
-                                y: 4
-                            }]
-                    }]
-            });
-        </script>
-    </body>
+    <!-- Blog -->
+    <div id="blog" class="section md-padding bg-grey">
+
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Row -->
+            <div class="row">
+
+                <!-- Section header -->
+                <div class="section-header text-center">
+                    <h2 class="title">Recents news</h2>
+                </div>
+                <!-- /Section header -->
+
+                <!-- blog -->
+                <div class="col-md-4">
+                    <div class="blog">
+                        <div class="blog-img">
+                            <img class="img-responsive" src="./img/blog1.jpg" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <ul class="blog-meta">
+                                <li><i class="fa fa-user"></i>John doe</li>
+                                <li><i class="fa fa-clock-o"></i>18 Oct</li>
+                                <li><i class="fa fa-comments"></i>57</li>
+                            </ul>
+                            <h3>Molestie at elementum eu facilisis sed odio</h3>
+                            <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                            <a href="blog-single.html">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /blog -->
+
+                <!-- blog -->
+                <div class="col-md-4">
+                    <div class="blog">
+                        <div class="blog-img">
+                            <img class="img-responsive" src="./img/blog2.jpg" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <ul class="blog-meta">
+                                <li><i class="fa fa-user"></i>John doe</li>
+                                <li><i class="fa fa-clock-o"></i>18 Oct</li>
+                                <li><i class="fa fa-comments"></i>57</li>
+                            </ul>
+                            <h3>Molestie at elementum eu facilisis sed odio</h3>
+                            <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                            <a href="blog-single.html">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /blog -->
+
+                <!-- blog -->
+                <div class="col-md-4">
+                    <div class="blog">
+                        <div class="blog-img">
+                            <img class="img-responsive"  src="./img/blog3.jpg" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <ul class="blog-meta">
+                                <li><i class="fa fa-user"></i>John doe</li>
+                                <li><i class="fa fa-clock-o"></i>18 Oct</li>
+                                <li><i class="fa fa-comments"></i>57</li>
+                            </ul>
+                            <h3>Molestie at elementum eu facilisis sed odio</h3>
+                            <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                            <a href="blog-single.html">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /blog -->
+
+            </div>
+            <!-- /Row -->
+
+        </div>
+        <!-- /Container -->
+
+    </div>
+    <!-- /Blog -->
+
+    <!-- Contact -->
+    <div id="contact" class="section md-padding">
+
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Row -->
+            <div class="row">
+
+                <!-- Section-header -->
+                <div class="section-header text-center">
+                    <h2 class="title">Get in touch</h2>
+                </div>
+                <!-- /Section-header -->
+
+                <!-- contact -->
+                <div class="col-sm-4">
+                    <div class="contact">
+                        <i class="fa fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>512-421-3940</p>
+                    </div>
+                </div>
+                <!-- /contact -->
+
+                <!-- contact -->
+                <div class="col-sm-4">
+                    <div class="contact">
+                        <i class="fa fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>email@support.com</p>
+                    </div>
+                </div>
+                <!-- /contact -->
+
+                <!-- contact -->
+                <div class="col-sm-4">
+                    <div class="contact">
+                        <i class="fa fa-map-marker"></i>
+                        <h3>Address</h3>
+                        <p>1739 Bubby Drive</p>
+                    </div>
+                </div>
+                <!-- /contact -->
+
+                <!-- contact form -->
+                <div class="col-md-8 col-md-offset-2">
+                    <form class="contact-form">
+                        <input type="text" class="input" placeholder="Name">
+                        <input type="email" class="input" placeholder="Email">
+                        <input type="text" class="input" placeholder="Subject">
+                        <textarea class="input" placeholder="Message"></textarea>
+                        <button class="main-btn">Send message</button>
+                    </form>
+                </div>
+                <!-- /contact form -->
+
+            </div>
+            <!-- /Row -->
+
+        </div>
+        <!-- /Container -->
+
+    </div>
+    <!-- /Contact -->
+
+
+    <!-- Footer -->
+    <footer id="footer" class="sm-padding bg-dark">
+
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Row -->
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <!-- footer logo -->
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="img/logo-alt.png" alt="logo"></a>
+                    </div>
+                    <!-- /footer logo -->
+
+                    <!-- footer follow -->
+                    <ul class="footer-follow">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                    <!-- /footer follow -->
+
+                    <!-- footer copyright -->
+                    <div class="footer-copyright">
+                        <p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                    </div>
+                    <!-- /footer copyright -->
+
+                </div>
+
+            </div>
+            <!-- /Row -->
+
+        </div>
+        <!-- /Container -->
+
+    </footer>
+    <!-- /Footer -->
+
+    <!-- Back to top -->
+    <div id="back-to-top"></div>
+    <!-- /Back to top -->
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- /Preloader -->
+
+    <!-- jQuery Plugins -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>   
+    <script type="text/javascript" src="js/jquery.countdown.js"></script>
+    <script src="js/grafica/highcharts.js" type="text/javascript"></script>
+    <script src="js/grafica/highcharts-3d.js" type="text/javascript"></script>
+    <script>
+        /**
+         * WARNING: I set this coundtown to be running until the end of times.
+         * So when you'll init the plugin, follow how it's done in plugin documentation.
+         */
+
+        //jQuery example
+        $('#simply-countdown-losange').simplyCountdown({
+            year: 2018,
+            month: 6,
+            day: 23,
+            hour: 10,
+            enableUtc: false
+        });
+    </script>
+    <script>
+        Highcharts.chart('grafica', {
+            colors: [' #45668e ', '#007F73 ', '#4ABDAC', '#7BB5FC', '#304763'],
+            chart: {
+                backgroundColor: 'transparent',
+                plotBorderWidth: null,
+                type: 'pie',
+                options3d: {
+                    enabled: true,
+                    alpha: 45,
+                    beta: 0
+                }
+            },
+            //title: {
+            //   text: '',
+            //
+            //y: 50,
+            //},
+            plotOptions: {
+                pie: {
+                    allowPointSelect: false,
+                    cursor: 'pointer',
+                    depth: 35,
+                    dataLabels: {
+                        enabled: false
+                    },
+                    showInLegend: true
+                }
+            },
+            series: [{
+                    name: 'Porcentaje',
+                    colorByPoint: true,
+                    data: [{
+                            name: 'Pre-Ico + Ico. ',
+                            y: 50
+                        }, {
+                            name: 'Ventas.',
+                            y: 20
+                        }, {
+                            name: 'Recompensas por Referencias.',
+                            y: 14
+                        }, {
+                            name: 'Equipo.',
+                            y: 12
+                        }, {
+                            name: 'Responsabilidad Social.',
+                            y: 4
+                        }]
+                }]
+        });
+    </script>
+</body>
 
 </html>
