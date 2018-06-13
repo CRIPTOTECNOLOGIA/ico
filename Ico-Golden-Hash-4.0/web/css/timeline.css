@@ -1,3 +1,13 @@
+
+.inicio{
+    border: 1px solid #d4d4d4;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin: auto;
+}
+
+
 .timeline {
     list-style: none;
     padding: 20px 0 20px;
@@ -48,6 +58,7 @@
     width: 46%;
     float: left;
     border: 1px solid #d4d4d4;
+    border-radius: 6px!important;
     background-color: transparent;
     border-radius: 2px;
     padding: 20px;
@@ -93,6 +104,7 @@
     margin-left: -25px;
     background-color: #999999;
     z-index: 100;
+    border-radius: 100%;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -118,7 +130,7 @@
 }
 
 .timeline-badge.primary {
-    background-color: #2e6da4 !important;
+    background-color: #6195FF !important;
 }
 
 .timeline-badge.success {
