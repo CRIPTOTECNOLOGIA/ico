@@ -81,7 +81,7 @@ h5 {
 }
 
 a {
-    color: #6195FF;
+    color: #45668e;
     text-decoration: none;
     -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;
@@ -91,25 +91,27 @@ a:hover, a:focus {
     text-decoration: none;
     outline: none;
     opacity: 0.8;
-    color: #6195FF;
+    color: #45668e;
 }
 
 .main-color {
-    color: #6195FF;
+    color: #45668e;
 }
 
 .white-text {
     color: #FFF;
     letter-spacing: 8px;
+    font-weight: 700;
+    text-shadow: 4px 4px 4px #000;
 }
 
 ::-moz-selection {
-    background-color: #6195FF;
+    background-color: #45668e;
     color: #FFF;
 }
 
 ::selection {
-    background-color: #6195FF;
+    background-color: #45668e;
     color: #FFF;
 }
 
@@ -269,12 +271,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .navbar-brand .logo{
-    max-height: 80px;
+    max-height: 90px;
     display: block;
 }
 
  .navbar-brand .logo-alt {
-    max-height: 120px;
+    max-height: 170px;
     display: block;
 }
 
@@ -330,7 +332,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 #nav.nav-transparent {
     background: transparent;
-    height: 80px;
+    height: 90px;
 }
 
 
@@ -599,7 +601,7 @@ header {
     position: absolute;
     left: 0px;
     right: 0px;
-    top: 55%;
+    top: 35%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -608,6 +610,7 @@ header {
 
 .home-content h1 {
   text-transform: uppercase;
+  font-weight: 700;
 }
 .home-content button {
   margin-top: 20px;
@@ -762,8 +765,6 @@ header {
   display: block;
 }
 
-
-
 /*------------------------------------*\
 	About
 \*------------------------------------*/
@@ -914,6 +915,44 @@ header {
     color: #45668E;
     text-align: center;
     font-size: 22px;
+}
+
+#pricing .titulo_menu{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    margin: 1.5em auto;
+    font-size: 32px;
+    font-weight: 700;
+    color: #45668e;
+}
+
+#pricing .texto_menu{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: justify;    
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+/*------------------------------------*\
+	distribucion de tokens
+\*------------------------------------*/
+
+#distribucion_tokens #grafica{
+    margin-top: 10px;
+}
+
+#distribucion_tokens #grafica tspan{
+    font-family: 'Open Sans Condensed', sans-serif;
+    fill: #000000;
+    font-size: 20px;
+}
+
+#distribucion_tokens #grafica .highcharts-title tspan{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 48px;
+    fill: #45668e;
+    text-shadow: 2px 2px 2px #31708f;
+    display: none;
 }
 
 /*------------------------------------*\

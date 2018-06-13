@@ -64,7 +64,7 @@
                         <div class="navbar-brand">
                             <a href="index.html">
                                 <img class="logo" src="img/img-logo/GH_04.png" alt="logo">
-                                <img class="logo-alt" src="img/img-logo/GH_04.png" alt="logo">
+                                <img class="logo-alt" src="img/img-logo/Logo Golden Hash Azul Oscuro.png" alt="logo">
                             </a>
                         </div>
                         <!-- /Logo -->
@@ -89,8 +89,8 @@
                         </li>
                         <li class="has-dropdown"><a href="#">Tokens</a>
                             <ul class="dropdown">
-                                <li><a href="#distribucion">Distribucion</a></li>
-                                <li><a href="#uso">Uso</a></li>
+                                <li><a href="#pricing">Uso</a></li>
+                                <li><a href="#distribucion_tokens">Distribucion</a></li>
                             </ul>
                         </li>
                         <li><a href="#team">Equipo</a></li>
@@ -134,57 +134,7 @@
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-6" style="margin-top: 3em;">
-                            <!-- Fila 1 -->
-                            <div class="row">
-                                <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <a class="hexagono">
-                                        <span class="hexagono-content">
-                                            <strong>Pre Ico</strong> 50% Bonificacion
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <a class="hexagono">
-                                        <span class="hexagono-content">
-                                            <strong>Etapa 1</strong> 30% Bonificacion
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="col-sm-12 col-md-12 col-lg-4">
-                                    <a class="hexagono">
-                                        <span class="hexagono-content">
-                                            <strong>Etapa 2</strong> 25% Bonificacion
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- Fila 2 -->
-                            <div class="row" style="margin-top: 10em;">
-                                <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <a class="hexagono">
-                                        <span class="hexagono-content">
-                                            <strong>Etapa 3</strong> 20% Bonificacion
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <a class="hexagono">
-                                        <span class="hexagono-content">
-                                            <strong>Etapa 4</strong> 15% Bonificacion
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="col-sm-12 col-md-12 col-lg-4">
-                                    <a class="hexagono">
-                                        <span class="hexagono-content">
-                                            <strong>Etapa 5</strong> 10% Bonificacion
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                        </div>                        
                     </div>
                 </div>
             </div>
@@ -208,16 +158,16 @@
                     <!-- Que es Golden Hash -->
                     <div class="col-sm-12 col-md-6 col-lg-6">
                         <p>
-                           Es una moneda que te da acceso a una red de almacenamiento
-                           encriptada, te ofrece la oportunidad de adquirir espacio
-                           exclusivo en nuestros pool de servidores, en donde su
-                           información se encuentra respaldada por la tecnología
-                           blockchain, lo cual le permitirá tener la seguridad que
-                           realmente necesita. 
+                            Es una moneda que te da acceso a una red de almacenamiento
+                            encriptada, te ofrece la oportunidad de adquirir espacio
+                            exclusivo en nuestros pool de servidores, en donde su
+                            información se encuentra respaldada por la tecnología
+                            blockchain, lo cual le permitirá tener la seguridad que
+                            realmente necesita. 
                         </p>
                     </div>
                     <!-- /Que es Golden Hash -->
-                    
+
                     <!-- Video  -->
                     <div class="col-sm-12 col-md-6 col-lg-6 video_about">
                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/S-D-uQnIGaU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -256,7 +206,7 @@
                         </div>
                     </div>
                     <!-- /Seguridad -->
-                    
+
                     <!-- Rapidez en transacciones -->
                     <div class="col-md-6">
                         <div class="about">
@@ -272,8 +222,8 @@
                         </div>
                     </div>
                     <!-- /rapidez en trasancciones -->
-                    
-                    
+
+
                 </div>                
                 <!-- /Row -->
                 <div class="row">
@@ -310,7 +260,7 @@
 
         <!-- Golden space -->
         <div id="service" class="section md-padding">
-            
+
             <!-- Container -->
             <div class="container">
                 <!-- Row -->
@@ -320,7 +270,7 @@
                         <h2 class="title">Golden Space</h2>
                     </div>
                     <!-- /Section header -->
-                    
+
                     <!-- Golden Space -->
                     <div class="col-md-6">
                         <p class="text-goldenSpace">
@@ -413,7 +363,7 @@
 
         </div>
         <!-- /Why Choose Us -->
-        
+
         <!-- Pricing -->
         <div id="pricing" class="section md-padding">
             <!-- Container -->
@@ -428,94 +378,109 @@
                     <!-- /Section header -->
 
                     <!-- Nav Tabs -->
-                <ul class="nav nav-tabs" role="tablist">
-                    <li class="active">
-                        <a class="titulos " data-toggle="tab" href="#Desarrollo_Investigación">Desarrollo e Investigación</a>
-                    </li>
-                    <li >
-                        <a class="titulos" data-toggle="tab" href="#Marketing">Marketing</a>
-                    </li>
-                    <li >
-                        <a class="titulos" data-toggle="tab" href="#Operaciones_Negocios">Operaciones y Negocios</a>
-                    </li>
-                    <li >
-                        <a class="titulos" data-toggle="tab" href="#Legal_Administrativo">Legal y Administrativo</a>
-                    </li>
-                </ul>
-                <!-- Tab Panes -->
-                <div class="tab-content">
-                    <div id="Desarrollo_Investigación" class="container tab-pane active">
-                        <br>
-                        <div class="row">
-                            <div class="col-sm-12 col-md-4 col-lg-4">
-                                <img src="img/img-graficas/40blue.png" class="img-responsive" alt="">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="active">
+                            <a class="titulos " data-toggle="tab" href="#Desarrollo_Investigación">Desarrollo e Investigación</a>
+                        </li>
+                        <li >
+                            <a class="titulos" data-toggle="tab" href="#Marketing">Marketing</a>
+                        </li>
+                        <li >
+                            <a class="titulos" data-toggle="tab" href="#Operaciones_Negocios">Operaciones y Negocios</a>
+                        </li>
+                        <li >
+                            <a class="titulos" data-toggle="tab" href="#Legal_Administrativo">Legal y Administrativo</a>
+                        </li>
+                    </ul>
+                    <!-- Tab Panes -->
+                    <div class="tab-content">
+                        <div id="Desarrollo_Investigación" class="container tab-pane active">
+                            <br>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-4">
+                                    <img src="img/img-graficas/40blue.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-8">
+                                    <h3 class="titulo_menu">Desarrollo e Investigación</h3>
+                                    <p class="texto_menu">
+                                        Se impulsará el desarrollo de la plataforma de almacenamiento GoldenSpace, incrementando su capacidad de soporte y transferencia
+                                        bajo el enfoque de mejora continua, con la incorporación de nuevas alternativas para el acceso
+                                        remoto e inmediato a los datos, como aplicaciones para múltiples sistemas.
+                                    </p>
+                                </div>
                             </div>
-                            <div class="col-sm-12 col-md-8 col-lg-8">
-                                <h3 class="titulo_menu">Desarrollo e Investigación</h3>
-                                <p class="texto_menu">
-                                    Se impulsará el desarrollo de la plataforma de almacenamiento GoldenSpace, incrementando su capacidad de soporte y transferencia
-                                    bajo el enfoque de mejora continua, con la incorporación de nuevas alternativas para el acceso
-                                    remoto e inmediato a los datos, como aplicaciones para múltiples sistemas.
-                                </p>
+                        </div>
+                        <div id="Marketing" class="container tab-pane fade">
+                            <br>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-4">
+                                    <img src="img/img-graficas/30blue.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-8">
+                                    <h3 class="titulo_menu">Marketing</h3>
+                                    <p class="texto_menu">
+                                        Se desarrollará una campaña de Marketing intensiva y ambiciosa en varios idiomas, para la fidelización de usuarios en la región,
+                                        y así fomentar el nivel de conocimiento y recordación de la marca Golden Hash, como la opción líder en Soluciones de Almacenamiento
+                                        para todos, con la perspectiva alineada a lograr un alcance global.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Operaciones_Negocios" class="container tab-pane fade">
+                            <br>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-4">
+                                    <img src="img/img-graficas/20blue.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-8">
+                                    <h3 class="titulo_menu">Operaciones y Negocios</h3>
+                                    <p class="texto_menu">
+                                        Consolidar el negocio a través de asociaciones estratégicas, accionistas adicionales de integración de contenido, para valorizar en
+                                        el mercado de criptomonedas, nuestra ficha XGH, en beneficio de nuestros inversionistas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Legal_Administrativo" class="container tab-pane fade">
+                            <br>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-4">
+                                    <img src="img/img-graficas/10blue.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-8">
+                                    <h3 class="titulo_menu">Legal y Administrativo</h3>
+                                    <p class="texto_menu">
+                                        Fondos destinados a la solvencia de gastos de administración, contabilidad, rentas, asesoría legal y otros servicios propios o de
+                                        terceros requeridos para la evolución del proyecto.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div id="Marketing" class="container tab-pane fade">
-                        <br>
-                        <div class="row">
-                            <div class="col-sm-12 col-md-4 col-lg-4">
-                                <img src="img/img-graficas/30blue.png" class="img-responsive" alt="">
-                            </div>
-                            <div class="col-sm-12 col-md-8 col-lg-8">
-                                <h3 class="titulo_menu">Marketing</h3>
-                                <p class="texto_menu">
-                                    Se desarrollará una campaña de Marketing intensiva y ambiciosa en varios idiomas, para la fidelización de usuarios en la región,
-                                    y así fomentar el nivel de conocimiento y recordación de la marca Golden Hash, como la opción líder en Soluciones de Almacenamiento
-                                    para todos, con la perspectiva alineada a lograr un alcance global.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="Operaciones_Negocios" class="container tab-pane fade">
-                        <br>
-                        <div class="row">
-                            <div class="col-sm-12 col-md-4 col-lg-4">
-                                <img src="img/img-graficas/20blue.png" class="img-responsive" alt="">
-                            </div>
-                            <div class="col-sm-12 col-md-8 col-lg-8">
-                                <h3 class="titulo_menu">Operaciones y Negocios</h3>
-                                <p class="texto_menu">
-                                    Consolidar el negocio a través de asociaciones estratégicas, accionistas adicionales de integración de contenido, para valorizar en
-                                    el mercado de criptomonedas, nuestra ficha XGH, en beneficio de nuestros inversionistas.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="Legal_Administrativo" class="container tab-pane fade">
-                        <br>
-                        <div class="row">
-                            <div class="col-sm-12 col-md-4 col-lg-4">
-                                <img src="img/img-graficas/10blue.png" class="img-responsive" alt="">
-                            </div>
-                            <div class="col-sm-12 col-md-8 col-lg-8">
-                                <h3 class="titulo_menu">Legal y Administrativo</h3>
-                                <p class="texto_menu">
-                                    Fondos destinados a la solvencia de gastos de administración, contabilidad, rentas, asesoría legal y otros servicios propios o de
-                                    terceros requeridos para la evolución del proyecto.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 </div>
                 <!-- Row -->
-
             </div>
             <!-- /Container -->
-
         </div>
         <!-- /Pricing -->
+
+        <div id="distribucion_tokens" class="section md-padding" style="background-color: #FAFAFA">
+            <div class="container">
+                <div class="row">
+                    <!-- Section header -->
+                    <div class="section-header text-center">
+                        <h2 class="title">Distribución de Tokens</h2>
+                    </div>
+                    <!-- /Section header -->
+                    <div class="row">
+                        <div class="col-sm-12" style="margin-top: -90px;">
+                        <div id="grafica" style="width: 100%; height: 440px;"></div>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
 
 
         <!-- Testimonial -->
@@ -583,15 +548,15 @@
 
                     <!-- Section header -->
                     <div class="section-header text-center">
-                        <h2 class="title">Our Team</h2>
+                        <h2 class="title">Nuestro Equipo</h2>
                     </div>
                     <!-- /Section header -->
 
                     <!-- team -->
-                    <div class="col-sm-4">
-                        <div class="team">
-                            <div class="team-img">
-                                <img class="img-responsive" src="./img/FOTOS EQUIPO/arturo.jpeg" alt="">
+                    <div class="col-sm-6" >
+                        <div class="team" style="width: 70%; margin: 0 auto;">
+                            <div class="team-img"style="width: 100%; height: 100%;">
+                                <img class="img-responsive" style="border-radius: 50%;" src="./img/FOTOS EQUIPO/arturo.jpeg" alt="">
                                 <div class="overlay">
                                     <div class="team-social">
                                         <a href="#"><i class="fa fa-facebook"></i></a>
@@ -607,12 +572,12 @@
                         </div>
                     </div>
                     <!-- /team -->
-                    
+
                     <!-- team -->
-                    <div class="col-sm-4">
-                        <div class="team">
-                            <div class="team-img">
-                                <img class="img-responsive" src="./img/FOTOS EQUIPO/Javier.jpg" alt="">
+                    <div class="col-sm-6">
+                        <div class="team" style="width: 70%; margin: 0 auto;">
+                            <div class="team-img" style="width: 100%; height: 100%;">
+                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Javier.jpg" alt="">
                                 <div class="overlay">
                                     <div class="team-social">
                                         <a href="#"><i class="fa fa-facebook"></i></a>
@@ -628,12 +593,12 @@
                         </div>
                     </div>
                     <!-- /team -->
-                    
+
                     <!-- team -->
                     <div class="col-sm-4">
                         <div class="team">
                             <div class="team-img">
-                                <img class="img-responsive" src="./img/FOTOS EQUIPO/david.jpeg" alt="">
+                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/david.jpeg" alt="">
                                 <div class="overlay">
                                     <div class="team-social">
                                         <a href="#"><i class="fa fa-facebook"></i></a>
@@ -919,20 +884,73 @@
         <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
         <script type="text/javascript" src="js/main.js"></script>   
         <script type="text/javascript" src="js/jquery.countdown.js"></script>
+        <script src="js/grafica/highcharts.js" type="text/javascript"></script>
+        <script src="js/grafica/highcharts-3d.js" type="text/javascript"></script>
         <script>
-                                    /**
-                                     * WARNING: I set this coundtown to be running until the end of times.
-                                     * So when you'll init the plugin, follow how it's done in plugin documentation.
-                                     */
+            /**
+             * WARNING: I set this coundtown to be running until the end of times.
+             * So when you'll init the plugin, follow how it's done in plugin documentation.
+             */
 
-                                    //jQuery example
-                                    $('#simply-countdown-losange').simplyCountdown({
-                                        year: 2018,
-                                        month: 6,
-                                        day: 23,
-                                        hour: 10,
-                                        enableUtc: false
-                                    });
+            //jQuery example
+            $('#simply-countdown-losange').simplyCountdown({
+                year: 2018,
+                month: 6,
+                day: 23,
+                hour: 10,
+                enableUtc: false
+            });
+        </script>
+        <script>
+            Highcharts.chart('grafica', {
+                colors: [' #45668e ', '#007F73 ', '#4ABDAC', '#7BB5FC', '#304763'],
+                chart: {
+                    backgroundColor: 'transparent',
+                    plotBorderWidth: null,
+                    type: 'pie',
+                    options3d: {
+                        enabled: true,
+                        alpha: 45,
+                        beta: 0
+                    }
+                },
+                //title: {
+                //   text: '',
+                //
+                //y: 50,
+                //},
+                plotOptions: {
+                    pie: {
+                        allowPointSelect: false,
+                        cursor: 'pointer',
+                        depth: 35,
+                        dataLabels: {
+                            enabled: false
+                        },
+                        showInLegend: true
+                    }
+                },
+                series: [{
+                        name: 'Porcentaje',
+                        colorByPoint: true,
+                        data: [{
+                                name: 'Pre-Ico + Ico. ',
+                                y: 50
+                            }, {
+                                name: 'Ventas.',
+                                y: 20
+                            }, {
+                                name: 'Recompensas por Referencias.',
+                                y: 14
+                            }, {
+                                name: 'Equipo.',
+                                y: 12
+                            }, {
+                                name: 'Responsabilidad Social.',
+                                y: 4
+                            }]
+                    }]
+            });
         </script>
     </body>
 
