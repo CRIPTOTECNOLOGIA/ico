@@ -1,0 +1,271 @@
+
+.agileits-timer{
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+}
+.timer {
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;   
+    font-weight: 700;
+}
+.text {
+    font-size: .9em;
+    color: #fff;
+    text-align: center;   
+    letter-spacing: 2px;
+}
+.clock .column {
+    float: left;
+    width: 50px;
+    height: 100px;
+    background: none;
+    border: 2px solid rgba(255, 255, 255, 0.28);
+    border-radius: 100%;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+.column.days {
+    border-left: 2px solid rgba(255, 255, 255, 0.28);
+}
+.days {
+    display: none;
+}
+/* --//timer-- */
+
+@media (max-width: 1440px){
+.clock .column {
+    padding: 10px 0;
+    margin: 0 16px;
+    width: 18%;
+}
+}
+@media (max-width: 1366px){
+.main {
+    padding: 4.4em 0 3em;
+}
+.clock .column {
+    padding: 10px 0;
+}
+}
+@media (max-width: 1280px){
+.main {
+    padding: 10px 0px;
+}
+.clock .column {
+    padding: 10px 0;
+    margin: 0 16px;
+}
+}
+@media (max-width: 1080px){
+.clock .column {
+    padding: 10px 0;
+    margin: 0 8px;
+}
+/*-- w3layouts --*/
+}
+@media (max-width: 1024px){
+.clock .column {
+    padding: 10px 0;
+    margin: 0 10px;
+}
+}
+@media (max-width: 991px){
+    .main {
+        padding: 5em 0 2.8em;
+    }
+    .clock .column {
+        padding: 12px 0;
+        margin: 0 38px;
+        width: 100px;
+    }
+}
+@media (max-width: 800px){
+    .agileits-timer {
+        width: 100%;
+    }
+    .clock .column {
+        padding: 12px 0;
+        margin: 0 38px;
+        width: 100px;
+    }
+}
+@media (max-width: 768px){
+    .clock .column {
+        padding: 14px 0;
+        margin: 0 36px;
+        width: 100px;
+    }
+}
+@media (max-width: 736px){
+    .agileits-timer {
+        width: 100%;
+    }
+    .clock .column {
+        padding: 14px 0;
+        margin: 0 36px;
+        width: 100px;
+    }
+}
+@media (max-width: 667px){
+	.main h1 {
+		font-size: 2.3em;
+	}
+	.agileits-timer {
+    width: 100%;
+}
+}
+@media (max-width: 640px){
+	.main h1 {
+    font-size: 2em;
+}
+.banner-right-info p {
+    margin: 0 auto 1.5em;
+}
+.clock .column {
+    padding: 20px 0;
+    margin: 0 17px;
+    width: 18%;
+}
+}
+@media (max-width: 600px){
+.clock .column {
+    padding: 20px 0;
+    margin: 0 8px;
+    width: 21%;
+}
+}
+@media (max-width:568px){
+	.main h1 {
+		font-size: 1.8em;
+	}
+	.main {
+		padding: 2em 0;
+/*-- w3layouts --*/
+	}
+	
+}
+@media (max-width:480px){
+.main h1 {
+    line-height: 1.5em;
+}
+.banner-right-info p {
+    width: 94%;
+}
+.agileits-timer {
+    width: 90%;
+}
+.newsletter input[type="text"] {
+    width: 50%;
+}
+.main h1 {
+    margin-bottom: 0;
+}
+.newsletter h2 {
+    font-size: 1.5em;
+}
+.banner-right {
+    padding: 1em 0 1em;
+}
+.clock .column {
+    padding: 17px 0;
+    margin: 0 3px;
+    width: 22%;
+}
+.timer {
+    font-size: 2em;
+}
+}
+@media (max-width:414px){
+	.main h1 {
+    font-size: 1.7em;
+}
+.main {
+    padding: 2.7em 0;
+}
+.text {
+    font-size: .8em;
+}
+.clock .column {
+    padding: 17px 0;
+    margin: 0 2px;
+    width: 22%;
+}
+.agileits-timer {
+    width: 95%;
+}
+}
+@media (max-width:384px){
+	.agileits-timer {
+    width: 100%;
+}
+.clock .column {
+    padding: 12px 0;
+    margin: 0 2px;
+}
+}
+@media (max-width: 375px){
+.text {
+    font-size: .75em;
+}
+.main {
+    padding: 1.7em 0 1em;
+}
+}
+@media (max-width: 320px){
+.main h1 {
+    font-size: 1.2em;
+    margin-bottom: 0em;
+}
+.agileits_copyright p {
+	font-size: 13px;
+	margin: 2em 0 0;
+}
+.banner-right-info p {
+    line-height: 1.6em;
+    font-size: 0.9em;
+}
+.w3layouts_copy_right p {
+    font-size: 14px;
+}
+.w3layouts_copy_right {
+    padding: 0.5em 0em;
+}
+.main {
+    padding: 2em 0 0em;
+}
+.timer {
+    font-size: 2em;
+}
+.agileits-timer {
+    width: 98%;
+}
+.clock .column {
+    padding: 8px 0;
+    width: 21.6%;
+	margin: 0 2px;
+}
+.newsletter {
+    margin: 1em auto 0;
+    width: 95%;
+}
+.newsletter input[type="text"] {
+    margin-right: 2px;
+}
+.text {
+    font-size: .7em;
+    margin-top: 0;
+    letter-spacing: 0px;
+}
+.banner-right {
+    padding: 1em 0 0em;
+}
+.newsletter h2 {
+    font-size: 1.3em;
+}
+}

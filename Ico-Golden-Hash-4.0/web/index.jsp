@@ -34,6 +34,9 @@
 
         <!-- Custom stlylesheet -->
         <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <link href="css/contador/style.css" rel="stylesheet" type="text/css"/>
+        
+        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -66,14 +69,14 @@
                         <!-- Logo -->
                         <div class="navbar-brand">
                             <a href="index.html">
-                                <img class="logo" src="img/img-logo/GH_04.png" alt="logo">
+                                <img class="logo" src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo">
                                 <img class="logo-alt" src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo">
                             </a>
                         </div>
                         <!-- /Logo -->
 
                         <!-- Collapse nav button -->
-                        <div class="nav-collapse">
+                        <div class="nav-collapse" >
                             <span></span>
                         </div>
                         <!-- /Collapse nav button -->
@@ -98,12 +101,6 @@
                         </li>                        
                         <li><a href="#timeline">Linea de Tiempo</a></li>
                         <li><a href="#team">Equipo</a></li>
-                        <li class="has-dropdown"><a href="#">Libro Blanco</a>
-                            <ul class="dropdown">
-                                <li><a href="blog-single.html">Español</a></li>
-                                <li><a href="blog-single.html">Ingles</a></li>
-                            </ul>
-                        </li>
                         <li><a href="#contact">Contacto</a></li>
                     </ul>
                     <!-- /Main navigation -->
@@ -129,12 +126,34 @@
                     <!-- countdown -->
                     <div class="row">
                         <div class="col-sm-12 col-md-6 col-lg-6">
-                            <div class="count-time" style="margin-top: 1em;">
-                                <div class="examples">
-                                    <div class="simply-countdown-losange" id="simply-countdown-losange">
+                            <!-- Section header -->
+                            <div class="section-header text-center" >
+                                <h2 class="title" style=" color: #FFFFFF" >50% De Bonus termina es:</h2>
+                            </div>
+                            <!-- /Section header -->
+                            <div class="agileits-timer"> 
+                                <div class="clock">
+                                    <div class="column days" style="display: inline-block;">
+                                        <div class="timer" id="days"></div>
+                                        <div class="text">Dias</div>
                                     </div>
-                                </div>
-                                <div class="clearfix"></div>
+                                    <div class="timer days" style="display: inline-block;"></div>
+                                    <div class="column">
+                                        <div class="timer" id="hours"></div>
+                                        <div class="text">Horas</div>
+                                    </div>
+                                    <div class="timer"></div>
+                                    <div class="column">
+                                        <div class="timer" id="minutes"></div>
+                                        <div class="text">Minutos</div>
+                                    </div>
+                                    <div class="timer"></div>
+                                    <div class="column">
+                                        <div class="timer" id="seconds"></div>
+                                        <div class="text">Segundos</div>
+                                    </div>
+                                    <div class="clear"> </div>
+                                </div>	 
                             </div>
                         </div>                        
                     </div>
@@ -182,7 +201,6 @@
         </div>
         <!-- /About -->
 
-
         <!-- Caracteristicas -->
         <div id="portafolio" class="section md-padding bg-grey">
             <!-- Container -->
@@ -191,7 +209,7 @@
                 <div class="row">
                     <!-- Section header -->
                     <div class="section-header text-center">
-                        <h2 class="title">Caracteristicas</h2>
+                        <h2 class="title">Características</h2>
                     </div>
                     <!-- /Section header -->
                     <!-- Seguridad -->
@@ -289,7 +307,7 @@
                         </p>
                     </div>
                     <div class="col-md-6">
-                        <img src="img/golden_space.png" class="img-responsive" style="width: 400px;" >
+                        <img src="img/golden_space.png" class="img-responsive img-golden_space" style="width: 400px;" >
                     </div>
                 </div>
                 <!-- /Row -->
@@ -299,7 +317,6 @@
 
         </div>
         <!-- /Service -->
-
 
         <!-- Que es golden Space -->
         <div id="features" class="section md-padding bg-grey">
@@ -312,7 +329,7 @@
 
                     <!-- why choose us content -->
                     <div class="col-md-6">
-                        <div class="section-header">
+                        <div class="section-header text-center">
                             <h2 class="title">¿Que es Golden Space?</h2>
                         </div>
                         <div class="feature">
@@ -400,7 +417,7 @@
                             <br>
                             <div class="row">
                                 <div class="col-sm-12 col-md-4 col-lg-4">
-                                    <img src="img/img-graficas/40blue.png" class="img-responsive" alt="">
+                                    <img src="img/img-graficas/40blue.png" class="img-responsive img-uso_tokens" alt="">
                                 </div>
                                 <div class="col-sm-12 col-md-8 col-lg-8">
                                     <h3 class="titulo_menu">Desarrollo e Investigación</h3>
@@ -416,7 +433,7 @@
                             <br>
                             <div class="row">
                                 <div class="col-sm-12 col-md-4 col-lg-4">
-                                    <img src="img/img-graficas/30blue.png" class="img-responsive" alt="">
+                                    <img src="img/img-graficas/30blue.png" class="img-responsive img-uso_tokens" alt="">
                                 </div>
                                 <div class="col-sm-12 col-md-8 col-lg-8">
                                     <h3 class="titulo_menu">Marketing</h3>
@@ -432,7 +449,7 @@
                             <br>
                             <div class="row">
                                 <div class="col-sm-12 col-md-4 col-lg-4">
-                                    <img src="img/img-graficas/20blue.png" class="img-responsive" alt="">
+                                    <img src="img/img-graficas/20blue.png" class="img-responsive img-uso_tokens" alt="">
                                 </div>
                                 <div class="col-sm-12 col-md-8 col-lg-8">
                                     <h3 class="titulo_menu">Operaciones y Negocios</h3>
@@ -447,7 +464,7 @@
                             <br>
                             <div class="row">
                                 <div class="col-sm-12 col-md-4 col-lg-4">
-                                    <img src="img/img-graficas/10blue.png" class="img-responsive" alt="">
+                                    <img src="img/img-graficas/10blue.png" class="img-responsive img-uso_tokens" alt="">
                                 </div>
                                 <div class="col-sm-12 col-md-8 col-lg-8">
                                     <h3 class="titulo_menu">Legal y Administrativo</h3>
@@ -499,7 +516,7 @@
                     </div>
                     <ul class="timeline">
                         <li class="timeline-inverted">
-                            <div class="timeline-badge primary"><!--<img src="library/open-iconic-master/svg/action-redo.svg">--></div>
+                            <div class="timeline-badge primary"><i class="fa fa-check-square-o"></i><!--<img src="library/open-iconic-master/svg/action-redo.svg">--></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4 class="timeline-title">Marzo, 2017</h4>
@@ -510,7 +527,7 @@
                             </div>
                         </li>
                         <li class="timeline">
-                            <div class="timeline-badge primary"></div>
+                            <div class="timeline-badge primary"><i class="fa fa-check-square-o"></i></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4 class="timeline-title">Junio, 2017</h4>
@@ -521,7 +538,7 @@
                             </div>
                         </li>
                         <li class="timeline-inverted">
-                            <div class="timeline-badge primary"></div>
+                            <div class="timeline-badge primary"><i class="fa fa-check-square-o"></i></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4 class="timeline-title">Agosto, 2017</h4>
@@ -532,7 +549,7 @@
                             </div>
                         </li>
                         <li class="timeline">
-                            <div class="timeline-badge primary"></div>
+                            <div class="timeline-badge primary"><i class="fa fa-check-square-o"></i></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4 class="timeline-title">Enero, 2018</h4>
@@ -543,7 +560,7 @@
                             </div>
                         </li>
                         <li class="timeline-inverted">
-                            <div class="timeline-badge primary"></div>
+                            <div class="timeline-badge primary"><i class="fa fa-check-square-o"></i></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4 class="timeline-title">Mayo, 2018</h4>
@@ -554,7 +571,7 @@
                             </div>
                         </li>
                         <li class="timeline">
-                            <div class="timeline-badge primary"></div>
+                            <div class="timeline-badge primary"><i class="fa fa-clock-o"></i></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4 class="timeline-title">Septiembre, 2018</h4>
@@ -565,7 +582,7 @@
                             </div>
                         </li>
                         <li class="timeline-inverted">
-                            <div class="timeline-badge primary"></div>
+                            <div class="timeline-badge primary"><i class="fa fa-clock-o"></i></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4 class="timeline-title">Octubre, 2018</h4>
@@ -576,7 +593,7 @@
                             </div>
                         </li>
                         <li class="timeline">
-                            <div class="timeline-badge primary"></div>
+                            <div class="timeline-badge primary"><i class="fa fa-clock-o"></i></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4 class="timeline-title">Noviembre, 2018</h4>
@@ -609,11 +626,11 @@
                         <h2 class="title">Nuestro Equipo</h2>
                     </div>
                     <!-- /Section header -->
-                    <!-- team -->
+                    <!-- Arturo -->
                     <div class="col-sm-6" >
-                        <div class="team" style="width: 70%; margin: 0 auto;">
-                            <div class="team-img">
-                                <img class="img-responsive" style="border-radius: 50%;" src="./img/FOTOS EQUIPO/arturo.png" alt="">
+                        <div class="team arturo" >
+                            <div class="team-img"style="width: 100%; height: 100%;">
+                                <img class="img-responsive " style="border-radius: 100%;" src="./img/FOTOS EQUIPO/arturo.png" alt="">
                                 <div class="overlay">
                                     <div class="team-social">
                                         <a href="#"><i class="fa fa-facebook"></i></a>
@@ -631,11 +648,11 @@
                     </div>
                     <!-- /team -->                   
 
-                    <!-- team -->
+                    <!-- Javier -->
                     <div class="col-sm-6">
-                        <div class="team" style="width: 70%; margin: 0 auto;">
-                            <div class="team-img">
-                                <img class="img-responsive" style="border-radius: 50%;" src="./img/FOTOS EQUIPO/javier.png" alt="">
+                        <div class="team" >
+                            <div class="team-img" style="width: 100%; height: 100%;">
+                                <img class="img-responsive javier" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/javier.png" alt="">
                                 <div class="overlay">
                                     <div class="team-social">
                                         <a href="#"><i class="fa fa-facebook"></i></a>
@@ -651,7 +668,7 @@
                         </div>
                         <!-- /team -->
                     </div>
-
+                </div            
                     <!-- Lideres de desarrollo -->
                     <div class="row" style="margin-top: 2em;">
                         <!-- Section header -->
@@ -661,7 +678,7 @@
                         <!-- /Section header -->
                         <!-- Lider ALejandro -->
                         <div class="col-sm-6">
-                            <div class="team" style="width: 60%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/alejandro.png" alt="">
                                     <div class="overlay">
@@ -680,7 +697,7 @@
                         </div>
                         <!-- Lider Mauricio -->
                         <div class="col-sm-6">
-                            <div class="team" style="width: 60%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/mauricio2.png" alt="">
                                     <div class="overlay">
@@ -703,7 +720,7 @@
                     <div class="row" style="margin-top: 2em;">
                         <!-- Luis Gelvis -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/luis.png" alt="">
                                     <div class="overlay">
@@ -722,7 +739,7 @@
                         </div>
                         <!-- David Casadiegos -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/david.png" alt="">
                                     <div class="overlay">
@@ -741,7 +758,7 @@
                         </div>
                         <!-- Wilmar Alvarado -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/wilmar.png" alt="">
                                     <div class="overlay">
@@ -764,7 +781,7 @@
                     <div class="row" style="margin-top: 2em;">
                         <!-- MArlon Ramirez -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/marlon2.png" alt="">
                                     <div class="overlay">
@@ -783,7 +800,7 @@
                         </div>
                         <!-- Ruben Caballero -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/nicolas.png" alt="">
                                     <div class="overlay">
@@ -802,7 +819,7 @@
                         </div>
                         <!-- Rafael Carvallo -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/rafael.png" alt="">
                                     <div class="overlay">
@@ -828,7 +845,7 @@
                         </div>
                         <!-- Lide de mercadeo -->
                         <div class="col-sm-12">
-                            <div class="team" style="width: 30%; margin: 0 auto;">
+                            <div class="team" style="width: 30%;">
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ismael.png" alt="">
                                     <div class="overlay">
@@ -850,7 +867,7 @@
                     <div class="row" style="margin-top: 2em;">                    
                         <!-- Leidy Gomes -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/leidy.png" alt="">
                                     <div class="overlay">
@@ -869,7 +886,7 @@
                         </div>
                         <!-- Oriana Pinillos -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/oriana.png" alt="">
                                     <div class="overlay">
@@ -888,7 +905,7 @@
                         </div>
                         <!-- Pietro Rivellaro -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/pietro.png" alt="">
                                     <div class="overlay">
@@ -910,7 +927,7 @@
                     <div class="row" style="margin-top: 2em;">
                         <!-- Ximena Jaimes -->
                         <div class="col-sm-6">
-                            <div class="team" style="width: 50%; margin: 0 auto;">
+                            <div class="team" style="width: 50%;" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ximena.png" alt="">
                                     <div class="overlay">
@@ -929,7 +946,7 @@
                         </div>
                         <!-- Ibett Luque -->
                         <div class="col-sm-6">
-                            <div class="team" style="width: 50%; margin: 0 auto;">
+                            <div class="team" style="width: 50%;" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ibett2.png" alt="">
                                     <div class="overlay">
@@ -955,7 +972,7 @@
                         </div>
                         <!-- Eduardo Ordoñez -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/johan.png" alt="">
                                     <div class="overlay">
@@ -974,7 +991,7 @@
                         </div>
                         <!-- Carolina Peña -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/carolina.png" alt="">
                                     <div class="overlay">
@@ -993,7 +1010,7 @@
                         </div>
                         <!-- Carolina Peña -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ender2.png" alt="">
                                     <div class="overlay">
@@ -1020,7 +1037,7 @@
                         </div>
                         <!-- Susana Lizcano -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/susana.png" alt="">
                                     <div class="overlay">
@@ -1039,7 +1056,7 @@
                         </div>
                         <!-- Willington Serrano -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/willington.png" alt="">
                                     <div class="overlay">
@@ -1058,7 +1075,7 @@
                         </div>
                         <!-- Monica Acevedo -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/monica2.png" alt="">
                                     <div class="overlay">
@@ -1079,8 +1096,7 @@
                 </div>
                 <!-- /Container -->
             </div>
-            <!-- /team -->
-        </div>
+        <!-- /team -->       
         
         <!-- Blog -->
         <div id="blog" class="section md-padding bg-grey">
@@ -1090,70 +1106,54 @@
                 <div class="row">
                     <!-- Section header -->
                     <div class="section-header text-center">
-                        <h2 class="title">Recents news</h2>
+                        <h2 class="title">Noticias</h2>
                     </div>
                     <!-- /Section header -->
 
                     <!-- blog -->
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="blog">
-                            <div class="blog-img">
-                                <img class="img-responsive" src="./img/blog1.jpg" alt="">
+                            <div class="blog-img">                                
+                                <a href="https://www.actualcoin.net/leermas?idNoticia=247" target="_blank">
+                                    <img src="img/actualcoinlogo.png" class="img-responsive">
+                                </a>
                             </div>
-                            <div class="blog-content">
-                                <ul class="blog-meta">
-                                    <li><i class="fa fa-user"></i>John doe</li>
-                                    <li><i class="fa fa-clock-o"></i>18 Oct</li>
-                                    <li><i class="fa fa-comments"></i>57</li>
-                                </ul>
-                                <h3>Molestie at elementum eu facilisis sed odio</h3>
-                                <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
-                                <a href="blog-single.html">Read more</a>
+                            <div class="blog-content">                                
+                                <h3>Cripto Moneda Golden Hash (XGH) promete ser referencia en Amérixa Latina</h3>
+                                <p style="text-align: justify;">
+                                    América Latina es un área geográfica que últimamente ha tenido un alto interés
+                                    por las criptomonedas y la tecnología descentralizada. A raíz de esto, un gran
+                                    número de activos se ha vinculado al mercado. Tal es el caso de Golden Hash (XGH),
+                                    una criptomoneda basada en el protocolo de Ethereum, que dará sus inicios, a mediados
+                                    del presente mes.
+                                </p>
+                                <a href="https://www.actualcoin.net/leermas?idNoticia=247">Read more</a>
                             </div>
                         </div>
                     </div>
                     <!-- /blog -->
 
                     <!-- blog -->
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="blog">
                             <div class="blog-img">
-                                <img class="img-responsive" src="./img/blog2.jpg" alt="">
+                                <a href="PDF/Borbon.pdf" target="_blank">
+                                    <img src="img/borbon-azul.png" class="img-responsive img_borbon">
+                                </a>
                             </div>
                             <div class="blog-content">
-                                <ul class="blog-meta">
-                                    <li><i class="fa fa-user"></i>John doe</li>
-                                    <li><i class="fa fa-clock-o"></i>18 Oct</li>
-                                    <li><i class="fa fa-comments"></i>57</li>
-                                </ul>
-                                <h3>Molestie at elementum eu facilisis sed odio</h3>
-                                <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
-                                <a href="blog-single.html">Read more</a>
+                                <h3> Critptomoneda desarrollada bajo el protocolo de Ethereum, que selanzará almercadopronto.</h3>
+                                <p style="text-align: justify;">
+                                    Lo particular de esta divisa esqueproporciona a susinversionistas, colaboradores y usuarios,elaccesoaespacios de
+                                    almacenamientodedatos enla plataforma GoldenSpace, mediante una clave privada, además de la participación en distintos programas
+                                    de recompensa. 
+                                </p>
+                                <a href="PDF/Borbon.pdf">Read more</a>
                             </div>
                         </div>
                     </div>
                     <!-- /blog -->
-
-                    <!-- blog -->
-                    <div class="col-md-4">
-                        <div class="blog">
-                            <div class="blog-img">
-                                <img class="img-responsive"  src="./img/blog3.jpg" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <ul class="blog-meta">
-                                    <li><i class="fa fa-user"></i>John doe</li>
-                                    <li><i class="fa fa-clock-o"></i>18 Oct</li>
-                                    <li><i class="fa fa-comments"></i>57</li>
-                                </ul>
-                                <h3>Molestie at elementum eu facilisis sed odio</h3>
-                                <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
-                                <a href="blog-single.html">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /blog -->
-
+                    
                 </div>
                 <!-- /Row -->
 
@@ -1165,56 +1165,33 @@
 
         <!-- Contact -->
         <div id="contact" class="section md-padding">
-
             <!-- Container -->
             <div class="container">
-
                 <!-- Row -->
                 <div class="row">
-
                     <!-- Section-header -->
                     <div class="section-header text-center">
-                        <h2 class="title">Get in touch</h2>
+                        <h2 class="title">Contactenos</h2>
                     </div>
-                    <!-- /Section-header -->
+                    <!-- /Section-header -->                   
 
                     <!-- contact -->
-                    <div class="col-sm-4">
-                        <div class="contact">
-                            <i class="fa fa-phone"></i>
-                            <h3>Phone</h3>
-                            <p>512-421-3940</p>
-                        </div>
-                    </div>
-                    <!-- /contact -->
-
-                    <!-- contact -->
-                    <div class="col-sm-4">
+                    <div class="col-sm-12">
                         <div class="contact">
                             <i class="fa fa-envelope"></i>
                             <h3>Email</h3>
-                            <p>email@support.com</p>
+                            <p>info@goldenhash.org</p>
                         </div>
                     </div>
-                    <!-- /contact -->
-
-                    <!-- contact -->
-                    <div class="col-sm-4">
-                        <div class="contact">
-                            <i class="fa fa-map-marker"></i>
-                            <h3>Address</h3>
-                            <p>1739 Bubby Drive</p>
-                        </div>
-                    </div>
-                    <!-- /contact -->
+                    <!-- /contact -->                    
 
                     <!-- contact form -->
                     <div class="col-md-8 col-md-offset-2">
                         <form class="contact-form">
-                            <input type="text" class="input" placeholder="Name">
+                            <input type="text" class="input" placeholder="Nombre">
                             <input type="email" class="input" placeholder="Email">
-                            <input type="text" class="input" placeholder="Subject">
-                            <textarea class="input" placeholder="Message"></textarea>
+                            <input type="text" class="input" placeholder="Asunto">
+                            <textarea class="input" placeholder="Mensaje"></textarea>
                             <button class="main-btn">Send message</button>
                         </form>
                     </div>
@@ -1229,38 +1206,31 @@
         </div>
         <!-- /Contact -->
 
-
         <!-- Footer -->
         <footer id="footer" class="sm-padding bg-dark">
-
             <!-- Container -->
             <div class="container">
-
                 <!-- Row -->
                 <div class="row">
-
-                    <div class="col-md-12">
-
+                    <div class="col-md-4">
                         <!-- footer logo -->
                         <div class="footer-logo">
-                            <a href="index.html"><img src="img/logo-alt.png" alt="logo"></a>
+                            <a href="index.html"><img src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo"></a>
                         </div>
-                        <!-- /footer logo -->
-
+                         <!-- /footer logo -->
+                    </div>
+                    <div class="col-md-4">
                         <!-- footer follow -->
                         <ul class="footer-follow">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                            <li><a class="facebook" href="https://www.facebook.com/GoldenHash-2104300649854518/?ref=bookmarks"><i class="fa fa-facebook">  Facebook</i></a></li>
+                            <li><a class="twitter" href="https://twitter.com/?logged_out=1&lang=es"><i class="fa fa-twitter">  Twitter</i></a></li>                            
                         </ul>
                         <!-- /footer follow -->
-
+                    </div>
+                    <div class="col-md-4">
                         <!-- footer copyright -->
                         <div class="footer-copyright">
-                            <p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                            <p>Copyright © 2017. Derechos Reservados</p>
                         </div>
                         <!-- /footer copyright -->
 
@@ -1295,25 +1265,13 @@
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/owl.carousel.min.js"></script>
         <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>   
-        <script type="text/javascript" src="js/jquery.countdown.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
         <script src="js/grafica/highcharts.js" type="text/javascript"></script>
         <script src="js/grafica/highcharts-3d.js" type="text/javascript"></script>
-        <script>
-            /**
-             * WARNING: I set this coundtown to be running until the end of times.
-             * So when you'll init the plugin, follow how it's done in plugin documentation.
-             */
-
-            //jQuery example
-            $('#simply-countdown-losange').simplyCountdown({
-                year: 2018,
-                month: 6,
-                day: 23,
-                hour: 10,
-                enableUtc: false
-            });
-        </script>
+                
+        <script src="js/moment.js" type="text/javascript"></script>
+        <script src="js/moment-timezone-with-data.js" type="text/javascript"></script>
+        <script src="js/timer.js" type="text/javascript"></script>
         <script>
             Highcharts.chart('grafica', {
                 colors: [' #45668e ', '#007F73 ', '#4ABDAC', '#7BB5FC', '#304763'],
