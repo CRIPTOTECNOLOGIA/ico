@@ -995,7 +995,7 @@
                         <div class="col-sm-4">
                             <div class="team" style="width: 80%; margin: 0 auto;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ender.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ender2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -1022,7 +1022,7 @@
                         <div class="col-sm-4">
                             <div class="team" style="width: 80%; margin: 0 auto;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/susana.jpeg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/susana.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -1041,7 +1041,7 @@
                         <div class="col-sm-4">
                             <div class="team" style="width: 80%; margin: 0 auto;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Wilinton.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/willington.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -1060,7 +1060,7 @@
                         <div class="col-sm-4">
                             <div class="team" style="width: 80%; margin: 0 auto;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Monica.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/monica2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
