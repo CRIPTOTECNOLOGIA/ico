@@ -845,7 +845,7 @@
                         </div>
                         <!-- Lide de mercadeo -->
                         <div class="col-sm-12">
-                            <div class="team" style="width: 30%;">
+                            <div class="team" style="width: 50%;">
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ismael.jpg" alt="">
                                     <div class="overlay">
@@ -904,7 +904,7 @@
                             </div>
                         </div>
                         <!-- Pietro Rivellaro -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/pietro.jpeg" alt="">
@@ -945,7 +945,7 @@
                             </div>
                         </div>
                         <!-- Ibett Luque -->
-                        <div class="col-sm-6">
+                        <div class="col-sm-6" style="margin-top: 1em;">
                             <div class="team" style="width: 50%;" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ibett.png" alt="">
@@ -990,7 +990,7 @@
                             </div>
                         </div>
                         <!-- Carolina Peña -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/WhatsApp Image 2018-06-06 at 4.30.42 PM.jpeg" alt="">
@@ -1009,7 +1009,7 @@
                             </div>
                         </div>
                         <!-- Carolina Peña -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ender.png" alt="">
@@ -1055,7 +1055,7 @@
                             </div>
                         </div>
                         <!-- Willington Serrano -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Wilinton.png" alt="">
@@ -1074,7 +1074,7 @@
                             </div>
                         </div>
                         <!-- Monica Acevedo -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Monica.png" alt="">
