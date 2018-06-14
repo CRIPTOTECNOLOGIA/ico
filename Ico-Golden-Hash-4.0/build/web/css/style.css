@@ -606,7 +606,7 @@ header {
     position: absolute;
     left: 0px;
     right: 0px;
-    top: 55%;
+    top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -616,6 +616,7 @@ header {
 .home-content h1 {
     text-transform: uppercase;
     font-weight: 700;
+    font-size: 58px;
 }
 .home-content button {
     margin-top: 20px;
@@ -639,6 +640,40 @@ header {
 .breadcrumb>li+li:before {
     color: #868F9B;
 }
+
+.btn_libro_compra{
+    margin-top: 12em;
+}
+
+.btn_libro_compra.btn-libro_blanco::before,
+.btn_libro_compra.btn-comprar::before{
+    width: 400%;
+}
+
+.btn_libro_compra.btn-libro_blanco::before{
+    background-image: linear-gradient(45deg, #45668E 40%, transparent 60%);
+    left: -300%;
+}
+
+.btn_libro_compra.btn-comprar::before{
+    background-image: linear-gradient(45deg, transparent 40%, #45668e 60%);
+    left: 0%;
+}
+
+.btn_libro_compra.btn-libro_blanco:hover::before,
+.btn_libro_compra.btn-libro_blanco:active::before {
+    left : 0%;
+}
+
+.btn-comprar:hover::before,
+.btn-comprar:active::before {
+    left : -300%;
+}
+
+
+
+
+
 
 /*------------------------------------*\
         About
@@ -877,6 +912,11 @@ header {
     padding: 40px 20px;
     margin: 15px 0px;
     width: 70%;
+    margin: 0px auto;
+}
+
+.ismael{
+    width: 30%;
     margin: 0px auto;
 }
 
@@ -1398,15 +1438,7 @@ header {
         Responsive
 \*------------------------------------*/
 
-@media screen and (max-width: 1440px){
-    #home .home-wrapper{
-        top: 60%;
-    }
-    #home .section-header{
-        margin-top: 1.5em;
-        margin-bottom: 2px;
-    }
-}
+
 
 @media screen and (max-width: 1280px){
     #home .home-wrapper{
@@ -1524,8 +1556,17 @@ header {
         background: transparent;
         height: 100px;
     }
-    #team .team{
+    #team .team, 
+    #tem .ismael{
         width: 50%;
+    }
+    .home-content h1 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 58px;
+    }
+    #home .home-wrapper{
+        top: 55%;
     }
 }
 
@@ -1572,6 +1613,21 @@ header {
 
     .blog-comments .media .media {
         margin:0px -15px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .home-content h1 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 38px;
+    }
+    #team .team, 
+    #tem .ismael{
+        width: 70%;
+    }
+    #home .home-wrapper{
+        top: 60%;
     }
 }
 

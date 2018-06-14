@@ -113,12 +113,14 @@
     }
 }
 @media (max-width: 667px){
-	.main h1 {
-		font-size: 2.3em;
-	}
-	.agileits-timer {
-    width: 100%;
-}
+    .agileits-timer {
+        width: 100%;
+    }
+    .clock .column {
+        padding: 14px 0;
+        margin: 0 26px;
+        width: 100px;
+    }
 }
 @media (max-width: 640px){
 	.main h1 {

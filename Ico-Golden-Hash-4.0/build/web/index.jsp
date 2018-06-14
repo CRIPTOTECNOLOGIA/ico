@@ -93,7 +93,7 @@
                                 <li><a href="#features">¿Que Es?</a></li>
                             </ul>
                         </li>
-                        <li class="has-dropdown"><a href="#">Tokens</a>
+                        <li class="has-dropdown"><a href="#pricing">Tokens</a>
                             <ul class="dropdown">
                                 <li><a href="#pricing">Uso</a></li>
                                 <li><a href="#distribucion_tokens">Distribucion</a></li>
@@ -155,7 +155,17 @@
                                     <div class="clear"> </div>
                                 </div>	 
                             </div>
-                        </div>                        
+                        </div>   
+                        <div class="col-sm-12 col-md-6 col-lg-6 btn_libro_compra">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6">
+                                    <button class="btn btn-libro_blanco">Libro Blanco</button>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <button class="btn btn-comprar">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -802,7 +812,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/nicolas.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Nicolas.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -845,7 +855,7 @@
                         </div>
                         <!-- Lide de mercadeo -->
                         <div class="col-sm-12">
-                            <div class="team" style="width: 50%;">
+                            <div class="team ismael" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ismael.png" alt="">
                                     <div class="overlay">
@@ -927,7 +937,7 @@
                     <div class="row" style="margin-top: 2em;">
                         <!-- Ximena Jaimes -->
                         <div class="col-sm-6">
-                            <div class="team" style="width: 50%;" >
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ximena.png" alt="">
                                     <div class="overlay">
@@ -946,7 +956,7 @@
                         </div>
                         <!-- Ibett Luque -->
                         <div class="col-sm-6" style="margin-top: 1em;">
-                            <div class="team" style="width: 50%;" >
+                            <div class="team">
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ibett2.png" alt="">
                                     <div class="overlay">
