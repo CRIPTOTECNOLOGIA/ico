@@ -4,7 +4,7 @@
     Author     : CRIPTOTECNOLOGIA
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,8 +13,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-        <title>HTML Template</title>
+        <meta name="format-detection" content="telephone=no">
+        <title>Golden Hash</title>
 
         <!-- Google font -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
@@ -1187,12 +1187,12 @@
 
                     <!-- contact form -->
                     <div class="col-md-8 col-md-offset-2">
-                        <form class="contact-form">
-                            <input type="text" class="input" placeholder="Nombre">
-                            <input type="email" class="input" placeholder="Email">
-                            <input type="text" class="input" placeholder="Asunto">
-                            <textarea class="input" placeholder="Mensaje"></textarea>
-                            <button class="main-btn">Send message</button>
+                        <form class="contact-form" name="contactForm" id="coontactForm" method="post" action="nuevo_mensaje">
+                            <input name="contactName" type="text" id="contactName" class="input" placeholder="Nombre" value="" minlength="2" required="" aria-required="true">
+                            <input name="contactEmail" type="email" id="contactEmail" class="input" placeholder="Email" value="" required="" aria-required="true">
+                            <input name="contactSubject" type="text" id="contactSubject" class="input" placeholder="Asunto" value="" required="" aria-required="true">
+                            <textarea name="contactMessage" id="contactMessage" class="input" placeholder="Mensaje" rows="10" cols="50" required=""></textarea>
+                            <button class="main-btn">Enviar Mensaje</button>
                         </form>
                     </div>
                     <!-- /contact form -->
@@ -1272,6 +1272,11 @@
         <script src="js/moment.js" type="text/javascript"></script>
         <script src="js/moment-timezone-with-data.js" type="text/javascript"></script>
         <script src="js/timer.js" type="text/javascript"></script>
+        
+        <!-- Script que realiza el registro del mensaje contactanos -->
+        <script src="js/registros/registro_mensaje.js" type="text/javascript"></script>
+        
+        
         <script>
             Highcharts.chart('grafica', {
                 colors: [' #45668e ', '#007F73 ', '#4ABDAC', '#7BB5FC', '#304763'],
