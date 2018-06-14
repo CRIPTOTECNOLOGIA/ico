@@ -77,7 +77,7 @@
 
                         <!-- Collapse nav button -->
                         <div class="nav-collapse" >
-                            <span style="color: #FFFFFF"></span>
+                            <span></span>
                         </div>
                         <!-- /Collapse nav button -->
                     </div>
@@ -626,11 +626,11 @@
                         <h2 class="title">Nuestro Equipo</h2>
                     </div>
                     <!-- /Section header -->
-                    <!-- team -->
+                    <!-- Arturo -->
                     <div class="col-sm-6" >
-                        <div class="team" style="width: 70%; margin: 0 auto;">
+                        <div class="team arturo" >
                             <div class="team-img"style="width: 100%; height: 100%;">
-                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/arturo.jpeg" alt="">
+                                <img class="img-responsive " style="border-radius: 100%;" src="./img/FOTOS EQUIPO/arturo.jpeg" alt="">
                                 <div class="overlay">
                                     <div class="team-social">
                                         <a href="#"><i class="fa fa-facebook"></i></a>
@@ -648,16 +648,16 @@
                     </div>
                     <!-- /team -->                   
 
-                    <!-- team -->
+                    <!-- Javier -->
                     <div class="col-sm-6">
-                        <div class="team" style="width: 70%; margin: 0 auto;">
+                        <div class="team" >
                             <div class="team-img" style="width: 100%; height: 100%;">
-                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Javier.jpg" alt="">
+                                <img class="img-responsive javier" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Javier.jpg" alt="">
                                 <div class="overlay">
                                     <div class="team-social">
                                         <a href="#"><i class="fa fa-facebook"></i></a>
                                         <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>>>>>>>> origin
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -678,7 +678,7 @@
                         <!-- /Section header -->
                         <!-- Lider ALejandro -->
                         <div class="col-sm-6">
-                            <div class="team" style="width: 60%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/alejandro.jpeg" alt="">
                                     <div class="overlay">
@@ -697,7 +697,7 @@
                         </div>
                         <!-- Lider Mauricio -->
                         <div class="col-sm-6">
-                            <div class="team" style="width: 60%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Mauricio Acevedo.jpg" alt="">
                                     <div class="overlay">
@@ -720,7 +720,7 @@
                     <div class="row" style="margin-top: 2em;">
                         <!-- Luis Gelvis -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/luis.jpg" alt="">
                                     <div class="overlay">
@@ -739,7 +739,7 @@
                         </div>
                         <!-- David Casadiegos -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/david.jpg" alt="">
                                     <div class="overlay">
@@ -758,7 +758,7 @@
                         </div>
                         <!-- Wilmar Alvarado -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/wilmar.jpeg" alt="">
                                     <div class="overlay">
@@ -781,7 +781,7 @@
                     <div class="row" style="margin-top: 2em;">
                         <!-- MArlon Ramirez -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Marlon.png" alt="">
                                     <div class="overlay">
@@ -800,7 +800,7 @@
                         </div>
                         <!-- Ruben Caballero -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Nicolas.png" alt="">
                                     <div class="overlay">
@@ -819,7 +819,7 @@
                         </div>
                         <!-- Rafael Carvallo -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/WhatsApp Image 2018-06-07 at 12.09.30 PM.jpeg" alt="">
                                     <div class="overlay">
@@ -845,7 +845,7 @@
                         </div>
                         <!-- Lide de mercadeo -->
                         <div class="col-sm-12">
-                            <div class="team" style="width: 30%; margin: 0 auto;">
+                            <div class="team" style="width: 30%;">
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ismael.jpg" alt="">
                                     <div class="overlay">
@@ -867,7 +867,7 @@
                     <div class="row" style="margin-top: 2em;">                    
                         <!-- Leidy Gomes -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/leidy.jpg" alt="">
                                     <div class="overlay">
@@ -886,7 +886,7 @@
                         </div>
                         <!-- Oriana Pinillos -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/oriana.jpeg" alt="">
                                     <div class="overlay">
@@ -905,7 +905,7 @@
                         </div>
                         <!-- Pietro Rivellaro -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/pietro.jpeg" alt="">
                                     <div class="overlay">
@@ -927,7 +927,7 @@
                     <div class="row" style="margin-top: 2em;">
                         <!-- Ximena Jaimes -->
                         <div class="col-sm-6">
-                            <div class="team" style="width: 50%; margin: 0 auto;">
+                            <div class="team" style="width: 50%;" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/WhatsApp Image 2018-06-07 at 12.09.19 PM.jpeg" alt="">
                                     <div class="overlay">
@@ -946,7 +946,7 @@
                         </div>
                         <!-- Ibett Luque -->
                         <div class="col-sm-6">
-                            <div class="team" style="width: 50%; margin: 0 auto;">
+                            <div class="team" style="width: 50%;" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ibett.png" alt="">
                                     <div class="overlay">
@@ -972,7 +972,7 @@
                         </div>
                         <!-- Eduardo Ordoñez -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/JohanLider.png" alt="">
                                     <div class="overlay">
@@ -991,7 +991,7 @@
                         </div>
                         <!-- Carolina Peña -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/WhatsApp Image 2018-06-06 at 4.30.42 PM.jpeg" alt="">
                                     <div class="overlay">
@@ -1010,7 +1010,7 @@
                         </div>
                         <!-- Carolina Peña -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ender.png" alt="">
                                     <div class="overlay">
@@ -1037,7 +1037,7 @@
                         </div>
                         <!-- Susana Lizcano -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/susana.jpeg" alt="">
                                     <div class="overlay">
@@ -1056,7 +1056,7 @@
                         </div>
                         <!-- Willington Serrano -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Wilinton.png" alt="">
                                     <div class="overlay">
@@ -1075,7 +1075,7 @@
                         </div>
                         <!-- Monica Acevedo -->
                         <div class="col-sm-4">
-                            <div class="team" style="width: 80%; margin: 0 auto;">
+                            <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Monica.png" alt="">
                                     <div class="overlay">
