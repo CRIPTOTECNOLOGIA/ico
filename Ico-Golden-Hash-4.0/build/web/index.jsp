@@ -612,13 +612,8 @@
                     <!-- team -->
                     <div class="col-sm-6" >
                         <div class="team" style="width: 70%; margin: 0 auto;">
-<<<<<<< HEAD
                             <div class="team-img">
                                 <img class="img-responsive" style="border-radius: 50%;" src="./img/FOTOS EQUIPO/arturo.png" alt="">
-=======
-                            <div class="team-img"style="width: 100%; height: 100%;">
-                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/arturo.jpeg" alt="">
->>>>>>> origin
                                 <div class="overlay">
                                     <div class="team-social">
                                         <a href="#"><i class="fa fa-facebook"></i></a>
@@ -639,13 +634,13 @@
                     <!-- team -->
                     <div class="col-sm-6">
                         <div class="team" style="width: 70%; margin: 0 auto;">
-                            <div class="team-img" style="width: 100%; height: 100%;">
-                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Javier.jpg" alt="">
+                            <div class="team-img">
+                                <img class="img-responsive" style="border-radius: 50%;" src="./img/FOTOS EQUIPO/javier.png" alt="">
                                 <div class="overlay">
                                     <div class="team-social">
                                         <a href="#"><i class="fa fa-facebook"></i></a>
                                         <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>>>>>>>> origin
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -668,7 +663,7 @@
                         <div class="col-sm-6">
                             <div class="team" style="width: 60%; margin: 0 auto;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/alejandro.jpeg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/alejandro.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -687,7 +682,7 @@
                         <div class="col-sm-6">
                             <div class="team" style="width: 60%; margin: 0 auto;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Mauricio Acevedo.jpg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/mauricio2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -710,7 +705,7 @@
                         <div class="col-sm-4">
                             <div class="team" style="width: 80%; margin: 0 auto;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/luis.jpg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/luis.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -729,7 +724,7 @@
                         <div class="col-sm-4">
                             <div class="team" style="width: 80%; margin: 0 auto;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/david.jpg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/david.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -748,7 +743,7 @@
                         <div class="col-sm-4">
                             <div class="team" style="width: 80%; margin: 0 auto;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/wilmar.jpeg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/wilmar.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -771,7 +766,7 @@
                         <div class="col-sm-4">
                             <div class="team" style="width: 80%; margin: 0 auto;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Marlon.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/marlon2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
