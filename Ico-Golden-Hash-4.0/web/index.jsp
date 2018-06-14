@@ -34,6 +34,9 @@
 
         <!-- Custom stlylesheet -->
         <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <link href="css/contador/style.css" rel="stylesheet" type="text/css"/>
+        
+        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -73,8 +76,8 @@
                         <!-- /Logo -->
 
                         <!-- Collapse nav button -->
-                        <div class="nav-collapse">
-                            <span></span>
+                        <div class="nav-collapse" >
+                            <span style="color: #FFFFFF"></span>
                         </div>
                         <!-- /Collapse nav button -->
                     </div>
@@ -123,12 +126,34 @@
                     <!-- countdown -->
                     <div class="row">
                         <div class="col-sm-12 col-md-6 col-lg-6">
-                            <div class="count-time" style="margin-top: 1em;">
-                                <div class="examples">
-                                    <div class="simply-countdown-losange" id="simply-countdown-losange">
+                            <!-- Section header -->
+                            <div class="section-header text-center" >
+                                <h2 class="title" style=" color: #FFFFFF" >50% De Bonus termina es:</h2>
+                            </div>
+                            <!-- /Section header -->
+                            <div class="agileits-timer"> 
+                                <div class="clock">
+                                    <div class="column days" style="display: inline-block;">
+                                        <div class="timer" id="days"></div>
+                                        <div class="text">Dias</div>
                                     </div>
-                                </div>
-                                <div class="clearfix"></div>
+                                    <div class="timer days" style="display: inline-block;"></div>
+                                    <div class="column">
+                                        <div class="timer" id="hours"></div>
+                                        <div class="text">Horas</div>
+                                    </div>
+                                    <div class="timer"></div>
+                                    <div class="column">
+                                        <div class="timer" id="minutes"></div>
+                                        <div class="text">Minutos</div>
+                                    </div>
+                                    <div class="timer"></div>
+                                    <div class="column">
+                                        <div class="timer" id="seconds"></div>
+                                        <div class="text">Segundos</div>
+                                    </div>
+                                    <div class="clear"> </div>
+                                </div>	 
                             </div>
                         </div>                        
                     </div>
@@ -184,7 +209,7 @@
                 <div class="row">
                     <!-- Section header -->
                     <div class="section-header text-center">
-                        <h2 class="title">Caracteristicas</h2>
+                        <h2 class="title">Características</h2>
                     </div>
                     <!-- /Section header -->
                     <!-- Seguridad -->
@@ -282,7 +307,7 @@
                         </p>
                     </div>
                     <div class="col-md-6">
-                        <img src="img/golden_space.png" class="img-responsive" style="width: 400px;" >
+                        <img src="img/golden_space.png" class="img-responsive img-golden_space" style="width: 400px;" >
                     </div>
                 </div>
                 <!-- /Row -->
@@ -304,7 +329,7 @@
 
                     <!-- why choose us content -->
                     <div class="col-md-6">
-                        <div class="section-header">
+                        <div class="section-header text-center">
                             <h2 class="title">¿Que es Golden Space?</h2>
                         </div>
                         <div class="feature">
@@ -392,7 +417,7 @@
                             <br>
                             <div class="row">
                                 <div class="col-sm-12 col-md-4 col-lg-4">
-                                    <img src="img/img-graficas/40blue.png" class="img-responsive" alt="">
+                                    <img src="img/img-graficas/40blue.png" class="img-responsive img-uso_tokens" alt="">
                                 </div>
                                 <div class="col-sm-12 col-md-8 col-lg-8">
                                     <h3 class="titulo_menu">Desarrollo e Investigación</h3>
@@ -408,7 +433,7 @@
                             <br>
                             <div class="row">
                                 <div class="col-sm-12 col-md-4 col-lg-4">
-                                    <img src="img/img-graficas/30blue.png" class="img-responsive" alt="">
+                                    <img src="img/img-graficas/30blue.png" class="img-responsive img-uso_tokens" alt="">
                                 </div>
                                 <div class="col-sm-12 col-md-8 col-lg-8">
                                     <h3 class="titulo_menu">Marketing</h3>
@@ -424,7 +449,7 @@
                             <br>
                             <div class="row">
                                 <div class="col-sm-12 col-md-4 col-lg-4">
-                                    <img src="img/img-graficas/20blue.png" class="img-responsive" alt="">
+                                    <img src="img/img-graficas/20blue.png" class="img-responsive img-uso_tokens" alt="">
                                 </div>
                                 <div class="col-sm-12 col-md-8 col-lg-8">
                                     <h3 class="titulo_menu">Operaciones y Negocios</h3>
@@ -439,7 +464,7 @@
                             <br>
                             <div class="row">
                                 <div class="col-sm-12 col-md-4 col-lg-4">
-                                    <img src="img/img-graficas/10blue.png" class="img-responsive" alt="">
+                                    <img src="img/img-graficas/10blue.png" class="img-responsive img-uso_tokens" alt="">
                                 </div>
                                 <div class="col-sm-12 col-md-8 col-lg-8">
                                     <h3 class="titulo_menu">Legal y Administrativo</h3>
@@ -1113,7 +1138,7 @@
                         <div class="blog">
                             <div class="blog-img">
                                 <a href="PDF/Borbon.pdf" target="_blank">
-                                    <img src="img/borbon-azul.png" class="img-responsive">
+                                    <img src="img/borbon-azul.png" class="img-responsive img_borbon">
                                 </a>
                             </div>
                             <div class="blog-content">
@@ -1240,25 +1265,13 @@
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/owl.carousel.min.js"></script>
         <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>   
-        <script type="text/javascript" src="js/jquery.countdown.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
         <script src="js/grafica/highcharts.js" type="text/javascript"></script>
         <script src="js/grafica/highcharts-3d.js" type="text/javascript"></script>
-        <script>
-            /**
-             * WARNING: I set this coundtown to be running until the end of times.
-             * So when you'll init the plugin, follow how it's done in plugin documentation.
-             */
-
-            //jQuery example
-            $('#simply-countdown-losange').simplyCountdown({
-                year: 2018,
-                month: 6,
-                day: 23,
-                hour: 10,
-                enableUtc: false
-            });
-        </script>
+                
+        <script src="js/moment.js" type="text/javascript"></script>
+        <script src="js/moment-timezone-with-data.js" type="text/javascript"></script>
+        <script src="js/timer.js" type="text/javascript"></script>
         <script>
             Highcharts.chart('grafica', {
                 colors: [' #45668e ', '#007F73 ', '#4ABDAC', '#7BB5FC', '#304763'],
