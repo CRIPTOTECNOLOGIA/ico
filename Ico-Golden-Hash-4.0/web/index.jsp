@@ -630,7 +630,7 @@
                     <div class="col-sm-6" >
                         <div class="team arturo" >
                             <div class="team-img"style="width: 100%; height: 100%;">
-                                <img class="img-responsive " style="border-radius: 100%;" src="./img/FOTOS EQUIPO/arturo.jpeg" alt="">
+                                <img class="img-responsive " style="border-radius: 100%;" src="./img/FOTOS EQUIPO/arturo.png" alt="">
                                 <div class="overlay">
                                     <div class="team-social">
                                         <a href="#"><i class="fa fa-facebook"></i></a>
@@ -652,7 +652,7 @@
                     <div class="col-sm-6" style="margin-top: 1em;">
                         <div class="team" >
                             <div class="team-img" style="width: 100%; height: 100%;">
-                                <img class="img-responsive javier" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Javier.jpg" alt="">
+                                <img class="img-responsive javier" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/javier.png" alt="">
                                 <div class="overlay">
                                     <div class="team-social">
                                         <a href="#"><i class="fa fa-facebook"></i></a>
@@ -680,7 +680,7 @@
                         <div class="col-sm-6">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/alejandro.jpeg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/alejandro.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -699,7 +699,7 @@
                         <div class="col-sm-6" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Mauricio Acevedo.jpg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/mauricio2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -722,7 +722,7 @@
                         <div class="col-sm-4">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/luis.jpg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/luis.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -741,7 +741,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/david.jpg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/david.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -760,7 +760,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/wilmar.jpeg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/wilmar.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -783,7 +783,7 @@
                         <div class="col-sm-4">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Marlon.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/marlon2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -802,7 +802,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Nicolas.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/nicolas.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -821,7 +821,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/WhatsApp Image 2018-06-07 at 12.09.30 PM.jpeg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/rafael.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -847,7 +847,7 @@
                         <div class="col-sm-12">
                             <div class="team" style="width: 50%;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ismael.jpg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ismael.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -869,7 +869,7 @@
                         <div class="col-sm-4">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/leidy.jpg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/leidy.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -888,7 +888,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/oriana.jpeg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/oriana.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -907,7 +907,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/pietro.jpeg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/pietro.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -929,7 +929,7 @@
                         <div class="col-sm-6">
                             <div class="team" style="width: 50%;" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/WhatsApp Image 2018-06-07 at 12.09.19 PM.jpeg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ximena.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -948,7 +948,7 @@
                         <div class="col-sm-6" style="margin-top: 1em;">
                             <div class="team" style="width: 50%;" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ibett.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ibett2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -974,7 +974,7 @@
                         <div class="col-sm-4">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/JohanLider.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/johan.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -993,7 +993,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/WhatsApp Image 2018-06-06 at 4.30.42 PM.jpeg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/carolina.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -1012,7 +1012,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ender.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ender2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -1039,7 +1039,7 @@
                         <div class="col-sm-4">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/susana.jpeg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/susana.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -1058,7 +1058,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Wilinton.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/willington.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -1077,7 +1077,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Monica.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/monica2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>

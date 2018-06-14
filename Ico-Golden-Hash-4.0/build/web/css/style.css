@@ -193,7 +193,6 @@ ul, ol {
 .section-header .title_time{
     text-transform: capitalize;
     letter-spacing: 8px;
-    color: #ffffff;
 }
 
 .title:after {
