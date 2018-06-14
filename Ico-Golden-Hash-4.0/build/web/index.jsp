@@ -649,7 +649,7 @@
                     <!-- /team -->                   
 
                     <!-- Javier -->
-                    <div class="col-sm-6">
+                    <div class="col-sm-6" style="margin-top: 1em;">
                         <div class="team" >
                             <div class="team-img" style="width: 100%; height: 100%;">
                                 <img class="img-responsive javier" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/javier.png" alt="">
@@ -696,7 +696,7 @@
                             </div>
                         </div>
                         <!-- Lider Mauricio -->
-                        <div class="col-sm-6">
+                        <div class="col-sm-6" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/mauricio2.png" alt="">
@@ -738,7 +738,7 @@
                             </div>
                         </div>
                         <!-- David Casadiegos -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/david.png" alt="">
@@ -757,7 +757,7 @@
                             </div>
                         </div>
                         <!-- Wilmar Alvarado -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/wilmar.png" alt="">
@@ -799,7 +799,7 @@
                             </div>
                         </div>
                         <!-- Ruben Caballero -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/nicolas.png" alt="">
@@ -818,7 +818,7 @@
                             </div>
                         </div>
                         <!-- Rafael Carvallo -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/rafael.png" alt="">
@@ -885,7 +885,7 @@
                             </div>
                         </div>
                         <!-- Oriana Pinillos -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/oriana.png" alt="">
