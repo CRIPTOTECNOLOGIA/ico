@@ -66,7 +66,7 @@
                         <!-- Logo -->
                         <div class="navbar-brand">
                             <a href="index.html">
-                                <img class="logo" src="img/img-logo/GH_04.png" alt="logo">
+                                <img class="logo" src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo">
                                 <img class="logo-alt" src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo">
                             </a>
                         </div>
@@ -98,12 +98,6 @@
                         </li>                        
                         <li><a href="#timeline">Linea de Tiempo</a></li>
                         <li><a href="#team">Equipo</a></li>
-                        <li class="has-dropdown"><a href="#">Libro Blanco</a>
-                            <ul class="dropdown">
-                                <li><a href="blog-single.html">Español</a></li>
-                                <li><a href="blog-single.html">Ingles</a></li>
-                            </ul>
-                        </li>
                         <li><a href="#contact">Contacto</a></li>
                     </ul>
                     <!-- /Main navigation -->
@@ -181,7 +175,6 @@
             <!-- /Container -->
         </div>
         <!-- /About -->
-
 
         <!-- Caracteristicas -->
         <div id="portafolio" class="section md-padding bg-grey">
@@ -299,7 +292,6 @@
 
         </div>
         <!-- /Service -->
-
 
         <!-- Que es golden Space -->
         <div id="features" class="section md-padding bg-grey">
@@ -499,7 +491,7 @@
                     </div>
                     <ul class="timeline">
                         <li class="timeline-inverted">
-                            <div class="timeline-badge primary"><!--<img src="library/open-iconic-master/svg/action-redo.svg">--></div>
+                            <div class="timeline-badge primary"><i class="fa fa-check-square-o"></i><!--<img src="library/open-iconic-master/svg/action-redo.svg">--></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4 class="timeline-title">Marzo, 2017</h4>
@@ -510,7 +502,7 @@
                             </div>
                         </li>
                         <li class="timeline">
-                            <div class="timeline-badge primary"></div>
+                            <div class="timeline-badge primary"><i class="fa fa-check-square-o"></i></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4 class="timeline-title">Junio, 2017</h4>
@@ -521,7 +513,7 @@
                             </div>
                         </li>
                         <li class="timeline-inverted">
-                            <div class="timeline-badge primary"></div>
+                            <div class="timeline-badge primary"><i class="fa fa-check-square-o"></i></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4 class="timeline-title">Agosto, 2017</h4>
@@ -532,7 +524,7 @@
                             </div>
                         </li>
                         <li class="timeline">
-                            <div class="timeline-badge primary"></div>
+                            <div class="timeline-badge primary"><i class="fa fa-check-square-o"></i></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4 class="timeline-title">Enero, 2018</h4>
@@ -543,7 +535,7 @@
                             </div>
                         </li>
                         <li class="timeline-inverted">
-                            <div class="timeline-badge primary"></div>
+                            <div class="timeline-badge primary"><i class="fa fa-check-square-o"></i></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4 class="timeline-title">Mayo, 2018</h4>
@@ -554,7 +546,7 @@
                             </div>
                         </li>
                         <li class="timeline">
-                            <div class="timeline-badge primary"></div>
+                            <div class="timeline-badge primary"><i class="fa fa-clock-o"></i></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4 class="timeline-title">Septiembre, 2018</h4>
@@ -565,7 +557,7 @@
                             </div>
                         </li>
                         <li class="timeline-inverted">
-                            <div class="timeline-badge primary"></div>
+                            <div class="timeline-badge primary"><i class="fa fa-clock-o"></i></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4 class="timeline-title">Octubre, 2018</h4>
@@ -576,7 +568,7 @@
                             </div>
                         </li>
                         <li class="timeline">
-                            <div class="timeline-badge primary"></div>
+                            <div class="timeline-badge primary"><i class="fa fa-clock-o"></i></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4 class="timeline-title">Noviembre, 2018</h4>
@@ -651,7 +643,7 @@
                         </div>
                         <!-- /team -->
                     </div>
-
+                </div            
                     <!-- Lideres de desarrollo -->
                     <div class="row" style="margin-top: 2em;">
                         <!-- Section header -->
@@ -1079,8 +1071,7 @@
                 </div>
                 <!-- /Container -->
             </div>
-            <!-- /team -->
-        </div>
+        <!-- /team -->       
         
         <!-- Blog -->
         <div id="blog" class="section md-padding bg-grey">
@@ -1090,70 +1081,54 @@
                 <div class="row">
                     <!-- Section header -->
                     <div class="section-header text-center">
-                        <h2 class="title">Recents news</h2>
+                        <h2 class="title">Noticias</h2>
                     </div>
                     <!-- /Section header -->
 
                     <!-- blog -->
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="blog">
-                            <div class="blog-img">
-                                <img class="img-responsive" src="./img/blog1.jpg" alt="">
+                            <div class="blog-img">                                
+                                <a href="https://www.actualcoin.net/leermas?idNoticia=247" target="_blank">
+                                    <img src="img/actualcoinlogo.png" class="img-responsive">
+                                </a>
                             </div>
-                            <div class="blog-content">
-                                <ul class="blog-meta">
-                                    <li><i class="fa fa-user"></i>John doe</li>
-                                    <li><i class="fa fa-clock-o"></i>18 Oct</li>
-                                    <li><i class="fa fa-comments"></i>57</li>
-                                </ul>
-                                <h3>Molestie at elementum eu facilisis sed odio</h3>
-                                <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
-                                <a href="blog-single.html">Read more</a>
+                            <div class="blog-content">                                
+                                <h3>Cripto Moneda Golden Hash (XGH) promete ser referencia en Amérixa Latina</h3>
+                                <p style="text-align: justify;">
+                                    América Latina es un área geográfica que últimamente ha tenido un alto interés
+                                    por las criptomonedas y la tecnología descentralizada. A raíz de esto, un gran
+                                    número de activos se ha vinculado al mercado. Tal es el caso de Golden Hash (XGH),
+                                    una criptomoneda basada en el protocolo de Ethereum, que dará sus inicios, a mediados
+                                    del presente mes.
+                                </p>
+                                <a href="https://www.actualcoin.net/leermas?idNoticia=247">Read more</a>
                             </div>
                         </div>
                     </div>
                     <!-- /blog -->
 
                     <!-- blog -->
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="blog">
                             <div class="blog-img">
-                                <img class="img-responsive" src="./img/blog2.jpg" alt="">
+                                <a href="PDF/Borbon.pdf" target="_blank">
+                                    <img src="img/borbon-azul.png" class="img-responsive">
+                                </a>
                             </div>
                             <div class="blog-content">
-                                <ul class="blog-meta">
-                                    <li><i class="fa fa-user"></i>John doe</li>
-                                    <li><i class="fa fa-clock-o"></i>18 Oct</li>
-                                    <li><i class="fa fa-comments"></i>57</li>
-                                </ul>
-                                <h3>Molestie at elementum eu facilisis sed odio</h3>
-                                <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
-                                <a href="blog-single.html">Read more</a>
+                                <h3> Critptomoneda desarrollada bajo el protocolo de Ethereum, que selanzará almercadopronto.</h3>
+                                <p style="text-align: justify;">
+                                    Lo particular de esta divisa esqueproporciona a susinversionistas, colaboradores y usuarios,elaccesoaespacios de
+                                    almacenamientodedatos enla plataforma GoldenSpace, mediante una clave privada, además de la participación en distintos programas
+                                    de recompensa. 
+                                </p>
+                                <a href="PDF/Borbon.pdf">Read more</a>
                             </div>
                         </div>
                     </div>
                     <!-- /blog -->
-
-                    <!-- blog -->
-                    <div class="col-md-4">
-                        <div class="blog">
-                            <div class="blog-img">
-                                <img class="img-responsive"  src="./img/blog3.jpg" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <ul class="blog-meta">
-                                    <li><i class="fa fa-user"></i>John doe</li>
-                                    <li><i class="fa fa-clock-o"></i>18 Oct</li>
-                                    <li><i class="fa fa-comments"></i>57</li>
-                                </ul>
-                                <h3>Molestie at elementum eu facilisis sed odio</h3>
-                                <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
-                                <a href="blog-single.html">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /blog -->
-
+                    
                 </div>
                 <!-- /Row -->
 
@@ -1165,56 +1140,33 @@
 
         <!-- Contact -->
         <div id="contact" class="section md-padding">
-
             <!-- Container -->
             <div class="container">
-
                 <!-- Row -->
                 <div class="row">
-
                     <!-- Section-header -->
                     <div class="section-header text-center">
-                        <h2 class="title">Get in touch</h2>
+                        <h2 class="title">Contactenos</h2>
                     </div>
-                    <!-- /Section-header -->
+                    <!-- /Section-header -->                   
 
                     <!-- contact -->
-                    <div class="col-sm-4">
-                        <div class="contact">
-                            <i class="fa fa-phone"></i>
-                            <h3>Phone</h3>
-                            <p>512-421-3940</p>
-                        </div>
-                    </div>
-                    <!-- /contact -->
-
-                    <!-- contact -->
-                    <div class="col-sm-4">
+                    <div class="col-sm-12">
                         <div class="contact">
                             <i class="fa fa-envelope"></i>
                             <h3>Email</h3>
-                            <p>email@support.com</p>
+                            <p>info@goldenhash.org</p>
                         </div>
                     </div>
-                    <!-- /contact -->
-
-                    <!-- contact -->
-                    <div class="col-sm-4">
-                        <div class="contact">
-                            <i class="fa fa-map-marker"></i>
-                            <h3>Address</h3>
-                            <p>1739 Bubby Drive</p>
-                        </div>
-                    </div>
-                    <!-- /contact -->
+                    <!-- /contact -->                    
 
                     <!-- contact form -->
                     <div class="col-md-8 col-md-offset-2">
                         <form class="contact-form">
-                            <input type="text" class="input" placeholder="Name">
+                            <input type="text" class="input" placeholder="Nombre">
                             <input type="email" class="input" placeholder="Email">
-                            <input type="text" class="input" placeholder="Subject">
-                            <textarea class="input" placeholder="Message"></textarea>
+                            <input type="text" class="input" placeholder="Asunto">
+                            <textarea class="input" placeholder="Mensaje"></textarea>
                             <button class="main-btn">Send message</button>
                         </form>
                     </div>
@@ -1229,38 +1181,31 @@
         </div>
         <!-- /Contact -->
 
-
         <!-- Footer -->
         <footer id="footer" class="sm-padding bg-dark">
-
             <!-- Container -->
             <div class="container">
-
                 <!-- Row -->
                 <div class="row">
-
-                    <div class="col-md-12">
-
+                    <div class="col-md-4">
                         <!-- footer logo -->
                         <div class="footer-logo">
-                            <a href="index.html"><img src="img/logo-alt.png" alt="logo"></a>
+                            <a href="index.html"><img src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo"></a>
                         </div>
-                        <!-- /footer logo -->
-
+                         <!-- /footer logo -->
+                    </div>
+                    <div class="col-md-4">
                         <!-- footer follow -->
                         <ul class="footer-follow">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                            <li><a class="facebook" href="https://www.facebook.com/GoldenHash-2104300649854518/?ref=bookmarks"><i class="fa fa-facebook">  Facebook</i></a></li>
+                            <li><a class="twitter" href="https://twitter.com/?logged_out=1&lang=es"><i class="fa fa-twitter">  Twitter</i></a></li>                            
                         </ul>
                         <!-- /footer follow -->
-
+                    </div>
+                    <div class="col-md-4">
                         <!-- footer copyright -->
                         <div class="footer-copyright">
-                            <p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                            <p>Copyright © 2017. Derechos Reservados</p>
                         </div>
                         <!-- /footer copyright -->
 
