@@ -785,7 +785,7 @@
                         <div class="col-sm-4">
                             <div class="team" style="width: 80%; margin: 0 auto;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Nicolas.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/nicolas.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -804,7 +804,7 @@
                         <div class="col-sm-4">
                             <div class="team" style="width: 80%; margin: 0 auto;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/WhatsApp Image 2018-06-07 at 12.09.30 PM.jpeg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/rafael.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -830,7 +830,7 @@
                         <div class="col-sm-12">
                             <div class="team" style="width: 30%; margin: 0 auto;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ismael.jpg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ismael.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -852,7 +852,7 @@
                         <div class="col-sm-4">
                             <div class="team" style="width: 80%; margin: 0 auto;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/leidy.jpg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/leidy.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -871,7 +871,7 @@
                         <div class="col-sm-4">
                             <div class="team" style="width: 80%; margin: 0 auto;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/oriana.jpeg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/oriana.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -890,7 +890,7 @@
                         <div class="col-sm-4">
                             <div class="team" style="width: 80%; margin: 0 auto;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/pietro.jpeg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/pietro.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -912,7 +912,7 @@
                         <div class="col-sm-6">
                             <div class="team" style="width: 50%; margin: 0 auto;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/WhatsApp Image 2018-06-07 at 12.09.19 PM.jpeg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ximena.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -931,7 +931,7 @@
                         <div class="col-sm-6">
                             <div class="team" style="width: 50%; margin: 0 auto;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ibett.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ibett2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -957,7 +957,7 @@
                         <div class="col-sm-4">
                             <div class="team" style="width: 80%; margin: 0 auto;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/JohanLider.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/johan.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -976,7 +976,7 @@
                         <div class="col-sm-4">
                             <div class="team" style="width: 80%; margin: 0 auto;">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/WhatsApp Image 2018-06-06 at 4.30.42 PM.jpeg" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/carolina.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
