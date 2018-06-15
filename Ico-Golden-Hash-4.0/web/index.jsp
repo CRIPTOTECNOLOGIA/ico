@@ -717,9 +717,12 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/mauricio2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p>
+                                                Consultor Tecnologías de Información con 10 años de experiencia en administración de proyectos,
+                                                Magister Gestión de Proyectos Informáticos, Especialista Diagnóstico y Análisis Organizacional,
+                                                Administrador de Empresas y Finanzas, Tecnólogo en Administración de Informática, Programador
+                                                Certificado Microsoft Nivel Avanzado Experto.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -740,9 +743,10 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/luis.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Experto en Blockchain, Diseñador Web y desarrollador de aplicaciones, Tecnólogo en análisis
+                                                y desarrollo de sistemas informáticos.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -759,9 +763,10 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/david.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Experto en Blockchain, Diseñador Web y desarrollador de aplicaciones, Tecnólogo en análisis
+                                                y desarrollo de sistemas informáticos.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -778,9 +783,10 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/wilmar.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Experto en Blockchain, Diseñador Web y desarrollador de aplicaciones, Tecnólogo en análisis
+                                                y desarrollo de sistemas informáticos.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -801,9 +807,10 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/marlon2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Especialista en lenguajes de programación como PHP, java, C++, javascript, prolog,
+                                                lenguaje de marcado HTML y XML.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -820,9 +827,11 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Nicolas.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Con 9 años de experiencia en arquitectura de software de la universidad del cauca,
+                                                especialista en Arquitectura de Software, trabaja con metodologías ágiles (Scrum y XP)
+                                                y otras como RUP.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -839,9 +848,10 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/rafael.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Analista de bases de datos relacionales y manejo de Información, Consultor en áreas de
+                                                desarrollo y redes, Implementador de software.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -865,9 +875,11 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ismael.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="text_ismael">
+                                                Ingeniero Industrial de la Universidad del Táchira, Magister en Gerencia de Empresas
+                                                Mención Mercadeo, Experto en ventas con 12 años de experiencia en marketing digital
+                                                y campañas publicitarias en lanzamientos de productos e incursión en nuevos mercados.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -887,9 +899,11 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/leidy.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                xperta en Marketing Digital, Community Manager, especialista en manejo de redes sociales,
+                                                investigación de mercadeo, Administradora de Empresas de la Universidad Francisco de Paula
+                                                Santander UFPS).
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -906,9 +920,11 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/oriana.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Comunicadora Social y Periodista con Énfasis en Comunicación Organizacional de la Universidad
+                                                Autónoma del Caribe - Barranquilla. Formación Complementaria en Administración de las Quejas
+                                                y Reclamos de Icontec Internacional. 
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -925,9 +941,10 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/pietro.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                ngeniero Petroquímico de la Universidad Rafael Urdaneta de Maracaibo, Experto en Idiomas
+                                                del Centro Venezolano Americano del Zulia.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -942,14 +959,15 @@
                     <div class="row" style="margin-top: 2em;">
                         <!-- Ximena Jaimes -->
                         <div class="col-sm-6">
-                            <div class="team" >
+                            <div class="team ximena" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ximena.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Especialización en Gerencia Social de la Universidad Simón Bolívar, Experiencia de 9 años
+                                                en comunicación organizacional, relaciones públicas y periodismo corporativo.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -961,14 +979,16 @@
                         </div>
                         <!-- Ibett Luque -->
                         <div class="col-sm-6" style="margin-top: 1em;">
-                            <div class="team">
+                            <div class="team ibett">
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ibett2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Licenciada en Psicología de la Universidad Nacional de Yacambu, practitioner en
+                                                programación neurolingüística, Diplomado en Psicologia Organizacional, Especialista en
+                                                Comunicación Corporativa.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -992,9 +1012,11 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/johan.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Abogado de la Universidad Libre Seccional Cúcuta, Especialista en Derecho Administrativo
+                                                de la Universidad Externado de Colombia y Especialista en Ciencias Penales y Criminológicas.
+                                                
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -1011,9 +1033,11 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/carolina.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Asistente Judicial en seguimiento y orientación a los procesos judiciales de las
+                                                jurisdicciones ordinarias y administrativas, Apoyo Jurídico a la gestión contractual
+                                                en asociaciones y entidades público.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
