@@ -128,7 +128,7 @@
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <!-- Section header -->
                             <div class="section-header text-center" >
-                                <h2 class="title" style=" color: #FFFFFF" >50% De Bonus termina es:</h2>
+                                <h2 class="title" style=" color: #FFFFFF" >50% De Bonus termina en:</h2>
                             </div>
                             <!-- /Section header -->
                             <div class="agileits-timer"> 
@@ -637,7 +637,7 @@
                     </div>
                     <!-- /Section header -->
                     <!-- Arturo -->
-                    <div class="col-sm-6" >
+                    <div class="col-sm-6" style="margin-top: 1em;">
                         <div class="team arturo" >
                             <div class="team-img"style="width: 100%; height: 100%;">
                                 <img class="img-responsive " style="border-radius: 100%;" src="./img/FOTOS EQUIPO/arturo.png" alt="">
@@ -689,17 +689,15 @@
                         </div>
                         <!-- /Section header -->
                         <!-- Lider ALejandro -->
-                        <div class="col-sm-6">
+                        <div class="col-sm-6" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/alejandro.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p>
-                                                Experto en Blockchain, Gestor empresarial y director de talento humano del Servicio
-                                                Nacional de Aprendizaje (SENA), productor de multimedia, desarrollador de plataformas
-                                                mmorpg y diplomado en liderazgo organizacional corporativo de la universidad Fesc
-                                                (Fundación de estudios superiores comfanorte)
+                                                Experto en Blockchain, Gestor empresarial y director de talento humano, productor de multimedia, desarrollador de plataformas
+                                                morpg y diplomado en liderazgo organizacional corporativo d
                                             </p>
                                         </div>
                                     </div>
@@ -718,10 +716,8 @@
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p>
-                                                Consultor Tecnologías de Información con 10 años de experiencia en administración de proyectos,
-                                                Magister Gestión de Proyectos Informáticos, Especialista Diagnóstico y Análisis Organizacional,
-                                                Administrador de Empresas y Finanzas, Tecnólogo en Administración de Informática, Programador
-                                                Certificado Microsoft Nivel Avanzado Experto.
+                                                Consultor Tecnologías de Información, Magister Gestión de Proyectos Informáticos, Especialista Diagnóstico y Análisis Organizacional,
+                                                Programador Certificado Microsoft Nivel Avanzado Experto.
                                             </p>
                                         </div>
                                     </div>
@@ -737,7 +733,7 @@
                     <!-- Equipo de desarrollo 1 -->
                     <div class="row" style="margin-top: 2em;">
                         <!-- Luis Gelvis -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/luis.png" alt="">
@@ -801,7 +797,7 @@
                     <!-- Equipo de desarrollo 2 -->
                     <div class="row" style="margin-top: 2em;">
                         <!-- MArlon Ramirez -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/marlon2.png" alt="">
@@ -829,8 +825,7 @@
                                         <div class="team-social">
                                             <p class="p">
                                                 Con 9 años de experiencia en arquitectura de software de la universidad del cauca,
-                                                especialista en Arquitectura de Software, trabaja con metodologías ágiles (Scrum y XP)
-                                                y otras como RUP.
+                                                especialista en Arquitectura de Software.
                                             </p>
                                         </div>
                                     </div>
@@ -876,9 +871,8 @@
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="text_ismael">
-                                                Ingeniero Industrial de la Universidad del Táchira, Magister en Gerencia de Empresas
-                                                Mención Mercadeo, Experto en ventas con 12 años de experiencia en marketing digital
-                                                y campañas publicitarias en lanzamientos de productos e incursión en nuevos mercados.
+                                                Ingeniero Industrial, Magister en Gerencia de Empresas Mención Mercadeo, Experto en ventas con 12 años de experiencia en marketing digital
+                                                y campañas publicitarias en nuevos mercados.
                                             </p>
                                         </div>
                                     </div>
@@ -893,16 +887,15 @@
                     <!-- Equipo de mercadeo -->
                     <div class="row" style="margin-top: 2em;">                    
                         <!-- Leidy Gomes -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/leidy.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
-                                                xperta en Marketing Digital, Community Manager, especialista en manejo de redes sociales,
-                                                investigación de mercadeo, Administradora de Empresas de la Universidad Francisco de Paula
-                                                Santander UFPS).
+                                                Experta en Marketing Digital, Community Manager, especialista en manejo de redes sociales,
+                                                investigación de mercadeo.
                                             </p>
                                         </div>
                                     </div>
@@ -921,9 +914,8 @@
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
-                                                Comunicadora Social y Periodista con Énfasis en Comunicación Organizacional de la Universidad
-                                                Autónoma del Caribe - Barranquilla. Formación Complementaria en Administración de las Quejas
-                                                y Reclamos de Icontec Internacional. 
+                                                Comunicadora Social y Periodista con Énfasis en Comunicación Organizacional, formación Complementaria
+                                                en Administración de PQR de Icontec Internacional. 
                                             </p>
                                         </div>
                                     </div>
@@ -958,7 +950,7 @@
                     <!-- Equipo de Marketing 2 -->
                     <div class="row" style="margin-top: 2em;">
                         <!-- Ximena Jaimes -->
-                        <div class="col-sm-6">
+                        <div class="col-sm-6" style="margin-top: 1em;">
                             <div class="team ximena" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ximena.png" alt="">
@@ -985,9 +977,8 @@
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
-                                                Licenciada en Psicología de la Universidad Nacional de Yacambu, practitioner en
-                                                programación neurolingüística, Diplomado en Psicologia Organizacional, Especialista en
-                                                Comunicación Corporativa.
+                                                Licenciada en Psicología, practitioner en programación neurolingüística, Diplomado en Psicologia Organizacional,
+                                                Especialista en Comunicación Corporativa.
                                             </p>
                                         </div>
                                     </div>
@@ -1006,15 +997,14 @@
                             <h2 class="title">Departamento Legal</h2>
                         </div>
                         <!-- Eduardo Ordoñez -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/johan.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
-                                                Abogado de la Universidad Libre Seccional Cúcuta, Especialista en Derecho Administrativo
-                                                de la Universidad Externado de Colombia y Especialista en Ciencias Penales y Criminológicas.
+                                                Abogado, Especialista en Derecho Administrativo y Especialista en Ciencias Penales y Criminológicas.
                                                 
                                             </p>
                                         </div>
@@ -1034,9 +1024,8 @@
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
-                                                Asistente Judicial en seguimiento y orientación a los procesos judiciales de las
-                                                jurisdicciones ordinarias y administrativas, Apoyo Jurídico a la gestión contractual
-                                                en asociaciones y entidades público.
+                                                Asistente Judicial en seguimiento y orientación de las jurisdicciones ordinarias y
+                                                administrativas, Apoyo Jurídico a la gestión contractual.
                                             </p>
                                         </div>
                                     </div>
@@ -1047,16 +1036,17 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Carolina Peña -->
+                        <!-- Andres Cruz -->
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ender2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Abogado de la Universidad Libre Seccional Cúcuta, Especialista en Asuntos Penales de la
+                                                Universidad Libre, Apoyo Jurídico en procesos litigiosos.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -1075,15 +1065,16 @@
                             <h2 class="title">Administración y Contabilidad</h2>
                         </div>
                         <!-- Susana Lizcano -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/susana.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Tecnóloga en Mercadotecnia y Comercio Internacional de la Fundación, técnica en servicio
+                                                al cliente y ventas.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -1100,9 +1091,10 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/willington.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Contador Público Titulado, Especialista en revisión Fiscal y Auditoria Externa, Outsourcing Contable,
+                                                Asesoría tributaria y legal, Consultor de negocios.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -1119,9 +1111,9 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/monica2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Especialista en Análisis y diseño de unidades productivas, con más de 5 años de experiencia en gerencia de empresas.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>

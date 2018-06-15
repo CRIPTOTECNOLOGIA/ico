@@ -1384,8 +1384,6 @@ header {
     margin-right: 5px;
 }
 
-
-
 /*------------------------------------*\
         Contact
 \*------------------------------------*/
@@ -1522,6 +1520,19 @@ header {
     .main-nav li{
         padding: 0px 12px;
     }
+    .team .team-social{
+        padding-top: -51em;
+    }
+    .team .team-social p{
+        width: 280px;
+    }
+    .team .team-social .p{
+        width: 180px;
+        padding-top: 0em;
+    }
+    .team .team-social .text_ismael{
+        width: 250px;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -1572,6 +1583,11 @@ header {
     .btn-libro_blanco{
         padding: 0.3em 2em;
         margin: 0px auto;
+    }
+    .team .team-social p,
+    .team .team-social .p,
+    .team .team-social .text_ismael{
+        display: none;
     }
 }
 
@@ -1637,9 +1653,47 @@ header {
     .btn-libro_blanco{
         margin-top: 0.5em;
     }
+    .team .team-social p,
+    .team .team-social .p,
+    .team .team-social .text_ismael{
+        width: 300px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 667px){
+    .team .team-social p,
+    .team .team-social .p,
+    .team .team-social .text_ismael{
+        width: 280px;        
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .team .team-social p,
+    .team .team-social .p,
+    .team .team-social .text_ismael{
+        width: 260px;
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .team .team-social p,
+    .team .team-social .p,
+    .team .team-social .text_ismael{
+        width: 240px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
+    #team .team{
+        width: 70%;
+    }
+    .team .team-social p,
+    .team .team-social .p,
+    .team .team-social .text_ismael{
+        width: 265px;
+    }
     #portfolio [class*='col-xs'] {
         width:100%;
     }
@@ -1661,9 +1715,6 @@ header {
     .reply-form form .input:nth-child(2) {
         margin-left: 0px;
     }
-
-
-
     .blog-author .media .media-left {
         display: block;
         padding-right: 0;
@@ -1698,6 +1749,14 @@ header {
 }
 
 @media only screen and (max-width: 414px){
+    #team .team{
+        width: 100%;
+    }
+    .team .team-social p,
+    .team .team-social .p,
+    .team .team-social .text_ismael{
+        width: 245px;
+    }
     .home-content h1 {
         text-transform: uppercase;
         font-weight: 700;
@@ -1715,7 +1774,28 @@ header {
     }    
 }
 
+@media only screen and (max-width: 384px){
+    .team .team-social p,
+    .team .team-social .p,
+    .team .team-social .text_ismael{
+        width: 225px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .team .team-social p,
+    .team .team-social .p,
+    .team .team-social .text_ismael{
+        width: 210px;
+    }
+}
+
 @media only screen and (max-width: 320px){
+    .team .team-social p,
+    .team .team-social .p,
+    .team .team-social .text_ismael{
+        width: 180px;
+    }
     #home .home-wrapper{
         top: 52%;
     }
