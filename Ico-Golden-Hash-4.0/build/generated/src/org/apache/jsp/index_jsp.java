@@ -52,7 +52,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n");
       out.write("        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n");
       out.write("        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->\r\n");
-      out.write("\r\n");
+      out.write("        <meta name=\"format-detection\" content=\"telephone=no\">\r\n");
       out.write("        <title>Golden Hash</title>\r\n");
       out.write("\r\n");
       out.write("        <!-- Google font -->\r\n");
@@ -132,7 +132,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                                <li><a href=\"#features\">¿Que Es?</a></li>\r\n");
       out.write("                            </ul>\r\n");
       out.write("                        </li>\r\n");
-      out.write("                        <li class=\"has-dropdown\"><a href=\"#\">Tokens</a>\r\n");
+      out.write("                        <li class=\"has-dropdown\"><a href=\"#pricing\">Tokens</a>\r\n");
       out.write("                            <ul class=\"dropdown\">\r\n");
       out.write("                                <li><a href=\"#pricing\">Uso</a></li>\r\n");
       out.write("                                <li><a href=\"#distribucion_tokens\">Distribucion</a></li>\r\n");
@@ -194,7 +194,17 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                                    <div class=\"clear\"> </div>\r\n");
       out.write("                                </div>\t \r\n");
       out.write("                            </div>\r\n");
-      out.write("                        </div>                        \r\n");
+      out.write("                        </div>   \r\n");
+      out.write("                        <div class=\"col-sm-12 col-md-6 col-lg-6 btn_libro_compra\">\r\n");
+      out.write("                            <div class=\"row\">\r\n");
+      out.write("                                <div class=\"col-sm-12 col-md-6\">\r\n");
+      out.write("                                    <button class=\"btn btn-libro_blanco\">Libro Blanco</button>\r\n");
+      out.write("                                </div>\r\n");
+      out.write("                                <div class=\"col-sm-12 col-md-6\">\r\n");
+      out.write("                                    <button class=\"btn btn-comprar\">Comprar</button>\r\n");
+      out.write("                                </div>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                        </div>\r\n");
       out.write("                    </div>\r\n");
       out.write("                </div>\r\n");
       out.write("            </div>\r\n");
@@ -841,7 +851,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                        <div class=\"col-sm-4\" style=\"margin-top: 1em;\">\r\n");
       out.write("                            <div class=\"team\" >\r\n");
       out.write("                                <div class=\"team-img\">\r\n");
-      out.write("                                    <img class=\"img-responsive\" style=\"border-radius: 100%;\" src=\"./img/FOTOS EQUIPO/nicolas.png\" alt=\"\">\r\n");
+      out.write("                                    <img class=\"img-responsive\" style=\"border-radius: 100%;\" src=\"./img/FOTOS EQUIPO/Nicolas.png\" alt=\"\">\r\n");
       out.write("                                    <div class=\"overlay\">\r\n");
       out.write("                                        <div class=\"team-social\">\r\n");
       out.write("                                            <a href=\"#\"><i class=\"fa fa-facebook\"></i></a>\r\n");
@@ -884,7 +894,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                        </div>\r\n");
       out.write("                        <!-- Lide de mercadeo -->\r\n");
       out.write("                        <div class=\"col-sm-12\">\r\n");
-      out.write("                            <div class=\"team\" style=\"width: 30%;\">\r\n");
+      out.write("                            <div class=\"team ismael\" >\r\n");
       out.write("                                <div class=\"team-img\">\r\n");
       out.write("                                    <img class=\"img-responsive\" style=\"border-radius: 100%;\" src=\"./img/FOTOS EQUIPO/ismael.png\" alt=\"\">\r\n");
       out.write("                                    <div class=\"overlay\">\r\n");
@@ -943,7 +953,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                            </div>\r\n");
       out.write("                        </div>\r\n");
       out.write("                        <!-- Pietro Rivellaro -->\r\n");
-      out.write("                        <div class=\"col-sm-4\">\r\n");
+      out.write("                        <div class=\"col-sm-4\" style=\"margin-top: 1em;\">\r\n");
       out.write("                            <div class=\"team\" >\r\n");
       out.write("                                <div class=\"team-img\">\r\n");
       out.write("                                    <img class=\"img-responsive\" style=\"border-radius: 100%;\" src=\"./img/FOTOS EQUIPO/pietro.png\" alt=\"\">\r\n");
@@ -966,7 +976,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                    <div class=\"row\" style=\"margin-top: 2em;\">\r\n");
       out.write("                        <!-- Ximena Jaimes -->\r\n");
       out.write("                        <div class=\"col-sm-6\">\r\n");
-      out.write("                            <div class=\"team\" style=\"width: 50%;\" >\r\n");
+      out.write("                            <div class=\"team\" >\r\n");
       out.write("                                <div class=\"team-img\">\r\n");
       out.write("                                    <img class=\"img-responsive\" style=\"border-radius: 100%;\" src=\"./img/FOTOS EQUIPO/ximena.png\" alt=\"\">\r\n");
       out.write("                                    <div class=\"overlay\">\r\n");
@@ -984,8 +994,8 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                            </div>\r\n");
       out.write("                        </div>\r\n");
       out.write("                        <!-- Ibett Luque -->\r\n");
-      out.write("                        <div class=\"col-sm-6\">\r\n");
-      out.write("                            <div class=\"team\" style=\"width: 50%;\" >\r\n");
+      out.write("                        <div class=\"col-sm-6\" style=\"margin-top: 1em;\">\r\n");
+      out.write("                            <div class=\"team\">\r\n");
       out.write("                                <div class=\"team-img\">\r\n");
       out.write("                                    <img class=\"img-responsive\" style=\"border-radius: 100%;\" src=\"./img/FOTOS EQUIPO/Ibett2.png\" alt=\"\">\r\n");
       out.write("                                    <div class=\"overlay\">\r\n");
@@ -1029,7 +1039,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                            </div>\r\n");
       out.write("                        </div>\r\n");
       out.write("                        <!-- Carolina Peña -->\r\n");
-      out.write("                        <div class=\"col-sm-4\">\r\n");
+      out.write("                        <div class=\"col-sm-4\" style=\"margin-top: 1em;\">\r\n");
       out.write("                            <div class=\"team\" >\r\n");
       out.write("                                <div class=\"team-img\">\r\n");
       out.write("                                    <img class=\"img-responsive\" style=\"border-radius: 100%;\" src=\"./img/FOTOS EQUIPO/carolina.png\" alt=\"\">\r\n");
@@ -1048,7 +1058,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                            </div>\r\n");
       out.write("                        </div>\r\n");
       out.write("                        <!-- Carolina Peña -->\r\n");
-      out.write("                        <div class=\"col-sm-4\">\r\n");
+      out.write("                        <div class=\"col-sm-4\" style=\"margin-top: 1em;\">\r\n");
       out.write("                            <div class=\"team\" >\r\n");
       out.write("                                <div class=\"team-img\">\r\n");
       out.write("                                    <img class=\"img-responsive\" style=\"border-radius: 100%;\" src=\"./img/FOTOS EQUIPO/ender2.png\" alt=\"\">\r\n");
@@ -1094,7 +1104,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                            </div>\r\n");
       out.write("                        </div>\r\n");
       out.write("                        <!-- Willington Serrano -->\r\n");
-      out.write("                        <div class=\"col-sm-4\">\r\n");
+      out.write("                        <div class=\"col-sm-4\" style=\"margin-top: 1em;\">\r\n");
       out.write("                            <div class=\"team\" >\r\n");
       out.write("                                <div class=\"team-img\">\r\n");
       out.write("                                    <img class=\"img-responsive\" style=\"border-radius: 100%;\" src=\"./img/FOTOS EQUIPO/willington.png\" alt=\"\">\r\n");
@@ -1113,7 +1123,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                            </div>\r\n");
       out.write("                        </div>\r\n");
       out.write("                        <!-- Monica Acevedo -->\r\n");
-      out.write("                        <div class=\"col-sm-4\">\r\n");
+      out.write("                        <div class=\"col-sm-4\" style=\"margin-top: 1em;\">\r\n");
       out.write("                            <div class=\"team\" >\r\n");
       out.write("                                <div class=\"team-img\">\r\n");
       out.write("                                    <img class=\"img-responsive\" style=\"border-radius: 100%;\" src=\"./img/FOTOS EQUIPO/monica2.png\" alt=\"\">\r\n");

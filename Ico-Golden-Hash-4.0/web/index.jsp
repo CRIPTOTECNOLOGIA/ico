@@ -158,12 +158,12 @@
                         </div>   
                         <div class="col-sm-12 col-md-6 col-lg-6 btn_libro_compra">
                             <div class="row">
-                                <div class="col-sm-12 col-md-6">
-                                    <button class="btn btn-libro_blanco">Libro Blanco</button>
-                                </div>
-                                <div class="col-sm-12 col-md-6">
+                                <div class="col-sm-6 col-md-6">
                                     <button class="btn btn-comprar">Comprar</button>
                                 </div>
+                                <div class="col-sm-6 col-md-6">
+                                    <button class="btn btn-libro_blanco">Libro Blanco</button>
+                                </div>                                
                             </div>
                         </div>
                     </div>
@@ -643,11 +643,12 @@
                                 <img class="img-responsive " style="border-radius: 100%;" src="./img/FOTOS EQUIPO/arturo.png" alt="">
                                 <div class="overlay">
                                     <div class="team-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-
-                                    </div>
+                                        <p>
+                                            Especialista en Planificación Estratégica, Estrategia de mercadotecnia,
+                                            Gestor de proyectos, Investigación de mercado, Operaciones de venta, Marketing
+                                            digital y análisis financiero.
+                                        </p>
+                                   </div>
                                 </div>
                             </div>
                             <div class="team-content">
@@ -665,9 +666,10 @@
                                 <img class="img-responsive javier" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/javier.png" alt="">
                                 <div class="overlay">
                                     <div class="team-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <p>
+                                            Administrador de Negocios Internacionales, Especialista en Comercio Exterior,
+                                            Marketing Digital - Experiencia de 4 años en criptomoneda.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -693,9 +695,12 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/alejandro.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p>
+                                                Experto en Blockchain, Gestor empresarial y director de talento humano del Servicio
+                                                Nacional de Aprendizaje (SENA), productor de multimedia, desarrollador de plataformas
+                                                mmorpg y diplomado en liderazgo organizacional corporativo de la universidad Fesc
+                                                (Fundación de estudios superiores comfanorte)
+                                            </p>
                                         </div>
                                     </div>
                                 </div>

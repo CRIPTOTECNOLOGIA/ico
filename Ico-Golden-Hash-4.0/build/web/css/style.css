@@ -645,35 +645,64 @@ header {
     margin-top: 12em;
 }
 
-.btn_libro_compra.btn-libro_blanco::before,
-.btn_libro_compra.btn-comprar::before{
-    width: 400%;
+.btn-libro_blanco{
+    padding: 0.7em 3em;
+    background-color: transparent;
+    border: 1px solid #FAFAFA;
+    color: #FFFFFF;
+    font-size: 22px;
+    margin: 0px auto;
 }
 
-.btn_libro_compra.btn-libro_blanco::before{
-    background-image: linear-gradient(45deg, #45668E 40%, transparent 60%);
-    left: -300%;
+.btn-comprar{
+    padding: 0.7em 4em;
+    background-color: transparent;
+    border: 1px solid #FAFAFA;
+    color: #FFFFFF;
+    font-size: 22px;
+    margin: 0px auto;
+    background: linear-gradient(-45deg, #45668e, #007F73, #4ABDAC, #304763);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 4s ease infinite;
+    -moz-animation: Gradient 4s ease infinite;
+    animation: Gradient 4s ease infinite;
 }
 
-.btn_libro_compra.btn-comprar::before{
-    background-image: linear-gradient(45deg, transparent 40%, #45668e 60%);
-    left: 0%;
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
 
-.btn_libro_compra.btn-libro_blanco:hover::before,
-.btn_libro_compra.btn-libro_blanco:active::before {
-    left : 0%;
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
 
-.btn-comprar:hover::before,
-.btn-comprar:active::before {
-    left : -300%;
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
-
-
-
-
-
 
 /*------------------------------------*\
         About
@@ -1015,13 +1044,13 @@ header {
     transition: 0.2s opacity;
 }
 
-.team .team-social a {
-    display: block;
-    line-height: 50px;
-    width: 50px;
-    text-align: center;
-    background-color: #6195FF;
+.team .team-social p {
+    line-height: 30px;
+    width: 350px;
+    text-align: justify;
     color: #FFF;
+    padding-top: 4em;
+    font-size: 18px;
 }
 
 .team:hover .team-social {
@@ -1456,6 +1485,9 @@ header {
         max-height: 140px;
         display: block;
     }    
+    .btn_libro_compra{
+        margin-top: 6em;
+    }
 }
 
 @media screen and (max-width: 1080px){
@@ -1486,6 +1518,9 @@ header {
 }
 
 @media only screen and (max-width: 991px) {
+    .main-nav li {
+        padding: 0px 6px;
+    }
     .navbar-brand .logo-alt{
         max-height: 95px;
         display: block;
@@ -1496,7 +1531,7 @@ header {
         font-size: 42px;
     }
     #home .home-wrapper{
-        top: 65%;
+        top: 55%;
     }
     
     #nav.nav-transparent {
@@ -1511,6 +1546,17 @@ header {
         margin: 0px auto;
     }
     #blog .img_borbon{
+        margin: 0px auto;
+    }
+    .btn_libro_compra{
+        margin-top: 2em;
+    }
+    .btn-comprar{
+        padding: 0.3em 2em;
+        margin: 0px auto
+    }
+    .btn-libro_blanco{
+        padding: 0.3em 2em;
         margin: 0px auto;
     }
 }
@@ -1566,7 +1612,16 @@ header {
         font-size: 58px;
     }
     #home .home-wrapper{
-        top: 55%;
+        top: 50%;
+    }
+    .btn_libro_compra{
+        margin-top: 0em;
+    }
+    .btn-comprar{
+        margin-top: 0.5em;
+    }
+    .btn-libro_blanco{
+        margin-top: 0.5em;
     }
 }
 
@@ -1614,6 +1669,18 @@ header {
     .blog-comments .media .media {
         margin:0px -15px;
     }
+    .home-content h1 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 42px;
+    }
+    #home .home-wrapper{
+        margin-top: 2%;
+    }
+    .navbar-brand .logo{
+        max-height: 90px;
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 414px){
@@ -1627,7 +1694,19 @@ header {
         width: 70%;
     }
     #home .home-wrapper{
-        top: 60%;
+        top: 50%;
+    }
+    #home{
+        height: 130vh;
+    }    
+}
+
+@media only screen and (max-width: 320px){
+    #home .home-wrapper{
+        top: 52%;
+    }
+    #home{
+        height: 150vh;
     }
 }
 
