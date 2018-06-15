@@ -1614,7 +1614,7 @@ header {
     .team .team-social p,
     .team .team-social .p,
     .team .team-social .text_ismael{
-        display: none;
+       display: none;
     }
 }
 
@@ -1700,7 +1700,7 @@ header {
     .team .team-social p,
     .team .team-social .p,
     .team .team-social .text_ismael{
-        width: 260px;
+        width: 255px;
     }
 }
 
@@ -1708,7 +1708,7 @@ header {
     .team .team-social p,
     .team .team-social .p,
     .team .team-social .text_ismael{
-        width: 240px;
+        width: 235px;
     }
 }
 
@@ -1719,7 +1719,7 @@ header {
     .team .team-social p,
     .team .team-social .p,
     .team .team-social .text_ismael{
-        width: 265px;
+        width: 255px;
     }
     #portfolio [class*='col-xs'] {
         width:100%;
@@ -1782,7 +1782,7 @@ header {
     .team .team-social p,
     .team .team-social .p,
     .team .team-social .text_ismael{
-        width: 245px;
+        width: 240px;
     }
     .home-content h1 {
         text-transform: uppercase;
@@ -1805,7 +1805,7 @@ header {
     .team .team-social p,
     .team .team-social .p,
     .team .team-social .text_ismael{
-        width: 225px;
+        width: 220px;
     }
 }
 
@@ -1813,15 +1813,22 @@ header {
     .team .team-social p,
     .team .team-social .p,
     .team .team-social .text_ismael{
-        width: 210px;
+        width: 205px;
     }
 }
 
 @media only screen and (max-width: 320px){
+    .team:hover .team-content h3 {
+        color: #1C1D21;
+    }
+
+    .team:hover .team-content span {
+        color: #1C1D21;
+    }
     .team .team-social p,
     .team .team-social .p,
     .team .team-social .text_ismael{
-        width: 180px;
+        width: 170px;
     }
     #home .home-wrapper{
         top: 52%;

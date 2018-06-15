@@ -92,7 +92,7 @@
                         <li class="has-dropdown">
                             <a href="#service" >Golden Space</a>
                             <ul class="dropdown">
-                                <li><a href="#features">¿Que Es?</a></li>
+                                <li><a href="#features">Como Funciona</a></li>
                             </ul>
                         </li>
                         <li class="has-dropdown"><a href="#pricing">Tokens</a>
@@ -342,7 +342,7 @@
                     <!-- why choose us content -->
                     <div class="col-md-6">
                         <div class="section-header text-center">
-                            <h2 class="title">¿Que es Golden Space?</h2>
+                            <h2 class="title">Como Funciona</h2>
                         </div>
                         <div class="feature">
                             <i class="fa fa-check"></i>
