@@ -52,7 +52,9 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n");
       out.write("        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n");
       out.write("        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->\r\n");
-      out.write("\r\n");
+      out.write("        <meta name=\"format-detection\" content=\"telephone=no\">\r\n");
+      out.write("        <meta property=\"og:url\" content=\"https://www.icogoldenhash.com\"> \r\n");
+      out.write("        \r\n");
       out.write("        <title>Golden Hash</title>\r\n");
       out.write("\r\n");
       out.write("        <!-- Google font -->\r\n");

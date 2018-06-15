@@ -7,6 +7,7 @@ package Servlets;
 
 import Conexiones.mensaje;
 import Correos.Correo_envio;
+import Correos.Correo_envio_html;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -76,11 +77,10 @@ public class registrar_mensaje extends HttpServlet {
         
         mensaje men = new mensaje();
         if(men.registrar_mensaje(nombre, email, tema, mensaje)){
-            String texto = "Tema: "+tema+".\nEl cliente "+nombre+", con correo electrónico "+email+", "
-                    + "ha enviado un mensaje.\n"+mensaje;
             String asunto = "Contáctanos Golden Hash "+nombre;
             try {
-                Correo_envio.enviarConGMail("davidcasadiegos2818@gmail.com",asunto,texto);
+                Correo_envio_html.send_correo(email,nombre,asunto, tema,mensaje);
+                //Correo_envio.enviarConGMail("davidcasadiegos2818@gmail.com",asunto,texto);
             } catch (Exception e) {
                 System.err.println("Error servlet registrar_mensaje.java linea 81");
             }
