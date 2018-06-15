@@ -70,7 +70,7 @@
                     <div class="navbar-header">
                         <!-- Logo -->
                         <div class="navbar-brand">
-                            <a href="index.html">
+                            <a href="index.jsp">
                                 <img class="logo" src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo">
                                 <img class="logo-alt" src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo">
                             </a>
@@ -95,7 +95,7 @@
                                 <li><a href="#features">¿Que Es?</a></li>
                             </ul>
                         </li>
-                        <li class="has-dropdown"><a href="#">Tokens</a>
+                        <li class="has-dropdown"><a href="#pricing">Tokens</a>
                             <ul class="dropdown">
                                 <li><a href="#pricing">Uso</a></li>
                                 <li><a href="#distribucion_tokens">Distribucion</a></li>
@@ -130,7 +130,7 @@
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <!-- Section header -->
                             <div class="section-header text-center" >
-                                <h2 class="title" style=" color: #FFFFFF" >50% De Bonus termina es:</h2>
+                                <h2 class="title" style=" color: #FFFFFF" >50% De Bonus termina en:</h2>
                             </div>
                             <!-- /Section header -->
                             <div class="agileits-timer"> 
@@ -157,7 +157,17 @@
                                     <div class="clear"> </div>
                                 </div>	 
                             </div>
-                        </div>                        
+                        </div>   
+                        <div class="col-sm-12 col-md-6 col-lg-6 btn_libro_compra">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6">
+                                    <a href="compra.jsp"><button class="btn btn-comprar">Comprar</button></a>
+                                </div>
+                                <div class="col-sm-6 col-md-6">
+                                    <a href="PDF-LibroBlanclo/Libro Blanco GOLDEN HASH.pdf" target="a_blank"><button class="btn btn-libro_blanco">Libro Blanco</button></a>
+                                </div>                                
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -629,17 +639,18 @@
                     </div>
                     <!-- /Section header -->
                     <!-- Arturo -->
-                    <div class="col-sm-6" >
+                    <div class="col-sm-6" style="margin-top: 1em;">
                         <div class="team arturo" >
                             <div class="team-img"style="width: 100%; height: 100%;">
                                 <img class="img-responsive " style="border-radius: 100%;" src="./img/FOTOS EQUIPO/arturo.png" alt="">
                                 <div class="overlay">
                                     <div class="team-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-
-                                    </div>
+                                        <p>
+                                            Especialista en Planificación Estratégica, Estrategia de mercadotecnia,
+                                            Gestor de proyectos, Investigación de mercado, Operaciones de venta, Marketing
+                                            digital y análisis financiero.
+                                        </p>
+                                   </div>
                                 </div>
                             </div>
                             <div class="team-content">
@@ -657,9 +668,10 @@
                                 <img class="img-responsive javier" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/javier.png" alt="">
                                 <div class="overlay">
                                     <div class="team-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <p>
+                                            Administrador de Negocios Internacionales, Especialista en Comercio Exterior,
+                                            Marketing Digital - Experiencia de 4 años en criptomoneda.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -679,15 +691,16 @@
                         </div>
                         <!-- /Section header -->
                         <!-- Lider ALejandro -->
-                        <div class="col-sm-6">
+                        <div class="col-sm-6" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/alejandro.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p>
+                                                Experto en Blockchain, Gestor empresarial y director de talento humano, productor de multimedia, desarrollador de plataformas
+                                                morpg y diplomado en liderazgo organizacional corporativo d
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -704,9 +717,10 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/mauricio2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p>
+                                                Consultor Tecnologías de Información, Magister Gestión de Proyectos Informáticos, Especialista Diagnóstico y Análisis Organizacional,
+                                                Programador Certificado Microsoft Nivel Avanzado Experto.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -721,15 +735,16 @@
                     <!-- Equipo de desarrollo 1 -->
                     <div class="row" style="margin-top: 2em;">
                         <!-- Luis Gelvis -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/luis.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Experto en Blockchain, Diseñador Web y desarrollador de aplicaciones, Tecnólogo en análisis
+                                                y desarrollo de sistemas informáticos.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -746,9 +761,10 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/david.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Experto en Blockchain, Diseñador Web y desarrollador de aplicaciones, Tecnólogo en análisis
+                                                y desarrollo de sistemas informáticos.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -765,9 +781,10 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/wilmar.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Experto en Blockchain, Diseñador Web y desarrollador de aplicaciones, Tecnólogo en análisis
+                                                y desarrollo de sistemas informáticos.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -782,15 +799,16 @@
                     <!-- Equipo de desarrollo 2 -->
                     <div class="row" style="margin-top: 2em;">
                         <!-- MArlon Ramirez -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/marlon2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Especialista en lenguajes de programación como PHP, java, C++, javascript, prolog,
+                                                lenguaje de marcado HTML y XML.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -807,9 +825,10 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/nicolas.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Con 9 años de experiencia en arquitectura de software de la universidad del cauca,
+                                                especialista en Arquitectura de Software.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -826,9 +845,10 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/rafael.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Analista de bases de datos relacionales y manejo de Información, Consultor en áreas de
+                                                desarrollo y redes, Implementador de software.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -847,14 +867,15 @@
                         </div>
                         <!-- Lide de mercadeo -->
                         <div class="col-sm-12">
-                            <div class="team" style="width: 30%;">
+                            <div class="team ismael" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ismael.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="text_ismael">
+                                                Ingeniero Industrial, Magister en Gerencia de Empresas Mención Mercadeo, Experto en ventas con 12 años de experiencia en marketing digital
+                                                y campañas publicitarias en nuevos mercados.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -868,15 +889,16 @@
                     <!-- Equipo de mercadeo -->
                     <div class="row" style="margin-top: 2em;">                    
                         <!-- Leidy Gomes -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/leidy.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Experta en Marketing Digital, Community Manager, especialista en manejo de redes sociales,
+                                                investigación de mercadeo.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -893,9 +915,10 @@
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/oriana.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Comunicadora Social y Periodista con Énfasis en Comunicación Organizacional, formación Complementaria
+                                                en Administración de PQR de Icontec Internacional. 
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -906,15 +929,16 @@
                             </div>
                         </div>
                         <!-- Pietro Rivellaro -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/pietro.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                ngeniero Petroquímico de la Universidad Rafael Urdaneta de Maracaibo, Experto en Idiomas
+                                                del Centro Venezolano Americano del Zulia.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -928,15 +952,16 @@
                     <!-- Equipo de Marketing 2 -->
                     <div class="row" style="margin-top: 2em;">
                         <!-- Ximena Jaimes -->
-                        <div class="col-sm-6">
-                            <div class="team" style="width: 50%;" >
+                        <div class="col-sm-6" style="margin-top: 1em;">
+                            <div class="team ximena" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ximena.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Especialización en Gerencia Social de la Universidad Simón Bolívar, Experiencia de 9 años
+                                                en comunicación organizacional, relaciones públicas y periodismo corporativo.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -947,15 +972,16 @@
                             </div>
                         </div>
                         <!-- Ibett Luque -->
-                        <div class="col-sm-6">
-                            <div class="team" style="width: 50%;" >
+                        <div class="col-sm-6" style="margin-top: 1em;">
+                            <div class="team ibett">
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ibett2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Licenciada en Psicología, practitioner en programación neurolingüística, Diplomado en Psicologia Organizacional,
+                                                Especialista en Comunicación Corporativa.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -973,15 +999,16 @@
                             <h2 class="title">Departamento Legal</h2>
                         </div>
                         <!-- Eduardo Ordoñez -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/johan.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Abogado, Especialista en Derecho Administrativo y Especialista en Ciencias Penales y Criminológicas.
+                                                
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -992,15 +1019,16 @@
                             </div>
                         </div>
                         <!-- Carolina Peña -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/carolina.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Asistente Judicial en seguimiento y orientación de las jurisdicciones ordinarias y
+                                                administrativas, Apoyo Jurídico a la gestión contractual.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -1010,16 +1038,17 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Carolina Peña -->
-                        <div class="col-sm-4">
+                        <!-- Andres Cruz -->
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ender2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Abogado de la Universidad Libre Seccional Cúcuta, Especialista en Asuntos Penales de la
+                                                Universidad Libre, Apoyo Jurídico en procesos litigiosos.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -1038,15 +1067,16 @@
                             <h2 class="title">Administración y Contabilidad</h2>
                         </div>
                         <!-- Susana Lizcano -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/susana.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Tecnóloga en Mercadotecnia y Comercio Internacional de la Fundación, técnica en servicio
+                                                al cliente y ventas.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -1057,15 +1087,16 @@
                             </div>
                         </div>
                         <!-- Willington Serrano -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/willington.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Contador Público Titulado, Especialista en revisión Fiscal y Auditoria Externa, Outsourcing Contable,
+                                                Asesoría tributaria y legal, Consultor de negocios.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -1076,15 +1107,15 @@
                             </div>
                         </div>
                         <!-- Monica Acevedo -->
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
                                     <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/monica2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <p class="p">
+                                                Especialista en Análisis y diseño de unidades productivas, con más de 5 años de experiencia en gerencia de empresas.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -1129,7 +1160,7 @@
                                     una criptomoneda basada en el protocolo de Ethereum, que dará sus inicios, a mediados
                                     del presente mes.
                                 </p>
-                                <a href="https://www.actualcoin.net/leermas?idNoticia=247">Read more</a>
+                                <a href="https://www.actualcoin.net/leermas?idNoticia=247" target="_blank">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -1150,7 +1181,7 @@
                                     almacenamientodedatos enla plataforma GoldenSpace, mediante una clave privada, además de la participación en distintos programas
                                     de recompensa. 
                                 </p>
-                                <a href="PDF/Borbon.pdf">Read more</a>
+                                <a href="PDF/Borbon.pdf" target="_blank">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -1224,8 +1255,8 @@
                     <div class="col-md-4">
                         <!-- footer follow -->
                         <ul class="footer-follow">
-                            <li><a class="facebook" href="https://www.facebook.com/GoldenHash-2104300649854518/?ref=bookmarks"><i class="fa fa-facebook">  Facebook</i></a></li>
-                            <li><a class="twitter" href="https://twitter.com/?logged_out=1&lang=es"><i class="fa fa-twitter">  Twitter</i></a></li>                            
+                            <li><a class="facebook" href="https://www.facebook.com/GoldenHash-2104300649854518/?ref=bookmarks" target="_blank"><i class="fa fa-facebook">  Facebook</i></a></li>
+                            <li><a class="twitter" href="https://twitter.com/?logged_out=1&lang=es" target="_blank"><i class="fa fa-twitter">  Twitter</i></a></li>                            
                         </ul>
                         <!-- /footer follow -->
                     </div>
