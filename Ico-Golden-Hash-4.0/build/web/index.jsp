@@ -697,7 +697,7 @@
                                         <div class="team-social">
                                             <p>
                                                 Experto en Blockchain, Gestor empresarial y director de talento humano, productor de multimedia, desarrollador de plataformas
-                                                morpg y diplomado en liderazgo organizacional corporativo d
+                                                morpg y diplomado en liderazgo organizacional corporativo.
                                             </p>
                                         </div>
                                     </div>
