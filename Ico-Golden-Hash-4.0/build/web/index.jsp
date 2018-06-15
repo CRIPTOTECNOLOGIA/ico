@@ -78,8 +78,7 @@
                         <!-- /Logo -->
 
                         <!-- Collapse nav button -->
-                        <div class="nav-collapse" >
-                            <span></span>
+                        <div></span>
                         </div>
                         <!-- /Collapse nav button -->
                     </div>
