@@ -4,9 +4,13 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/CRIPTOTECNOLOGIA/Desktop/pagedefaulttesting/Ico-Golden-Hash-4.0/web/css/style.css</file>
+            <file>file:/C:/Users/CRIPTOTECNOLOGIA/Desktop/pagedefaulttesting/Ico-Golden-Hash-4.0/src/java/Correos/Correo_envio.java</file>
+            <file>file:/C:/Users/CRIPTOTECNOLOGIA/Desktop/pagedefaulttesting/Ico-Golden-Hash-4.0/src/java/Conexiones/conexionSQL.java</file>
+            <file>file:/C:/Users/CRIPTOTECNOLOGIA/Desktop/pagedefaulttesting/Ico-Golden-Hash-4.0/src/java/Correos/Correo_envio_html.java</file>
+            <file>file:/C:/Users/CRIPTOTECNOLOGIA/Desktop/pagedefaulttesting/Ico-Golden-Hash-4.0/src/java/Servlets/registrar_mensaje.java</file>
             <file>file:/C:/Users/CRIPTOTECNOLOGIA/Desktop/pagedefaulttesting/Ico-Golden-Hash-4.0/web/index.jsp</file>
-            <file>file:/C:/Users/CRIPTOTECNOLOGIA/Desktop/pagedefaulttesting/Ico-Golden-Hash-4.0/web/css/contador/style.css</file>
-            <file>file:/C:/Users/CRIPTOTECNOLOGIA/Desktop/pagedefaulttesting/Ico-Golden-Hash-4.0/web/css/timeline.css</file>
+            <file>file:/C:/Users/CRIPTOTECNOLOGIA/Desktop/pagedefaulttesting/Ico-Golden-Hash-4.0/src/java/Conexiones/mensaje.java</file>
+            <file>file:/C:/Users/CRIPTOTECNOLOGIA/Desktop/pagedefaulttesting/Ico-Golden-Hash-4.0/web/compra.jsp</file>
         </group>
     </open-files>
 </project-private>
