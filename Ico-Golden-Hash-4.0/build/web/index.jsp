@@ -1,7 +1,7 @@
 <%-- 
     Document   : index
     Created on : 9/06/2018, 01:00:43 PM
-    Author     : CRIPTOTECNOLOGIA
+    Author     : @luisgelvis3 and david Cluna
 --%>
 
 <%@page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
