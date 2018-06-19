@@ -860,7 +860,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                        <div class=\"col-sm-4\" style=\"margin-top: 1em;\">\r\n");
       out.write("                            <div class=\"team\" >\r\n");
       out.write("                                <div class=\"team-img\">\r\n");
-      out.write("                                    <img class=\"img-responsive\" style=\"border-radius: 100%;\" src=\"./img/FOTOS EQUIPO/nicolas.png\" alt=\"\">\r\n");
+      out.write("                                    <img class=\"img-responsive\" style=\"border-radius: 100%;\" src=\"./img/FOTOS EQUIPO/Nicolas.png\" alt=\"\">\r\n");
       out.write("                                    <div class=\"overlay\">\r\n");
       out.write("                                        <div class=\"team-social\">\r\n");
       out.write("                                            <p class=\"p\">\r\n");
@@ -1294,7 +1294,8 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                        <!-- footer follow -->\r\n");
       out.write("                        <ul class=\"footer-follow\">\r\n");
       out.write("                            <li><a class=\"facebook\" href=\"https://www.facebook.com/GoldenHash-2104300649854518/?ref=bookmarks\" target=\"_blank\"><i class=\"fa fa-facebook\">  Facebook</i></a></li>\r\n");
-      out.write("                            <li><a class=\"twitter\" href=\"https://twitter.com/?logged_out=1&lang=es\" target=\"_blank\"><i class=\"fa fa-twitter\">  Twitter</i></a></li>                            \r\n");
+      out.write("                            <li><a class=\"twitter\" href=\"https://twitter.com/?logged_out=1&lang=es\" target=\"_blank\"><i class=\"fa fa-twitter\">  Twitter</i></a></li>  \r\n");
+      out.write("                            <li><a class=\"blogger\" href=\"https://infogoldenhash.blogspot.com/\" target=\"_blank\"><i class=\"fa fa-google-plus\" > Blogger</i></a></li>\r\n");
       out.write("                        </ul>\r\n");
       out.write("                        <!-- /footer follow -->\r\n");
       out.write("                    </div>\r\n");

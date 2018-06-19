@@ -109,39 +109,43 @@
             <!-- /Nav -->
         </header>
         <!-- Contact -->
-        <div id="contact" class="section md-padding">
+        <div id="contact" class="section sm-padding">
             <!-- Container -->
             <div class="container">
                 <!-- Row -->
                 <div class="row">
                     <!-- Section-header -->
                     <div class="section-header text-center">
-                        <h2 class="title">Contactenos</h2>
+                        <h2 class="title">Compra de Tokens</h2>
                     </div>
-                    <!-- /Section-header -->                   
-
-                    <!-- contact -->
-                    <div class="col-sm-12">
-                        <div class="contact">
-                            <i class="fa fa-envelope"></i>
-                            <h3>Email</h3>
-                            <p>info@goldenhash.org</p>
+                    <!-- /Section-header --> 
+                    
+                    <div class="col-sm-12 col-md-6">
+                        <p>1. Seleccione el método de pago.</p>                           
+                        <!-- Metodo de pago -->
+                        <div class="row">
+                            <div class="row" style="margin-top: 1em; margin-bottom: 1em;">
+                                <div class="col-sm-6" onclick="checkDiv('#btc', '#eth')">
+                                    <div class="checkbox div_pago">
+                                        <label class="label_compra" style="cursor:pointer; padding: 10px;">
+                                            <input type="checkbox" class="checkbox-input" id="btc" name="btc" onclick="check('#btc', '#eth')" checked style="margin-top: 12px;">
+                                            <img src="img/Iconos/bitcoin_icon.png" class="img-responsive" style="cursor:pointer;" width="40" height="40">
+                                            <a class="a">Bitcoin</a>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6" onclick="checkDiv('#eth', '#btc')">
+                                    <div class="checkbox div_pago">
+                                        <label class="label_compra" style="cursor:pointer; padding: 10px;">
+                                            <input type="checkbox"  id="eth" name="eth" onclick="check('#eth', '#btc')" style="margin-top: 12px;">
+                                            <img src="img/Iconos/ethereum_icon.svg" class="img-responsive" style="cursor:pointer;" width="40" height="40">
+                                            <a class="a" >Ethereum</a>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!-- /contact -->                    
-
-                    <!-- contact form -->
-                    <div class="col-md-8 col-md-offset-2">
-                        <form class="contact-form" name="contactForm" id="coontactForm" method="post" action="nuevo_mensaje">
-                            <input name="contactName" type="text" id="contactName" class="input" placeholder="Nombre" value="" minlength="2" required="" aria-required="true">
-                            <input name="contactEmail" type="email" id="contactEmail" class="input" placeholder="Email" value="" required="" aria-required="true">
-                            <input name="contactSubject" type="text" id="contactSubject" class="input" placeholder="Asunto" value="" required="" aria-required="true">
-                            <textarea name="contactMessage" id="contactMessage" class="input" placeholder="Mensaje" rows="10" cols="50" required=""></textarea>
-                            <button class="main-btn">Enviar Mensaje</button>
-                        </form>
-                    </div>
-                    <!-- /contact form -->
-
                 </div>
                 <!-- /Row -->
 

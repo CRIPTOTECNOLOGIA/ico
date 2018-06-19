@@ -8,3 +8,24 @@ and open the template in the editor.
     Author     : CRIPTOTECNOLOGIA
 */
 
+.div_pago{
+    background-color: rgba(16,22,26, 0.8); 
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.div_pago:hover{
+    background-color: rgba(16,22,26, 1); 
+}
+
+.div_pago .a{
+    cursor:pointer; color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1px;
+}
+
+.div_pago .label_compra{
+    display: inline-block;
+    max-width: 100%;
+}
