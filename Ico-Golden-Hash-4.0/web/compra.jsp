@@ -36,6 +36,7 @@
 
         <!-- Custom stlylesheet -->
         <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <link href="css/compra.css" rel="stylesheet" type="text/css"/>
         <link href="css/contador/style.css" rel="stylesheet" type="text/css"/>
 
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
@@ -69,7 +70,7 @@
                         <div class="navbar-brand">
                             <a href="index.jsp">
                                 <img class="logo" src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo">
-                                <img class="logo-alt" src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo">
+                                <img class="logo-compra" src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo">
                             </a>
                         </div>
                         <!-- /Logo -->

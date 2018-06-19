@@ -821,7 +821,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/nicolas.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Nicolas.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
@@ -1255,7 +1255,8 @@
                         <!-- footer follow -->
                         <ul class="footer-follow">
                             <li><a class="facebook" href="https://www.facebook.com/GoldenHash-2104300649854518/?ref=bookmarks" target="_blank"><i class="fa fa-facebook">  Facebook</i></a></li>
-                            <li><a class="twitter" href="https://twitter.com/?logged_out=1&lang=es" target="_blank"><i class="fa fa-twitter">  Twitter</i></a></li>                            
+                            <li><a class="twitter" href="https://twitter.com/?logged_out=1&lang=es" target="_blank"><i class="fa fa-twitter">  Twitter</i></a></li>  
+                            <li><a class="blogger" href="https://infogoldenhash.blogspot.com/" target="_blank"><i class="fa fa-google-plus" > Blogger</i></a></li>
                         </ul>
                         <!-- /footer follow -->
                     </div>
