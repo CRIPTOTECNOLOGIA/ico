@@ -8,6 +8,10 @@ and open the template in the editor.
     Author     : CRIPTOTECNOLOGIA
 */
 
+#contact p{
+    font-size: 24px;;
+}
+
 .div_pago{
     background-color: rgba(16,22,26, 0.8); 
     cursor: pointer;
@@ -23,9 +27,28 @@ and open the template in the editor.
     font-size: 18px;
     font-family: 'Open Sans Condensed', sans-serif;
     letter-spacing: 1px;
+    margin-top: 0.2em;
+    margin-left: 0.2em;
 }
 
 .div_pago .label_compra{
-    display: inline-block;
-    max-width: 100%;
+    display: inline-flex;
+    width: 100%;
+}
+
+.div_pago .img-compra{
+    margin-left: 20px;
+}
+
+.btn-comprar-formulario{
+    background-color: transparent;
+    border: 1px solid #868f8b;
+    margin: 0px auto;
+    display: flex;
+    padding: 0.5em 3em;
+}
+
+.btn-comprar-formulario:hover{
+    background-color: #45668E;
+    color: #FFFFFF;
 }

@@ -68,8 +68,7 @@
                     <div class="navbar-header">
                         <!-- Logo -->
                         <div class="navbar-brand">
-                            <a href="index.jsp">
-                                <img class="logo" src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo">
+                            <a href="index.jsp">                                
                                 <img class="logo-compra" src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo">
                             </a>
                         </div>
@@ -109,7 +108,7 @@
             <!-- /Nav -->
         </header>
         <!-- Contact -->
-        <div id="contact" class="section sm-padding">
+        <div id="contact" class="section sm-padding" style="background-color: #FAFAFA;">
             <!-- Container -->
             <div class="container">
                 <!-- Row -->
@@ -119,30 +118,82 @@
                         <h2 class="title">Compra de Tokens</h2>
                     </div>
                     <!-- /Section-header --> 
-                    
+
                     <div class="col-sm-12 col-md-6">
                         <p>1. Seleccione el método de pago.</p>                           
                         <!-- Metodo de pago -->
+
+                        <div class="row" style="margin-top: 1em; margin-bottom: 1em;">
+                            <div class="col-sm-6" onclick="checkDiv('#btc', '#eth')">
+                                <div class="checkbox div_pago">
+                                    <label class="label_compra" style="cursor:pointer; padding: 10px;">
+                                        <input type="checkbox" class="checkbox-input" id="btc" name="btc" onclick="check('#btc', '#eth')" checked style="margin-top: 12px;">
+                                        <img src="img/Iconos/bitcoin_icon.png" class="img-responsive img-compra" style="cursor:pointer;" width="40" height="40">
+                                        <a class="a"> Bitcoin</a>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6" onclick="checkDiv('#eth', '#btc')">
+                                <div class="checkbox div_pago">
+                                    <label class="label_compra" style="cursor:pointer; padding: 10px;">
+                                        <input type="checkbox"  id="eth" name="eth" onclick="check('#eth', '#btc')" style="margin-top: 12px;">
+                                        <img src="img/Iconos/ethereum_icon.svg" class="img-responsive img-compra" style="cursor:pointer;" width="26" height="26">
+                                        <a class="a" > Ethereum</a>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>                        
+                        <p>2. Digite cuantos tokens desea comprar.</p>
+                        <div class="container-calculadora">
+                            <div class="row">
+                                <div class="col-12">
+                                    <p style="text-align: center;">Calculadora</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-5" style="text-align: center;">
+                                    <div class="form-group">
+                                        <label style="color: #868F9B">Cantidad a Enviar</label>
+                                        <input type="text" class="form-control" id="cantidad_btc" name="cantidad_btc" placeholder="BTC" onchange="verificar_seleccionado(this.value);" onkeyup="verificar_seleccionado(this.value);">
+
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-2" style="text-align: center; margin-top: 1em;">
+                                    <img src="img/intercambio-1.png">
+                                </div>
+                                <div class="col-sm-12 col-md-5" style="text-align: center;">
+                                    <div class="form-group">
+                                        <label style="color: #868F9B">Cantidad a Recibir</label>
+                                        <input type="text" class="form-control" disabled id="cantidad_xgh" name="cantidad_xgh" placeholder="XGH" id="xgh" onkeyup="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="alert alert-danger alert-dismissible fade" id="mensaje_alerta">
+                                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                                <strong>Advertencia!</strong> Contribucion minima en BTC es 0.01 y ETH de 0.125.
+                            </div>
+                            <p>3. Contribución mínima de 0.01 BTC</p>
+                            <button type="button" id="btn_comprar" class="btn btn-comprar-formulario" onclick="datos_formulario()" >Comprar</button>
+                        </div>
+                    </div>
+                    <!-- Div Imagen -->
+                    <div class="col-sm-12 col-md-6 video-cont">
+                        <p>
+                            Descarga Trust Wallet oara recepcionar tus Golden Hash (XGH)
+                        </p>
+                        <!-- Div Imagen -->
+                        <!--<div class="col-sm-12 col-md-6" style="margin: 0 auto;">
+                            <img src="img/intercambio.png" class="img-fluid">
+                        </div>-->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" style="padding-top: 1em; margin: auto;" src="https://www.youtube.com/embed/E4MERgi7XOI" allowfullscreen></iframe>
+                        </div>  
                         <div class="row">
-                            <div class="row" style="margin-top: 1em; margin-bottom: 1em;">
-                                <div class="col-sm-6" onclick="checkDiv('#btc', '#eth')">
-                                    <div class="checkbox div_pago">
-                                        <label class="label_compra" style="cursor:pointer; padding: 10px;">
-                                            <input type="checkbox" class="checkbox-input" id="btc" name="btc" onclick="check('#btc', '#eth')" checked style="margin-top: 12px;">
-                                            <img src="img/Iconos/bitcoin_icon.png" class="img-responsive" style="cursor:pointer;" width="40" height="40">
-                                            <a class="a">Bitcoin</a>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6" onclick="checkDiv('#eth', '#btc')">
-                                    <div class="checkbox div_pago">
-                                        <label class="label_compra" style="cursor:pointer; padding: 10px;">
-                                            <input type="checkbox"  id="eth" name="eth" onclick="check('#eth', '#btc')" style="margin-top: 12px;">
-                                            <img src="img/Iconos/ethereum_icon.svg" class="img-responsive" style="cursor:pointer;" width="40" height="40">
-                                            <a class="a" >Ethereum</a>
-                                        </label>
-                                    </div>
-                                </div>
+                            <div class="col-sm-12 col-md-6" style="text-align: center;">                                
+                                <img src="img/android-app-store-latest.png" onclick="location.href = 'https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp'" style="margin-top: 2em; height: 76.19px; width: 253.717px; cursor: pointer;" class="img-fluid">                                
+                            </div>
+                            <div class="col-sm-12 col-md-6" style="text-align: center;">
+                                <img src="img/download_app_store.svg" onclick="location.href = 'https://itunes.apple.com/us/app/trust-ethereum-wallet/id1288339409?mt=8'" style="margin-top: 2em; height: 76.19px; width: 253.717px; cursor: pointer;" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -154,6 +205,46 @@
 
         </div>
         <!-- /Contact -->
+
+        <!-- Footer -->
+        <footer id="footer" class="sm-padding bg-dark">
+            <!-- Container -->
+            <div class="container">
+                <!-- Row -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <!-- footer logo -->
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo"></a>
+                        </div>
+                        <!-- /footer logo -->
+                    </div>
+                    <div class="col-md-4">
+                        <!-- footer follow -->
+                        <ul class="footer-follow">
+                            <li><a class="facebook" href="https://www.facebook.com/GoldenHash-2104300649854518/?ref=bookmarks" target="_blank"><i class="fa fa-facebook">  Facebook</i></a></li>
+                            <li><a class="twitter" href="https://twitter.com/?logged_out=1&lang=es" target="_blank"><i class="fa fa-twitter">  Twitter</i></a></li>  
+                            <li><a class="blogger" href="https://infogoldenhash.blogspot.com/" target="_blank"><i class="fa fa-google-plus" > Blogger</i></a></li>
+                        </ul>
+                        <!-- /footer follow -->
+                    </div>
+                    <div class="col-md-4">
+                        <!-- footer copyright -->
+                        <div class="footer-copyright">
+                            <p>Copyright © 2017. Derechos Reservados</p>
+                        </div>
+                        <!-- /footer copyright -->
+
+                    </div>
+
+                </div>
+                <!-- /Row -->
+
+            </div>
+            <!-- /Container -->
+
+        </footer>
+        <!-- /Footer -->
     </body>
 
 </html>
