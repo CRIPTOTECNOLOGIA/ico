@@ -1186,6 +1186,24 @@
                     </div>
                     <!-- /blog -->
                     
+                    <div class="col-md-12">
+                        <div class="blog" style="margin: auto">
+                            <div class="blog-img">
+                                <a href="https://coincodex.com/ico/golden-hash/ " target="_blank">
+                                    <img src="img/coincodex-logo-desktop.png" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="blog-content">
+                                <h3> Golden Hash (Pre-Sale) ICO.</h3>
+                                <p style="text-align: justify;">
+                                    Golden Hash (XGH) es una criptomoneda que da acceso a una plataforma de almacenamiento encriptada llamada Golden Space.
+                                </p>
+                                <a href="https://coincodex.com/ico/golden-hash/" target="_blank">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /blog -->
+                    
                 </div>
                 <!-- /Row -->
 
