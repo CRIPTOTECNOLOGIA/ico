@@ -4,6 +4,9 @@
     Author     : CRIPTOTECNOLOGIA
 --%>
 
+<%@page import="Conexiones.conexionSQL"%>
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.PreparedStatement"%>
 <%@page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -54,7 +57,33 @@
         <!-- Línea de tiempo-->
         <link href="css/timeline.css" rel="stylesheet" type="text/css"/>
     </head>
+    <%
+        String codigo_usuario_referente = "";
+        if (request.getParameter("codigo") != "" && request.getParameter("codigo") != null) {
+            codigo_usuario_referente = request.getParameter("codigo");
+        }
 
+        if (request.getParameter("error") != "" && request.getParameter("error") != null) {
+            out.print("<script>alert('Ocurrió un error al realizar el registro, vuelva a intentarlo, si el problema persiste, contacte al correo ventas@goldenhash.org');</script>");
+        }
+
+        if (request.getParameter("finalizado") != "" && request.getParameter("finalizado") != null) {
+            out.print("<script>alert('Registro completado exitosamente, se te enviará un correo electrónico para confirmar los detalles de tu pago. Información al correo electrónico ventas@goldenhash.org');</script>");
+        }
+
+        PreparedStatement pst = null;
+        ResultSet rs = null;
+        conexionSQL con = new conexionSQL();
+        String consultaSQL = "select * from informacion";
+        pst = con.getConnection().prepareStatement(consultaSQL);
+        rs = pst.executeQuery();
+        int i = 0;
+        while (rs.next()) {
+            out.print("<input type='hidden' id='valor_btc_bd' value='" + rs.getString("precio_btc") + "'/>");
+            out.print("<input type='hidden' id='valor_eth_bd' value='" + rs.getString("precio_eth") + "'/>");
+        }
+
+    %>
     <body>
         <!-- Header -->
         <header id="home_compra">
@@ -107,6 +136,7 @@
             </nav>
             <!-- /Nav -->
         </header>
+        <input type="hidden" id="codigo_referente" value="<%=codigo_usuario_referente%>">
         <!-- Contact -->
         <div id="contact" class="section sm-padding" style="background-color: #FAFAFA;">
             <!-- Container -->
@@ -172,7 +202,7 @@
                                 <button type="button" class="close" data-dismiss="alert">&times;</button>
                                 <strong>Advertencia!</strong> Contribucion minima en BTC es 0.01 y ETH de 0.125.
                             </div>
-                            <p>3. Contribución mínima de 0.01 BTC</p>
+                            <p id="h2_contribucion">Contribución mínima de 0.01 BTC</p>
                             <button type="button" id="btn_comprar" class="btn btn-comprar-formulario" onclick="datos_formulario()" >Comprar</button>
                         </div>
                     </div>
@@ -244,7 +274,7 @@
 
         </footer>
         <!-- /Footer -->
-        
+
         <!-- Modal de registro usuario -->
 
         <div class="modal" id="myModal">
@@ -363,25 +393,13 @@
 
             </div>
         </div>
-        
-        <script src="js/jquery.min.js" type="text/javascript"></script>
+
+        <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/registros/registro_datos_usuario.js" type="text/javascript"></script>
         <script src="js/validaciones/validacion.js" type="text/javascript"></script>
         <script src="js/precios/calculo_precios.js" type="text/javascript"></script>
         <script>
-
-                                jQuery(window).on('load', function () {
-
-                                    jQuery("#main").css("min-height", (jQuery(window).height() - jQuery("footer").outerHeight() - jQuery("footer").outerHeight() - jQuery("footer").outerHeight() - jQuery("header").outerHeight() + "px"));
-                                }).resize(function () {
-
-                                    jQuery("#main").css("min-height", (jQuery(window).height() - jQuery("footer").outerHeight() - jQuery("footer").outerHeight() - jQuery("footer").outerHeight() - jQuery("header").outerHeight() + "px"));
-                                });
-                                jQuery(document).ready(function () {
-
-                                    jQuery("#main").css("min-height", (jQuery(window).height() - jQuery("footer").outerHeight() - jQuery("footer").outerHeight() - jQuery("footer").outerHeight() - jQuery("header").outerHeight() + "px"));
-                                })
                                 function ejecutar_formulario_compra() {
                                     if (document.getElementById("file_transsaccion").value == "") {
                                         alert('POR FAVOR, DEBES CARGAR UNA IMAGEN, LA CUAL ESPECIFICA LA TRANSACCIÓN REALIZADA');

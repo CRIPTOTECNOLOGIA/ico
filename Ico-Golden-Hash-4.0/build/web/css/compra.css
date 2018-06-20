@@ -52,3 +52,14 @@ and open the template in the editor.
     background-color: #45668E;
     color: #FFFFFF;
 }
+
+
+/* Mensajes de errores */
+.errores{
+    background: transparent;
+    color: #B71C1C;
+    display: none;
+    font-size: 12px;
+    padding: 10px;
+    position: relative;
+}
