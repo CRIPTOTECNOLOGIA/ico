@@ -31,31 +31,31 @@ function checkDiv(checkbox1, checkbox2) {
 
 function placeholderPago1() {
     var texto = "Contribución mínima de 0.01 BTC";
-    texto = decodeURIComponent(escape(texto));
+    texto = decodeURIComponent(texto);
     $("#cantidad_btc").attr("placeholder", "BTC");
     document.getElementById("h2_contribucion").innerHTML = texto;
     document.getElementById("cantidad_btc").value = "0.01";
     verificar_seleccionado(0.01);
     document.getElementById("img-qr-pago").src = "img/qr-bitcoin.png";
     document.getElementById("hash-billetera").value = "1L338vcUVqCEnAP2okFkcBHTpm2YmJMYAd";
-    var contribuciones = decodeURIComponent(escape("Envíe sus contribuciones BTC a la siguiente dirección o código QR."+
+    var contribuciones = decodeURIComponent("Envíe sus contribuciones BTC a la siguiente dirección o código QR."+
                     "NO envíe BTC de un intercambio, debe ser enviado desde "+
-                    "su billetera."));
+                    "su billetera.");
     document.getElementById("textobtc").innerHTML = contribuciones;
 }
 
 function placeholderPago2() {
     var texto = "Contribución mínima de 0.125 ETH";
-    texto = decodeURIComponent(escape(texto));
+    texto = decodeURIComponent(texto);
     verificar_seleccionado(0.125);
     $("#cantidad_btc").attr("placeholder", "ETH");
     document.getElementById("h2_contribucion").innerHTML = texto;
     document.getElementById("cantidad_btc").value = "0.125";
     document.getElementById("img-qr-pago").src = "img/qr-ethereum.png";
     document.getElementById("hash-billetera").value = "0xe98Bc967D9a9d9DE25b653fda81Bc2Ce90808Ea2";
-    var contribuciones = decodeURIComponent(escape("Envíe sus contribuciones ETH a la siguiente dirección o código QR."+
+    var contribuciones = decodeURIComponent("Envíe sus contribuciones ETH a la siguiente dirección o código QR."+
                     "NO envíe ETH de un intercambio, debe ser enviado desde "+
-                    "su billetera."));
+                    "su billetera.");
     document.getElementById("textobtc").innerHTML = contribuciones;
     
 }

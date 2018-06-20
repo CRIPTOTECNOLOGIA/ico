@@ -4,9 +4,41 @@
         <servlet-name>registrar_mensaje</servlet-name>
         <servlet-class>Servlets.registrar_mensaje</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>inicio_sesion</servlet-name>
+        <servlet-class>Servlets.inicio_sesion</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>registrar_archivo</servlet-name>
+        <servlet-class>Servlets.registrar_archivo</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>registrar_usuario</servlet-name>
+        <servlet-class>Servlets.registrar_usuario</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>cerrar_sesion</servlet-name>
+        <servlet-class>Servlets.cerrar_sesion</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>registrar_mensaje</servlet-name>
         <url-pattern>/nuevo_mensaje</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>inicio_sesion</servlet-name>
+        <url-pattern>/Inicio</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>registrar_archivo</servlet-name>
+        <url-pattern>/nuevo_archivo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>registrar_usuario</servlet-name>
+        <url-pattern>/nuevo_usuario</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>cerrar_sesion</servlet-name>
+        <url-pattern>/cerrarSesion</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

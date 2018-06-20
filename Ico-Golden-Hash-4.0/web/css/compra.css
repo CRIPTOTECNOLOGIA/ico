@@ -73,3 +73,15 @@ and open the template in the editor.
     font-size: 32px;
     color: #FFFFFF!important;
 }
+
+
+/* Mensajes de errores */
+.errores{
+    background: transparent;
+    color: #B71C1C;
+    display: none;
+    font-size: 12px;
+    padding: 10px;
+    position: relative;
+}
+
