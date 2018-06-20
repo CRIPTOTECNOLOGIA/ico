@@ -205,7 +205,6 @@
 
         </div>
         <!-- /Contact -->
-
         <!-- Footer -->
         <footer id="footer" class="sm-padding bg-dark">
             <!-- Container -->
@@ -245,6 +244,174 @@
 
         </footer>
         <!-- /Footer -->
+        
+        <!-- Modal de registro usuario -->
+
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Datos del comprador</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Formulario que registra los datos del usuario para luego abrir la interfaz para realizar la transacción-->
+                    <form id="form1" >
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="usr">Documento de Identidad:</label>
+                                <input type="number" class="form-control" id="cedula" name="cedula" onKeyPress="return soloNumeros(event)">
+                                <div id="mensaje1" class="errores">INGRESA TU CEDULA</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Nombre:</label>
+                                <input type="text" class="form-control" id="nombre" name="name" style="text-transform: uppercase;">
+                                <div id="mensaje2" class="errores">INGRESA TU NOMBRE</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="apell">Apellido:</label>
+                                <input type="text" class="form-control" id="apellido" name="apellido" style="text-transform: uppercase;">
+                                <div id="mensaje3" class="errores">INGRESA TU APELLIDO</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail:</label>
+                                <input type="email" class="form-control" id="email" name="emal" style="text-transform: uppercase;">
+                                <div id="mensaje4" class="errores">INGRESA UN CORREO VALIDO</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Hash de donde se va realizar el pago:</label>
+                                <input type="text" class="form-control" id="llave_publica_pago" name="llave_publica_pago">
+                                <div id="mensaje5" class="errores">INGRESA EL HASH DE DONDE VAS A REALIZAR EL PAGO</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="cantidad_btc">Cantidad a Enviar:</label>
+                                <input type="text" class="form-control" id="formulario_cantidad_btc"  disabled name="cantidad_btc">                            
+                                <div id="mensaje7" class="errores">NO MODIFIQUES ESTE CAMPO</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="cantidad_xgh">Cantidad a Recibir:</label>
+                                <input type="text" class="form-control" id="formuario_cantidad_xgh" disabled name="cantidad_xgh">   
+                                <div id="mensaje8" class="errores">NO MODIFIQUES ESTE CAMPO</div>
+                            </div>
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <input type="button" id="submit" class="btn btn-outline-success" id="btn_siguiente_comprar" value="Siguiente"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal de codigo QR-->
+
+        <div class="modal fade" id="comprar">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4>Dirección de Pre-Venta</h4>
+                    </div>
+                    <form action="nuevo_archivo" method="post" id="formlario_registro_archivo" enctype="multipart/form-data">
+                        <!-- Modal Body -->
+                        <div class="modal-body">
+                            <!--<a href="">Ver intrucciones de compra</a>-->
+                            <p id="textobtc">
+                                Envíe sus contribuciones BTC a la siguiente dirección o código QR.
+                                NO envíe BTC de un intercambio, debe ser enviado desde 
+                                su billetera.
+                            </p>
+                            <div class="alert alert-danger">
+                                <strong>Advertencia! </strong>
+                                la billetera de la cual se va realizar la transacción, debe ser la misma registrada anteriormente.<br>
+                                Verifica que el monto que va transferir sean exactamente 
+                            </div>
+                            </p>
+                            <h4 style="text-align: center;">Código QR</h4>
+                            <div style="width: 100%; text-align: center;">
+                                <img class="img-fluid" id="img-qr-pago" src="img/qr-bitcoin.png" style="width: 300px;">
+                            </div>
+                            <h5>Dirección de pago</h5>
+                            <div class="input-group">
+                                <input type="text" disabled class="form-control" id="hash-billetera" value="1L338vcUVqCEnAP2okFkcBHTpm2YmJMYAd">
+                                <br>
+                            </div>
+
+                            <div class="alert alert-danger margin-top-10" >
+                                <input type="hidden" value="" id="cedula_usuario_reg" name="cedula_usuario_reg">
+                                <input type="hidden" name="nombreImagen" value=""/>
+                                <p>Al realizar la transacción, debes subir una imagen especificando la transacción para poder validar en nuestro sistema</p>
+                                <input type="file" class="form-control-file" name="file_transsaccion" onchange="cargarArchivo(this);" id="file_transsaccion">
+                                <div id="mensaje8" class="errores">POR FAVOR CARGUE LA IMAGEN DE LA TRANSACCIÓN</div>
+                            </div>
+                            <div class="alert alert-dark" >
+                                <div>
+                                    <p>Envía esta url a tus amigos, si ellos realizan una compra, se te dará a ti un porcentaje de monedas por esta referencia<br></p>
+                                </div>
+                                <div id="url_codigo"></div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <input type="button" onclick="ejecutar_formulario_compra(this);" id="finalizar_registro" class="btn btn-outline-success" value="Finalizar"/>
+                        </div> 
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/registros/registro_datos_usuario.js" type="text/javascript"></script>
+        <script src="js/validaciones/validacion.js" type="text/javascript"></script>
+        <script src="js/precios/calculo_precios.js" type="text/javascript"></script>
+        <script>
+
+                                jQuery(window).on('load', function () {
+
+                                    jQuery("#main").css("min-height", (jQuery(window).height() - jQuery("footer").outerHeight() - jQuery("footer").outerHeight() - jQuery("footer").outerHeight() - jQuery("header").outerHeight() + "px"));
+                                }).resize(function () {
+
+                                    jQuery("#main").css("min-height", (jQuery(window).height() - jQuery("footer").outerHeight() - jQuery("footer").outerHeight() - jQuery("footer").outerHeight() - jQuery("header").outerHeight() + "px"));
+                                });
+                                jQuery(document).ready(function () {
+
+                                    jQuery("#main").css("min-height", (jQuery(window).height() - jQuery("footer").outerHeight() - jQuery("footer").outerHeight() - jQuery("footer").outerHeight() - jQuery("header").outerHeight() + "px"));
+                                })
+                                function ejecutar_formulario_compra() {
+                                    if (document.getElementById("file_transsaccion").value == "") {
+                                        alert('POR FAVOR, DEBES CARGAR UNA IMAGEN, LA CUAL ESPECIFICA LA TRANSACCIÓN REALIZADA');
+                                        $("#mensaje8").fadeIn("slow");
+                                    } else {
+                                        $("#mensaje8").fadeOut();
+                                        var formulario = document.getElementById("formlario_registro_archivo");
+                                        formulario.submit();
+                                    }
+                                }
+
+                                function datos_formulario() {
+                                    var cantidad_btc = document.getElementById('cantidad_btc').value;
+                                    var cantidad_xgh = document.getElementById('cantidad_xgh').value;
+                                    document.getElementById('formulario_cantidad_btc').value = cantidad_btc;
+                                    document.getElementById('formuario_cantidad_xgh').value = cantidad_xgh;
+                                    $('#myModal').modal('show');
+                                }
+
+                                function cargarArchivo(elemento) {
+                                    //alert("Proceso Terminado");
+                                    var file = elemento.files[0];
+                                    //$("#file_transsaccion").val(file.name);
+                                    //$('input[name="file_transsaccion"]').val(file.name);
+                                    //document.formulario.target = "null";
+                                    //document.formulario.action = "nuevo_archivo";
+                                    //document.formulario.submit();
+                                    //alert("Proceso Termionado");
+                                }
+        </script>
     </body>
 
 </html>
