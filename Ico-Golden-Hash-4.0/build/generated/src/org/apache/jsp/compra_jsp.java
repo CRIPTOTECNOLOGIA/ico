@@ -3,6 +3,9 @@ package org.apache.jsp;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
+import Conexiones.conexionSQL;
+import java.sql.ResultSet;
+import java.sql.PreparedStatement;
 
 public final class compra_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
@@ -41,6 +44,9 @@ public final class compra_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
       out.write("\r\n");
       out.write("\r\n");
       out.write("\r\n");
@@ -93,6 +99,34 @@ public final class compra_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        <!-- Línea de tiempo-->\r\n");
       out.write("        <link href=\"css/timeline.css\" rel=\"stylesheet\" type=\"text/css\"/>\r\n");
       out.write("    </head>\r\n");
+      out.write("    ");
+
+        String codigo_usuario_referente = "";
+        if (request.getParameter("codigo") != "" && request.getParameter("codigo") != null) {
+            codigo_usuario_referente = request.getParameter("codigo");
+        }
+
+        if (request.getParameter("error") != "" && request.getParameter("error") != null) {
+            out.print("<script>alert('Ocurrió un error al realizar el registro, vuelva a intentarlo, si el problema persiste, contacte al correo ventas@goldenhash.org');</script>");
+        }
+
+        if (request.getParameter("finalizado") != "" && request.getParameter("finalizado") != null) {
+            out.print("<script>alert('Registro completado exitosamente, se te enviará un correo electrónico para confirmar los detalles de tu pago. Información al correo electrónico ventas@goldenhash.org');</script>");
+        }
+
+        PreparedStatement pst = null;
+        ResultSet rs = null;
+        conexionSQL con = new conexionSQL();
+        String consultaSQL = "select * from informacion";
+        pst = con.getConnection().prepareStatement(consultaSQL);
+        rs = pst.executeQuery();
+        int i = 0;
+        while (rs.next()) {
+            out.print("<input type='hidden' id='valor_btc_bd' value='" + rs.getString("precio_btc") + "'/>");
+            out.print("<input type='hidden' id='valor_eth_bd' value='" + rs.getString("precio_eth") + "'/>");
+        }
+
+    
       out.write("\r\n");
       out.write("    <body>\r\n");
       out.write("        <!-- Header -->\r\n");
@@ -146,6 +180,9 @@ public final class compra_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("            </nav>\r\n");
       out.write("            <!-- /Nav -->\r\n");
       out.write("        </header>\r\n");
+      out.write("        <input type=\"hidden\" id=\"codigo_referente\" value=\"");
+      out.print(codigo_usuario_referente);
+      out.write("\">\r\n");
       out.write("        <!-- Contact -->\r\n");
       out.write("        <div id=\"contact\" class=\"section sm-padding\" style=\"background-color: #FAFAFA;\">\r\n");
       out.write("            <!-- Container -->\r\n");
@@ -211,7 +248,7 @@ public final class compra_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                                <button type=\"button\" class=\"close\" data-dismiss=\"alert\">&times;</button>\r\n");
       out.write("                                <strong>Advertencia!</strong> Contribucion minima en BTC es 0.01 y ETH de 0.125.\r\n");
       out.write("                            </div>\r\n");
-      out.write("                            <p>3. Contribución mínima de 0.01 BTC</p>\r\n");
+      out.write("                            <p id=\"h2_contribucion\">Contribución mínima de 0.01 BTC</p>\r\n");
       out.write("                            <button type=\"button\" id=\"btn_comprar\" class=\"btn btn-comprar-formulario\" onclick=\"datos_formulario()\" >Comprar</button>\r\n");
       out.write("                        </div>\r\n");
       out.write("                    </div>\r\n");
@@ -283,7 +320,7 @@ public final class compra_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\r\n");
       out.write("        </footer>\r\n");
       out.write("        <!-- /Footer -->\r\n");
-      out.write("        \r\n");
+      out.write("\r\n");
       out.write("        <!-- Modal de registro usuario -->\r\n");
       out.write("\r\n");
       out.write("        <div class=\"modal\" id=\"myModal\">\r\n");
@@ -402,25 +439,13 @@ public final class compra_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\r\n");
       out.write("            </div>\r\n");
       out.write("        </div>\r\n");
-      out.write("        \r\n");
-      out.write("        <script src=\"js/jquery.min.js\" type=\"text/javascript\"></script>\r\n");
+      out.write("\r\n");
+      out.write("        <script src=\"js/jquery-3.3.1.min.js\" type=\"text/javascript\"></script>\r\n");
       out.write("        <script src=\"js/bootstrap.min.js\" type=\"text/javascript\"></script>\r\n");
       out.write("        <script src=\"js/registros/registro_datos_usuario.js\" type=\"text/javascript\"></script>\r\n");
       out.write("        <script src=\"js/validaciones/validacion.js\" type=\"text/javascript\"></script>\r\n");
       out.write("        <script src=\"js/precios/calculo_precios.js\" type=\"text/javascript\"></script>\r\n");
       out.write("        <script>\r\n");
-      out.write("\r\n");
-      out.write("                                jQuery(window).on('load', function () {\r\n");
-      out.write("\r\n");
-      out.write("                                    jQuery(\"#main\").css(\"min-height\", (jQuery(window).height() - jQuery(\"footer\").outerHeight() - jQuery(\"footer\").outerHeight() - jQuery(\"footer\").outerHeight() - jQuery(\"header\").outerHeight() + \"px\"));\r\n");
-      out.write("                                }).resize(function () {\r\n");
-      out.write("\r\n");
-      out.write("                                    jQuery(\"#main\").css(\"min-height\", (jQuery(window).height() - jQuery(\"footer\").outerHeight() - jQuery(\"footer\").outerHeight() - jQuery(\"footer\").outerHeight() - jQuery(\"header\").outerHeight() + \"px\"));\r\n");
-      out.write("                                });\r\n");
-      out.write("                                jQuery(document).ready(function () {\r\n");
-      out.write("\r\n");
-      out.write("                                    jQuery(\"#main\").css(\"min-height\", (jQuery(window).height() - jQuery(\"footer\").outerHeight() - jQuery(\"footer\").outerHeight() - jQuery(\"footer\").outerHeight() - jQuery(\"header\").outerHeight() + \"px\"));\r\n");
-      out.write("                                })\r\n");
       out.write("                                function ejecutar_formulario_compra() {\r\n");
       out.write("                                    if (document.getElementById(\"file_transsaccion\").value == \"\") {\r\n");
       out.write("                                        alert('POR FAVOR, DEBES CARGAR UNA IMAGEN, LA CUAL ESPECIFICA LA TRANSACCIÓN REALIZADA');\r\n");

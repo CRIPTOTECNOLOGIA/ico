@@ -32,7 +32,7 @@ and open the template in the editor.
 }
 
 .div_pago .label_compra{
-    display: inline-flex;
+    display: -webkit-inline-box;
     width: 100%;
 }
 
