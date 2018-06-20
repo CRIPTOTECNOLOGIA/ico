@@ -112,24 +112,24 @@
 
                     <!--  Main navigation  -->
                     <ul class="main-nav nav navbar-nav navbar-right">
-                        <li><a href="#home">Inico</a></li>
-                        <li><a href="#about">¿Que es?</a></li>
-                        <li><a href="#portafolio">Características</a></li>
+                        <li><a href="index.jsp#home">Inico</a></li>
+                        <li><a href="index.jsp#about">¿Que es?</a></li>
+                        <li><a href="index.jsp#portafolio">Características</a></li>
                         <li class="has-dropdown">
-                            <a href="#service" >Golden Space</a>
+                            <a href="index.jsp#service" >Golden Space</a>
                             <ul class="dropdown">
-                                <li><a href="#features">¿Que Es?</a></li>
+                                <li><a href="index.jsp#features">¿Que Es?</a></li>
                             </ul>
                         </li>
-                        <li class="has-dropdown"><a href="#pricing">Tokens</a>
+                        <li class="has-dropdown"><a href="index.jsp#pricing">Tokens</a>
                             <ul class="dropdown">
-                                <li><a href="#pricing">Uso</a></li>
-                                <li><a href="#distribucion_tokens">Distribucion</a></li>
+                                <li><a href="index.jsp#pricing">Uso</a></li>
+                                <li><a href="index.jsp#distribucion_tokens">Distribucion</a></li>
                             </ul>
                         </li>                        
-                        <li><a href="#timeline">Linea de Tiempo</a></li>
-                        <li><a href="#team">Equipo</a></li>
-                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="index.jsp#timeline">Linea de Tiempo</a></li>
+                        <li><a href="index.jsp#team">Equipo</a></li>
+                        <li><a href="index.jsp#contact">Contacto</a></li>
                     </ul>
                     <!-- /Main navigation -->
                 </div>
@@ -150,7 +150,7 @@
                     <!-- /Section-header --> 
 
                     <div class="col-sm-12 col-md-6">
-                        <p>1. Seleccione el método de pago.</p>                           
+                        <p style="color: #000;">1. Seleccione el método de pago.</p>                           
                         <!-- Metodo de pago -->
 
                         <div class="row" style="margin-top: 1em; margin-bottom: 1em;">
@@ -173,17 +173,17 @@
                                 </div>
                             </div>
                         </div>                        
-                        <p>2. Digite cuantos tokens desea comprar.</p>
+                        <p style="color: #000;">2. Digite cuantos tokens desea comprar.</p>
                         <div class="container-calculadora">
                             <div class="row">
                                 <div class="col-12">
-                                    <p style="text-align: center;">Calculadora</p>
+                                    <p style="text-align: center; color: #000;">Calculadora</p>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-12 col-md-5" style="text-align: center;">
                                     <div class="form-group">
-                                        <label style="color: #868F9B">Cantidad a Enviar</label>
+                                        <label style="color: #000;">Cantidad a Enviar</label>
                                         <input type="text" class="form-control" id="cantidad_btc" name="cantidad_btc" placeholder="BTC" onchange="verificar_seleccionado(this.value);" onkeyup="verificar_seleccionado(this.value);">
 
                                     </div>
@@ -193,7 +193,7 @@
                                 </div>
                                 <div class="col-sm-12 col-md-5" style="text-align: center;">
                                     <div class="form-group">
-                                        <label style="color: #868F9B">Cantidad a Recibir</label>
+                                        <label style="color: #000">Cantidad a Recibir</label>
                                         <input type="text" class="form-control" disabled id="cantidad_xgh" name="cantidad_xgh" placeholder="XGH" id="xgh" onkeyup="">
                                     </div>
                                 </div>
@@ -202,13 +202,13 @@
                                 <button type="button" class="close" data-dismiss="alert">&times;</button>
                                 <strong>Advertencia!</strong> Contribucion minima en BTC es 0.01 y ETH de 0.125.
                             </div>
-                            <p id="h2_contribucion">Contribución mínima de 0.01 BTC</p>
+                            <p id="h2_contribucion" style="color: #000;">Contribución mínima de 0.01 BTC</p>
                             <button type="button" id="btn_comprar" class="btn btn-comprar-formulario" onclick="datos_formulario()" >Comprar</button>
                         </div>
                     </div>
                     <!-- Div Imagen -->
                     <div class="col-sm-12 col-md-6 video-cont">
-                        <p>
+                        <p style="color: #000;">
                             Descarga Trust Wallet oara recepcionar tus Golden Hash (XGH)
                         </p>
                         <!-- Div Imagen -->
@@ -220,10 +220,10 @@
                         </div>  
                         <div class="row">
                             <div class="col-sm-12 col-md-6" style="text-align: center;">                                
-                                <img src="img/android-app-store-latest.png" onclick="location.href = 'https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp'" style="margin-top: 2em; height: 76.19px; width: 253.717px; cursor: pointer;" class="img-fluid">                                
+                                <img src="img/android-app-store-latest.png" onclick="location.href = 'https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp'" style="margin-top: 2em; height: 76.19px; width: 253.717px; cursor: pointer;" class="img-responsive">                                
                             </div>
                             <div class="col-sm-12 col-md-6" style="text-align: center;">
-                                <img src="img/download_app_store.svg" onclick="location.href = 'https://itunes.apple.com/us/app/trust-ethereum-wallet/id1288339409?mt=8'" style="margin-top: 2em; height: 76.19px; width: 253.717px; cursor: pointer;" class="img-fluid">
+                                <img src="img/download_app_store.svg" onclick="location.href = 'https://itunes.apple.com/us/app/trust-ethereum-wallet/id1288339409?mt=8'" style="margin-top: 2em; height: 76.19px; width: 253.717px; cursor: pointer;" class="img-responsive">
                             </div>
                         </div>
                     </div>
@@ -330,7 +330,7 @@
 
                         <!-- Modal footer -->
                         <div class="modal-footer">
-                            <input type="button" id="submit" class="btn btn-outline-success" id="btn_siguiente_comprar" value="Siguiente"/>
+                            <input type="button" id="submit" class="btn btn_formulario-registro" id="btn_siguiente_comprar" value="Siguiente"/>
                         </div>
                     </form>
                 </div>
@@ -344,13 +344,13 @@
                 <div class="modal-content">
                     <!-- Modal Header -->
                     <div class="modal-header">
-                        <h4>Dirección de Pre-Venta</h4>
+                        <h4 style="color: #fff;">Dirección de Pre-Venta</h4>
                     </div>
                     <form action="nuevo_archivo" method="post" id="formlario_registro_archivo" enctype="multipart/form-data">
                         <!-- Modal Body -->
                         <div class="modal-body">
                             <!--<a href="">Ver intrucciones de compra</a>-->
-                            <p id="textobtc">
+                            <p id="textobtc" style="color: #000;">
                                 Envíe sus contribuciones BTC a la siguiente dirección o código QR.
                                 NO envíe BTC de un intercambio, debe ser enviado desde 
                                 su billetera.
@@ -366,7 +366,7 @@
                                 <img class="img-fluid" id="img-qr-pago" src="img/qr-bitcoin.png" style="width: 300px;">
                             </div>
                             <h5>Dirección de pago</h5>
-                            <div class="input-group">
+                            <div class="form-group">
                                 <input type="text" disabled class="form-control" id="hash-billetera" value="1L338vcUVqCEnAP2okFkcBHTpm2YmJMYAd">
                                 <br>
                             </div>
@@ -386,7 +386,7 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <input type="button" onclick="ejecutar_formulario_compra(this);" id="finalizar_registro" class="btn btn-outline-success" value="Finalizar"/>
+                            <input type="button" onclick="ejecutar_formulario_compra(this);" id="finalizar_registro" class="btn btn_formulario-registro" value="Finalizar"/>
                         </div> 
                     </form>
                 </div>

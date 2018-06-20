@@ -53,8 +53,10 @@ and open the template in the editor.
     color: #FFFFFF;
 }
 
+/* Modal de registro de datos */
+
 .modal-header{
-    background-color: #10161A;
+    background-color: #45668E;
     padding: 10px 10px 5px 10px;
 }
 
@@ -74,6 +76,23 @@ and open the template in the editor.
     color: #FFFFFF!important;
 }
 
+.modal-body label{
+    color: #000;
+}
+
+.btn_formulario-registro{
+    background-color: transparent;
+    border: 1px solid #45668E;
+    color: #000;
+    padding: 0.5em 3em;
+}
+
+.btn_formulario-registro:hover{
+    background-color: #45668E;
+    color: #FFFFFF;
+}
+
+/* Fin de modal de registro de datos */
 
 /* Mensajes de errores */
 .errores{
