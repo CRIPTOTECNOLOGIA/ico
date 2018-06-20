@@ -52,3 +52,24 @@ and open the template in the editor.
     background-color: #45668E;
     color: #FFFFFF;
 }
+
+.modal-header{
+    background-color: #10161A;
+    padding: 10px 10px 5px 10px;
+}
+
+.modal-title{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.modal-header .close{
+    color: #FFFFFF;
+    margin-top: -20px;
+}
+
+.close{
+    font-size: 32px;
+    color: #FFFFFF!important;
+}
