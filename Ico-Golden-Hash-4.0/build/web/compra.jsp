@@ -1,7 +1,9 @@
 <%-- 
-    Document   : index
-    Created on : 9/06/2018, 01:00:43 PM
-    Author     : CRIPTOTECNOLOGIA
+    /**
+    * @authors 
+    * David Casadiegos - david.2818@outlook.com / Backend
+    * Luis Gelvis - luisgelvis123@gmail.com / Frontend
+    */
 --%>
 
 <%@page import="Conexiones.conexionSQL"%>
@@ -223,7 +225,7 @@
                     <!-- Div Imagen -->
                     <div class="col-sm-12 col-md-6 video-cont">
                         <p style="color: #000;">
-                            Descarga Trust Wallet oara recepcionar tus Golden Hash (XGH)
+                            Descarga Trust Wallet para recepcionar tus Golden Hash (XGH)
                         </p>
                         <!-- Div Imagen -->
                         <!--<div class="col-sm-12 col-md-6" style="margin: 0 auto;">

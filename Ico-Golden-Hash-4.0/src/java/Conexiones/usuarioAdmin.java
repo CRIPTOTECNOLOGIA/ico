@@ -10,9 +10,11 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- *
- * @author CRIPTOTECNOLOGIA
+ * @authors
+ * David Casadiegos - david.2818@outlook.com / Backend
+ * Luis Gelvis - luisgelvis123@gmail.com / Frontend
  */
+
 public class usuarioAdmin extends conexionSQL {
 
     private String nombre;

@@ -1,7 +1,9 @@
 <%-- 
-    Document   : admin
-    Created on : 24/05/2018, 03:08:13 AM
-    Author     : Programacion E
+    /**
+    * @authors 
+    * David Casadiegos - david.2818@outlook.com / Backend
+    * Luis Gelvis - luisgelvis123@gmail.com / Frontend
+    */
 --%>
 
 <%@page import="java.sql.PreparedStatement"%>
