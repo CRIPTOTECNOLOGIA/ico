@@ -14,8 +14,8 @@ import java.sql.SQLException;
  */
 public class conexionSQL {
     private String USERNAME = "root";
-    private String PASSWORD = "";
-    //private String PASSWORD = "F56gfd7)80+ez5&&7";
+    //private String PASSWORD = "";
+    private String PASSWORD = "F56gfd7)80+ez5&&7";
     private String HOST = "localhost";
     private String PORT = "3306";
     private String DATABASE = "goldenhash";

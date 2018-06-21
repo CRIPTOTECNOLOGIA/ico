@@ -649,33 +649,11 @@
                     <div class="section-header text-center">
                         <h2 class="title">Nuestro Equipo</h2>
                     </div>
-                    <!-- /Section header -->
-                    <!-- Arturo -->
-                    <div class="col-sm-6" style="margin-top: 1em;">
-                        <div class="team arturo" >
-                            <div class="team-img"style="width: 100%; height: 100%;">
-                                <img class="img-responsive " style="border-radius: 100%;" src="./img/FOTOS EQUIPO/arturo.png" alt="">
-                                <div class="overlay">
-                                    <div class="team-social">
-                                        <p>
-                                            Especialista en Planificación Estratégica, Estrategia de mercadotecnia,
-                                            Gestor de proyectos, Investigación de mercado, Operaciones de venta, Marketing
-                                            digital y análisis financiero.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content">
-                                <h3>Arturo Izquierdo</h3>
-                                <span>CEO & Fundador</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /team -->                   
+                    <!-- /Section header -->                              
 
                     <!-- Javier -->
-                    <div class="col-sm-6" style="margin-top: 1em;">
-                        <div class="team" >
+                    <div class="col-sm-12" style="margin-top: 1em;">
+                        <div class="team javier">
                             <div class="team-img" style="width: 100%; height: 100%;">
                                 <img class="img-responsive javier" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/javier.png" alt="">
                                 <div class="overlay">
@@ -688,8 +666,8 @@
                                 </div>
                             </div>
                             <div class="team-content">
-                                <h3>Javier</h3>
-                                <span>Co Fundador</span>
+                                <h3>Javier Lizcano</h3>
+                                <span>CEO & Fundador</span>
                             </div>
                         </div>
                         <!-- /team -->
@@ -806,71 +784,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <!-- Equipo de desarrollo 2 -->
-                <div class="row" style="margin-top: 2em;">
-                    <!-- MArlon Ramirez -->
-                    <div class="col-sm-4" style="margin-top: 1em;">
-                        <div class="team" >
-                            <div class="team-img">
-                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/marlon2.png" alt="">
-                                <div class="overlay">
-                                    <div class="team-social">
-                                        <p class="p">
-                                            Especialista en lenguajes de programación como PHP, java, C++, javascript, prolog,
-                                            lenguaje de marcado HTML y XML.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content">
-                                <h3>Marlon Ramirez</h3>
-                                <span>Ingeniero Desarrollador de Software</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Ruben Caballero -->
-                    <div class="col-sm-4" style="margin-top: 1em;">
-                        <div class="team" >
-                            <div class="team-img">
-                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Nicolas.png" alt="">
-                                <div class="overlay">
-                                    <div class="team-social">
-                                        <p class="p">
-                                            Con 9 años de experiencia en arquitectura de software de la universidad del cauca,
-                                            especialista en Arquitectura de Software.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content">
-                                <h3>Ruben Caballero</h3>
-                                <span>Ingeniero de Electrónica y Comunicaciones</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Rafael Carvallo -->
-                    <div class="col-sm-4" style="margin-top: 1em;">
-                        <div class="team" >
-                            <div class="team-img">
-                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/rafael.png" alt="">
-                                <div class="overlay">
-                                    <div class="team-social">
-                                        <p class="p">
-                                            Analista de bases de datos relacionales y manejo de Información, Consultor en áreas de
-                                            desarrollo y redes, Implementador de software.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content">
-                                <h3>Rafael Carvallo</h3>
-                                <span>Ingeniero de Sistemas</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div>               
 
                 <!-- Mercadeo -->
                 <div class="row" style="margin-top: 2em;">
@@ -948,7 +862,7 @@
                                 <div class="overlay">
                                     <div class="team-social">
                                         <p class="p">
-                                            ngeniero Petroquímico de la Universidad Rafael Urdaneta de Maracaibo, Experto en Idiomas
+                                            Ingeniero Petroquímico de la Universidad Rafael Urdaneta de Maracaibo, Experto en Idiomas
                                             del Centro Venezolano Americano del Zulia.
                                         </p>
                                     </div>
@@ -960,80 +874,13 @@
                             </div>
                         </div>
                     </div>
-                </div>                   
-
-                <!-- Departamento legal -->
-                <div class="row" style="margin-top: 2em;">
-                    <div class="section-header text-center">
-                        <h2 class="title">Departamento Legal</h2>
-                    </div>
-                    <!-- Eduardo Ordoñez -->
-                    <div class="col-sm-4" style="margin-top: 1em;">
-                        <div class="team" >
-                            <div class="team-img">
-                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/johan.png" alt="">
-                                <div class="overlay">
-                                    <div class="team-social">
-                                        <p class="p">
-                                            Abogado, Especialista en Derecho Administrativo y Especialista en Ciencias Penales y Criminológicas.
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content">
-                                <h3>Eduardo Ordoñez</h3>
-                                <span>Líder del Departamento Legal</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Carolina Peña -->
-                    <div class="col-sm-4" style="margin-top: 1em;">
-                        <div class="team" >
-                            <div class="team-img">
-                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/carolina.png" alt="">
-                                <div class="overlay">
-                                    <div class="team-social">
-                                        <p class="p">
-                                            Asistente Judicial en seguimiento y orientación de las jurisdicciones ordinarias y
-                                            administrativas, Apoyo Jurídico a la gestión contractual.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content">
-                                <h3>Carolina Peña</h3>
-                                <span>Abogada</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Andres Cruz -->
-                    <div class="col-sm-4" style="margin-top: 1em;">
-                        <div class="team" >
-                            <div class="team-img">
-                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ender2.png" alt="">
-                                <div class="overlay">
-                                    <div class="team-social">
-                                        <p class="p">
-                                            Abogado de la Universidad Libre Seccional Cúcuta, Especialista en Asuntos Penales de la
-                                            Universidad Libre, Apoyo Jurídico en procesos litigiosos.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content">
-                                <h3>Andrés Cruz</h3>
-                                <span>Abogado</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div> 
 
                 <!-- Departamento administrativo -->
 
                 <div class="row" style="margin-top: 2em;">
                     <div class="section-header text-center">
-                        <h2 class="title">Administración y Contabilidad</h2>
+                        <h2 class="title">Administración.</h2>
                     </div>
                     <!-- Susana Lizcano -->
                     <div class="col-sm-4" style="margin-top: 1em;">
@@ -1052,6 +899,26 @@
                             <div class="team-content">
                                 <h3>Susana Lizcano</h3>
                                 <span>Administradora</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Eduardo Ordoñez -->
+                    <div class="col-sm-4" style="margin-top: 1em;">
+                        <div class="team" >
+                            <div class="team-img">
+                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/johan.png" alt="">
+                                <div class="overlay">
+                                    <div class="team-social">
+                                        <p class="p">
+                                            Abogado, Especialista en Derecho Administrativo y Especialista en Ciencias Penales y Criminológicas.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h3>Eduardo Ordoñez</h3>
+                                <span>Abogado</span>
                             </div>
                         </div>
                     </div>
@@ -1075,25 +942,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Monica Acevedo -->
-                    <div class="col-sm-4" style="margin-top: 1em;">
-                        <div class="team" >
-                            <div class="team-img">
-                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/monica2.png" alt="">
-                                <div class="overlay">
-                                    <div class="team-social">
-                                        <p class="p">
-                                            Especialista en Análisis y diseño de unidades productivas, con más de 5 años de experiencia en gerencia de empresas.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content">
-                                <h3>Monica Acevedo</h3>
-                                <span>Administradora</span>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
             <!-- /Container -->
@@ -1297,6 +1146,11 @@
         <!-- Script que realiza el registro del mensaje contactanos -->
         <script src="js/registros/registro_mensaje.js" type="text/javascript"></script>
 
+        <style>
+            .highcharts-credits{
+                display: none;
+            }
+        </style>
 
         <script>
             Highcharts.chart('grafica', {
