@@ -92,9 +92,10 @@
                         <!-- /Logo -->
 
                         <!-- Collapse nav button -->
-                        <div></span>
+			<div class="nav-collapse">
+                            <span></span>
                         </div>
-                        <!-- /Collapse nav button -->
+			<!-- /Collapse nav button -->
                     </div>
 
                     <!--  Main navigation  -->
