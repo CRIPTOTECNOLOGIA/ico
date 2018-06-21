@@ -656,6 +656,11 @@ header {
     margin: 0px auto;
 }
 
+.btn-libro_blanco:hover{
+    background: linear-gradient(-45deg, #45668e, #007F73, #4ABDAC, #304763);
+    color: #FFFFFF;
+}
+
 .btn-comprar{
     padding: 0.7em 4em;
     background-color: transparent;

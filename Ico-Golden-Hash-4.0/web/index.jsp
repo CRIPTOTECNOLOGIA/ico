@@ -947,50 +947,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Equipo de Marketing 2 -->
-                    <div class="row" style="margin-top: 2em;">
-                        <!-- Ximena Jaimes -->
-                        <div class="col-sm-6" style="margin-top: 1em;">
-                            <div class="team ximena" >
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ximena.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p class="p">
-                                                Especialización en Gerencia Social de la Universidad Simón Bolívar, Experiencia de 9 años
-                                                en comunicación organizacional, relaciones públicas y periodismo corporativo.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-content">
-                                    <h3>Ximena Jaimes</h3>
-                                    <span>Comunicadora Social</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Ibett Luque -->
-                        <div class="col-sm-6" style="margin-top: 1em;">
-                            <div class="team ibett">
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ibett2.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p class="p">
-                                                Licenciada en Psicología, practitioner en programación neurolingüística, Diplomado en Psicologia Organizacional,
-                                                Especialista en Comunicación Corporativa.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-content">
-                                    <h3>Ibett Luque</h3>
-                                    <span>Coaching Organizacional</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </div>                   
 
                     <!-- Departamento legal -->
                     <div class="row" style="margin-top: 2em;">
