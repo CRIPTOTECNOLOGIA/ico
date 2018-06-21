@@ -1577,6 +1577,7 @@ header {
     }
     #service .img-golden_space{
         margin: 0px auto;
+        display: flex;
     }
     #pricing .img-uso_tokens{
         width: 300px;

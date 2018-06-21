@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Servlets;
 
 import Conexiones.codigo_referido;
@@ -25,9 +20,11 @@ import org.apache.tomcat.util.http.fileupload.servlet.ServletFileUpload;
 import org.apache.tomcat.util.http.fileupload.servlet.ServletRequestContext;
 
 /**
- *
- * @author CRIPTOTECNOLOGIA
+ * @authors
+ * David Casadiegos - david.2818@outlook.com / Backend
+ * Luis Gelvis - luisgelvis123@gmail.com / Frontend
  */
+
 public class registrar_archivo extends HttpServlet {
 
     /**

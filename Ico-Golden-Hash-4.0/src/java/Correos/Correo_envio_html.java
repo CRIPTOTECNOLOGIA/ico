@@ -18,9 +18,11 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 /**
- *
- * @author CRIPTOTECNOLOGIA
+ * @authors
+ * David Casadiegos - david.2818@outlook.com / Backend
+ * Luis Gelvis - luisgelvis123@gmail.com / Frontend
  */
+
 public class Correo_envio_html {
 
     public void sendHtmlEmail(String host, String port,
