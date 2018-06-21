@@ -956,8 +956,8 @@ header {
     margin: 0px auto;
 }
 
-.ximena, .ibett{
-    width: 50%;
+.javier{
+    width: 30%;
     margin: 0px auto;
 }
 
@@ -1058,7 +1058,7 @@ header {
 
 .team .team-social p {
     line-height: 30px;
-    width: 350px;
+    width: 320px;
     text-align: justify;
     color: #FFF;
     padding-top: 1em;
@@ -1536,7 +1536,7 @@ header {
         padding-top: -51em;
     }
     .team .team-social p{
-        width: 280px;
+        width: 255px;
     }
     .team .team-social .p{
         width: 180px;
