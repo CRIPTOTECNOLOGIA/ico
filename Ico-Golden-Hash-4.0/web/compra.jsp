@@ -12,14 +12,28 @@
 <html lang="en">
 
     <head>
+        <title>Compra Golden Hash</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+        BEGIN SEO-->
+        <meta name="description" content="Es una moneda que te da acceso a una red de almacenamiento encriptada, te ofrece la oportunidad de adquirir espacio exclusivo en nuestros pool de servidores, en donde su información se encuentra respaldada por la tecnología blockchain, lo cual le permitirá tener la seguridad que realmente necesita.">
+        <meta name="keywords" content="">
+
         <meta name="format-detection" content="telephone=no">
         <meta property="og:url" content="https://www.icogoldenhash.com"> 
         <link rel="shortcut icon" type="image/png" href="img/img-logo/GH_04.png" />
-        <title>Golden Hash</title>
+
+        <meta name="format-detection" content="telephone=no">
+        <meta property="og:url" content="https://www.icogoldenhash.com"> 
+        <meta property="og:type" content="website"> 
+        <meta property="og:title" content="Golden Hash - Criptomoneda"> 
+        <meta property="og:description" content="¿Qué esperas para comprar Golden Hash?. ¡Aprovecha ésta oportunidad, estamos de descuentos!"> 
+        <meta property="og:image" content="https://www.icogoldenhash.com/img/GoldenFondo.jpg"/>
+        <!-- End SEO-->
+        
 
         <!-- Google font -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
