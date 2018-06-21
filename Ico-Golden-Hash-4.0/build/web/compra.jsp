@@ -18,7 +18,7 @@
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="format-detection" content="telephone=no">
         <meta property="og:url" content="https://www.icogoldenhash.com"> 
-
+        <link rel="shortcut icon" type="image/png" href="img/img-logo/GH_04.png" />
         <title>Golden Hash</title>
 
         <!-- Google font -->
@@ -367,7 +367,7 @@
                             </div>
                             <h5>Dirección de pago</h5>
                             <div class="form-group">
-                                <input type="text" disabled class="form-control" id="hash-billetera" value="1L338vcUVqCEnAP2okFkcBHTpm2YmJMYAd">
+                                <input type="text" style="font-family: Arial; font-size: 20px" disabled class="form-control" id="hash-billetera" value="1L338vcUVqCEnAP2okFkcBHTpm2YmJMYAd">
                                 <br>
                             </div>
 
