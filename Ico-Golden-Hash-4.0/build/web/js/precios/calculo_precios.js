@@ -56,7 +56,6 @@ function verificar_seleccionado(cantidad) {
 function btc_xgh(cantidad) {
     var btc_actual = document.getElementById("valor_btc_bd").value;//7378.49;
     var btc_total = cantidad * btc_actual;
-    var cantidad_XGH_btc = btc_total / 0.50;
     var cantidad_XGH_btc_desc = btc_total / 0.25;
     //alert(cantidad_XGH_btc_desc);
     $("#cantidad_xgh").val(cantidad_XGH_btc_desc);
@@ -67,7 +66,6 @@ function btc_xgh(cantidad) {
 function eth_xgh(cantidad) {
     var eth_actual = document.getElementById("valor_eth_bd").value;
     var eth_total = cantidad * eth_actual;
-    var cantidad_XGH_eth = eth_total / 0.50;
     var cantidad_XGH_eth_desc = eth_total / 0.25;
     //alert(cantidad_XGH_eth_desc);
     $("#cantidad_xgh").val(cantidad_XGH_eth_desc);
