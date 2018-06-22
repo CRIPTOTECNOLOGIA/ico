@@ -622,6 +622,33 @@ header {
     margin-top: 20px;
 }
 
+/* home compra*/
+#home_compra {
+    height: auto;
+    background-color: #181C27;
+}
+
+#home_compra .home-wrapper {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.home_compra-content h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 58px;
+}
+.home_compra-content button {
+    margin-top: 20px;
+}
+/* fin home compra*/
+
 .header-wrapper h2 {
     display: inline-block;
     margin-bottom: 0px;

@@ -14,6 +14,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="format-detection" content="telephone=no">
+        <meta property="og:url" content="https://www.icogoldenhash.com"> 
+        
         <title>Golden Hash</title>
 
         <!-- Google font -->
@@ -68,7 +70,7 @@
                     <div class="navbar-header">
                         <!-- Logo -->
                         <div class="navbar-brand">
-                            <a href="index.html">
+                            <a href="index.jsp">
                                 <img class="logo" src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo">
                                 <img class="logo-alt" src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo">
                             </a>
@@ -76,8 +78,7 @@
                         <!-- /Logo -->
 
                         <!-- Collapse nav button -->
-                        <div class="nav-collapse" >
-                            <span></span>
+                        <div></span>
                         </div>
                         <!-- /Collapse nav button -->
                     </div>
@@ -159,10 +160,10 @@
                         <div class="col-sm-12 col-md-6 col-lg-6 btn_libro_compra">
                             <div class="row">
                                 <div class="col-sm-6 col-md-6">
-                                    <button class="btn btn-comprar">Comprar</button>
+                                    <a href="compra.jsp"><button class="btn btn-comprar">Comprar</button></a>
                                 </div>
                                 <div class="col-sm-6 col-md-6">
-                                    <button class="btn btn-libro_blanco">Libro Blanco</button>
+                                    <a href="PDF-LibroBlanclo/Libro Blanco GOLDEN HASH.pdf" target="a_blank"><button class="btn btn-libro_blanco">Libro Blanco</button></a>
                                 </div>                                
                             </div>
                         </div>
@@ -640,7 +641,7 @@
                     <div class="col-sm-6" style="margin-top: 1em;">
                         <div class="team arturo" >
                             <div class="team-img"style="width: 100%; height: 100%;">
-                                <img class="img-responsive " style="border-radius: 100%;" src="./img/FOTOS EQUIPO/arturo.png" alt="">
+                                <img class="img-responsive " style="border-radius: 100%;" src="img/FOTOS EQUIPO/arturo.png" alt="">
                                 <div class="overlay">
                                     <div class="team-social">
                                         <p>
@@ -663,7 +664,7 @@
                     <div class="col-sm-6" style="margin-top: 1em;">
                         <div class="team" >
                             <div class="team-img" style="width: 100%; height: 100%;">
-                                <img class="img-responsive javier" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/javier.png" alt="">
+                                <img class="img-responsive javier" style="border-radius: 100%;" src="img/FOTOS EQUIPO/javier.png" alt="">
                                 <div class="overlay">
                                     <div class="team-social">
                                         <p>
@@ -692,7 +693,7 @@
                         <div class="col-sm-6" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/alejandro.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="img/FOTOS EQUIPO/alejandro.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p>
@@ -712,7 +713,7 @@
                         <div class="col-sm-6" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/mauricio2.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="img/FOTOS EQUIPO/mauricio2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p>
@@ -736,7 +737,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/luis.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="img/FOTOS EQUIPO/luis.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
@@ -756,7 +757,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/david.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/david.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
@@ -776,7 +777,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/wilmar.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/wilmar.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
@@ -800,7 +801,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/marlon2.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/marlon2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
@@ -820,7 +821,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Nicolas.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/Nicolas.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
@@ -840,7 +841,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/rafael.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/rafael.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
@@ -867,7 +868,7 @@
                         <div class="col-sm-12">
                             <div class="team ismael" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ismael.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/ismael.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="text_ismael">
@@ -890,7 +891,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/leidy.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/leidy.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
@@ -910,7 +911,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/oriana.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/oriana.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
@@ -930,7 +931,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/pietro.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/pietro.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
@@ -953,7 +954,7 @@
                         <div class="col-sm-6" style="margin-top: 1em;">
                             <div class="team ximena" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ximena.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/ximena.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
@@ -973,7 +974,7 @@
                         <div class="col-sm-6" style="margin-top: 1em;">
                             <div class="team ibett">
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Ibett2.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/Ibett2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
@@ -1000,7 +1001,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/johan.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/johan.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
@@ -1020,7 +1021,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/carolina.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/carolina.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
@@ -1040,7 +1041,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ender2.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/ender2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
@@ -1068,7 +1069,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/susana.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/susana.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
@@ -1088,7 +1089,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/willington.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/willington.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
@@ -1108,7 +1109,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/monica2.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/monica2.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
@@ -1158,7 +1159,7 @@
                                     una criptomoneda basada en el protocolo de Ethereum, que dará sus inicios, a mediados
                                     del presente mes.
                                 </p>
-                                <a href="https://www.actualcoin.net/leermas?idNoticia=247">Read more</a>
+                                <a href="https://www.actualcoin.net/leermas?idNoticia=247" target="_blank">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -1179,7 +1180,7 @@
                                     almacenamientodedatos enla plataforma GoldenSpace, mediante una clave privada, además de la participación en distintos programas
                                     de recompensa. 
                                 </p>
-                                <a href="PDF/Borbon.pdf">Read more</a>
+                                <a href="PDF/Borbon.pdf" target="_blank">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -1253,8 +1254,8 @@
                     <div class="col-md-4">
                         <!-- footer follow -->
                         <ul class="footer-follow">
-                            <li><a class="facebook" href="https://www.facebook.com/GoldenHash-2104300649854518/?ref=bookmarks"><i class="fa fa-facebook">  Facebook</i></a></li>
-                            <li><a class="twitter" href="https://twitter.com/?logged_out=1&lang=es"><i class="fa fa-twitter">  Twitter</i></a></li>                            
+                            <li><a class="facebook" href="https://www.facebook.com/GoldenHash-2104300649854518/?ref=bookmarks" target="_blank"><i class="fa fa-facebook">  Facebook</i></a></li>
+                            <li><a class="twitter" href="https://twitter.com/?logged_out=1&lang=es" target="_blank"><i class="fa fa-twitter">  Twitter</i></a></li>                            
                         </ul>
                         <!-- /footer follow -->
                     </div>

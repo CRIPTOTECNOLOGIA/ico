@@ -53,6 +53,8 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n");
       out.write("        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->\r\n");
       out.write("        <meta name=\"format-detection\" content=\"telephone=no\">\r\n");
+      out.write("        <meta property=\"og:url\" content=\"https://www.icogoldenhash.com\"> \r\n");
+      out.write("        \r\n");
       out.write("        <title>Golden Hash</title>\r\n");
       out.write("\r\n");
       out.write("        <!-- Google font -->\r\n");
@@ -107,7 +109,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                    <div class=\"navbar-header\">\r\n");
       out.write("                        <!-- Logo -->\r\n");
       out.write("                        <div class=\"navbar-brand\">\r\n");
-      out.write("                            <a href=\"index.html\">\r\n");
+      out.write("                            <a href=\"index.jsp\">\r\n");
       out.write("                                <img class=\"logo\" src=\"img/img-logo/Logo Golden Hash Metal Azul.png\" alt=\"logo\">\r\n");
       out.write("                                <img class=\"logo-alt\" src=\"img/img-logo/Logo Golden Hash Metal Azul.png\" alt=\"logo\">\r\n");
       out.write("                            </a>\r\n");
@@ -115,8 +117,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                        <!-- /Logo -->\r\n");
       out.write("\r\n");
       out.write("                        <!-- Collapse nav button -->\r\n");
-      out.write("                        <div class=\"nav-collapse\" >\r\n");
-      out.write("                            <span></span>\r\n");
+      out.write("                        <div></span>\r\n");
       out.write("                        </div>\r\n");
       out.write("                        <!-- /Collapse nav button -->\r\n");
       out.write("                    </div>\r\n");
@@ -198,10 +199,10 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                        <div class=\"col-sm-12 col-md-6 col-lg-6 btn_libro_compra\">\r\n");
       out.write("                            <div class=\"row\">\r\n");
       out.write("                                <div class=\"col-sm-6 col-md-6\">\r\n");
-      out.write("                                    <button class=\"btn btn-comprar\">Comprar</button>\r\n");
+      out.write("                                    <a href=\"compra.jsp\"><button class=\"btn btn-comprar\">Comprar</button></a>\r\n");
       out.write("                                </div>\r\n");
       out.write("                                <div class=\"col-sm-6 col-md-6\">\r\n");
-      out.write("                                    <button class=\"btn btn-libro_blanco\">Libro Blanco</button>\r\n");
+      out.write("                                    <a href=\"PDF-LibroBlanclo/Libro Blanco GOLDEN HASH.pdf\" target=\"a_blank\"><button class=\"btn btn-libro_blanco\">Libro Blanco</button></a>\r\n");
       out.write("                                </div>                                \r\n");
       out.write("                            </div>\r\n");
       out.write("                        </div>\r\n");
@@ -859,7 +860,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                        <div class=\"col-sm-4\" style=\"margin-top: 1em;\">\r\n");
       out.write("                            <div class=\"team\" >\r\n");
       out.write("                                <div class=\"team-img\">\r\n");
-      out.write("                                    <img class=\"img-responsive\" style=\"border-radius: 100%;\" src=\"./img/FOTOS EQUIPO/Nicolas.png\" alt=\"\">\r\n");
+      out.write("                                    <img class=\"img-responsive\" style=\"border-radius: 100%;\" src=\"./img/FOTOS EQUIPO/nicolas.png\" alt=\"\">\r\n");
       out.write("                                    <div class=\"overlay\">\r\n");
       out.write("                                        <div class=\"team-social\">\r\n");
       out.write("                                            <p class=\"p\">\r\n");
@@ -1197,7 +1198,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                                    una criptomoneda basada en el protocolo de Ethereum, que dará sus inicios, a mediados\r\n");
       out.write("                                    del presente mes.\r\n");
       out.write("                                </p>\r\n");
-      out.write("                                <a href=\"https://www.actualcoin.net/leermas?idNoticia=247\">Read more</a>\r\n");
+      out.write("                                <a href=\"https://www.actualcoin.net/leermas?idNoticia=247\" target=\"_blank\">Read more</a>\r\n");
       out.write("                            </div>\r\n");
       out.write("                        </div>\r\n");
       out.write("                    </div>\r\n");
@@ -1218,7 +1219,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                                    almacenamientodedatos enla plataforma GoldenSpace, mediante una clave privada, además de la participación en distintos programas\r\n");
       out.write("                                    de recompensa. \r\n");
       out.write("                                </p>\r\n");
-      out.write("                                <a href=\"PDF/Borbon.pdf\">Read more</a>\r\n");
+      out.write("                                <a href=\"PDF/Borbon.pdf\" target=\"_blank\">Read more</a>\r\n");
       out.write("                            </div>\r\n");
       out.write("                        </div>\r\n");
       out.write("                    </div>\r\n");
@@ -1292,8 +1293,8 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                    <div class=\"col-md-4\">\r\n");
       out.write("                        <!-- footer follow -->\r\n");
       out.write("                        <ul class=\"footer-follow\">\r\n");
-      out.write("                            <li><a class=\"facebook\" href=\"https://www.facebook.com/GoldenHash-2104300649854518/?ref=bookmarks\"><i class=\"fa fa-facebook\">  Facebook</i></a></li>\r\n");
-      out.write("                            <li><a class=\"twitter\" href=\"https://twitter.com/?logged_out=1&lang=es\"><i class=\"fa fa-twitter\">  Twitter</i></a></li>                            \r\n");
+      out.write("                            <li><a class=\"facebook\" href=\"https://www.facebook.com/GoldenHash-2104300649854518/?ref=bookmarks\" target=\"_blank\"><i class=\"fa fa-facebook\">  Facebook</i></a></li>\r\n");
+      out.write("                            <li><a class=\"twitter\" href=\"https://twitter.com/?logged_out=1&lang=es\" target=\"_blank\"><i class=\"fa fa-twitter\">  Twitter</i></a></li>                            \r\n");
       out.write("                        </ul>\r\n");
       out.write("                        <!-- /footer follow -->\r\n");
       out.write("                    </div>\r\n");

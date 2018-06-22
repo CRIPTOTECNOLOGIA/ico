@@ -14,6 +14,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="format-detection" content="telephone=no">
+        <meta property="og:url" content="https://www.icogoldenhash.com"> 
+        
         <title>Golden Hash</title>
 
         <!-- Google font -->
@@ -68,7 +70,7 @@
                     <div class="navbar-header">
                         <!-- Logo -->
                         <div class="navbar-brand">
-                            <a href="index.html">
+                            <a href="index.jsp">
                                 <img class="logo" src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo">
                                 <img class="logo-alt" src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo">
                             </a>
@@ -76,8 +78,7 @@
                         <!-- /Logo -->
 
                         <!-- Collapse nav button -->
-                        <div class="nav-collapse" >
-                            <span></span>
+                        <div></span>
                         </div>
                         <!-- /Collapse nav button -->
                     </div>
@@ -159,10 +160,10 @@
                         <div class="col-sm-12 col-md-6 col-lg-6 btn_libro_compra">
                             <div class="row">
                                 <div class="col-sm-6 col-md-6">
-                                    <button class="btn btn-comprar">Comprar</button>
+                                    <a href="compra.jsp"><button class="btn btn-comprar">Comprar</button></a>
                                 </div>
                                 <div class="col-sm-6 col-md-6">
-                                    <button class="btn btn-libro_blanco">Libro Blanco</button>
+                                    <a href="PDF-LibroBlanclo/Libro Blanco GOLDEN HASH.pdf" target="a_blank"><button class="btn btn-libro_blanco">Libro Blanco</button></a>
                                 </div>                                
                             </div>
                         </div>
@@ -820,7 +821,7 @@
                         <div class="col-sm-4" style="margin-top: 1em;">
                             <div class="team" >
                                 <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/Nicolas.png" alt="">
+                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/nicolas.png" alt="">
                                     <div class="overlay">
                                         <div class="team-social">
                                             <p class="p">
@@ -1158,7 +1159,7 @@
                                     una criptomoneda basada en el protocolo de Ethereum, que dará sus inicios, a mediados
                                     del presente mes.
                                 </p>
-                                <a href="https://www.actualcoin.net/leermas?idNoticia=247">Read more</a>
+                                <a href="https://www.actualcoin.net/leermas?idNoticia=247" target="_blank">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -1179,7 +1180,7 @@
                                     almacenamientodedatos enla plataforma GoldenSpace, mediante una clave privada, además de la participación en distintos programas
                                     de recompensa. 
                                 </p>
-                                <a href="PDF/Borbon.pdf">Read more</a>
+                                <a href="PDF/Borbon.pdf" target="_blank">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -1253,8 +1254,8 @@
                     <div class="col-md-4">
                         <!-- footer follow -->
                         <ul class="footer-follow">
-                            <li><a class="facebook" href="https://www.facebook.com/GoldenHash-2104300649854518/?ref=bookmarks"><i class="fa fa-facebook">  Facebook</i></a></li>
-                            <li><a class="twitter" href="https://twitter.com/?logged_out=1&lang=es"><i class="fa fa-twitter">  Twitter</i></a></li>                            
+                            <li><a class="facebook" href="https://www.facebook.com/GoldenHash-2104300649854518/?ref=bookmarks" target="_blank"><i class="fa fa-facebook">  Facebook</i></a></li>
+                            <li><a class="twitter" href="https://twitter.com/?logged_out=1&lang=es" target="_blank"><i class="fa fa-twitter">  Twitter</i></a></li>                            
                         </ul>
                         <!-- /footer follow -->
                     </div>
