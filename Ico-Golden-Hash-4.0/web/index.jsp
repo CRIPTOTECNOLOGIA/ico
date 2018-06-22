@@ -145,7 +145,7 @@
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <!-- Section header -->
                             <div class="section-header text-center" >
-                                <h2 class="title" style=" color: #FFFFFF" >30% De Bonus termina en:</h2>
+                                <h2 class="title" style=" color: #FFFFFF" >50% De Bonus termina en:</h2>
                             </div>
                             <!-- /Section header -->
                             <div class="agileits-timer"> 
@@ -333,7 +333,7 @@
                             'Golang').
                         </p>
                     </div>
-                    <div class="col-md-6" style="text-align: center;">
+                    <div class="col-md-6" style="text-align: center; margin-top: 3em;">
                         <img src="img/logo_golden_space_blanco.png" class="img-responsive" >
                     </div>
                 </div>
@@ -395,7 +395,7 @@
                         <div id="about-slider" class="owl-carousel owl-theme">
                             <img class="img-responsive" src="./img/img-goldenSpace/estapa1-criptoseguridad.jpg" alt="">
                             <img class="img-responsive" src="./img/img-goldenSpace/etapa2-inicio.jpg" alt="">
-                            <img class="img-responsive" src="./img/img-goldenSpace/etapa3-funcionamiento.jpg" alt="">
+                            <img class="img-responsive" src="./img/img-goldenSpace/etapa4-funcionamiento.png" alt="">
                             <img class="img-responsive" src="./img/img-goldenSpace/etapa4-interfaz.jpg" alt="">
                         </div>
                     </div>
@@ -652,14 +652,6 @@
                     <div class="section-header text-center">
                         <h2 class="title">Nuestro Equipo</h2>
                     </div>
-<<<<<<< HEAD
-                    <!-- /Section header -->
-                    <!-- Arturo -->
-                    <div class="col-sm-6" style="margin-top: 1em;">
-                        <div class="team arturo" >
-                            <div class="team-img"style="width: 100%; height: 100%;">
-                                <img class="img-responsive " style="border-radius: 100%;" src="img/FOTOS EQUIPO/arturo.png" alt="">
-=======
                     <!-- /Section header -->                              
 
                     <!-- Javier -->
@@ -667,7 +659,6 @@
                         <div class="team ismael">
                             <div class="team-img" style="width: 100%; height: 100%;">
                                 <img class="img-responsive javier" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/javier.png" alt="">
->>>>>>> origin
                                 <div class="overlay">
                                     <div class="team-social">
                                         <p>
@@ -695,13 +686,10 @@
                     <!-- Lider ALejandro -->
                     <div class="col-sm-6" style="margin-top: 1em;">
                         <div class="team" >
-<<<<<<< HEAD
-                            <div class="team-img" style="width: 100%; height: 100%;">
-                                <img class="img-responsive javier" style="border-radius: 100%;" src="img/FOTOS EQUIPO/javier.png" alt="">
-=======
+
                             <div class="team-img">
                                 <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/alejandro.png" alt="">
->>>>>>> origin
+
                                 <div class="overlay">
                                     <div class="team-social">
                                         <p>
@@ -717,28 +705,7 @@
                             </div>
                         </div>
                     </div>
-<<<<<<< HEAD
-                </div            
-                    <!-- Lideres de desarrollo -->
-                    <div class="row" style="margin-top: 2em;">
-                        <!-- Section header -->
-                        <div class="section-header text-center" >
-                            <h2 class="title" >Equipo de Desarrollo</h2>
-                        </div>
-                        <!-- /Section header -->
-                        <!-- Lider ALejandro -->
-                        <div class="col-sm-6" style="margin-top: 1em;">
-                            <div class="team" >
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="img/FOTOS EQUIPO/alejandro.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p>
-                                                Experto en Blockchain, Gestor empresarial y director de talento humano, productor de multimedia, desarrollador de plataformas
-                                                morpg y diplomado en liderazgo organizacional corporativo.
-                                            </p>
-                                        </div>
-=======
+
                     <!-- Lider Mauricio -->
                     <div class="col-sm-6" style="margin-top: 1em;">
                         <div class="team" >
@@ -750,76 +717,19 @@
                                             Consultor Tecnologías de Información, Magister Gestión de Proyectos Informáticos, Especialista Diagnóstico y Análisis Organizacional,
                                             Programador Certificado Microsoft Nivel Avanzado Experto.
                                         </p>
->>>>>>> origin
+
                                     </div>
                                 </div>
                             </div>
-<<<<<<< HEAD
-                        </div>
-                        <!-- Lider Mauricio -->
-                        <div class="col-sm-6" style="margin-top: 1em;">
-                            <div class="team" >
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="img/FOTOS EQUIPO/mauricio2.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p>
-                                                Consultor Tecnologías de Información, Magister Gestión de Proyectos Informáticos, Especialista Diagnóstico y Análisis Organizacional,
-                                                Programador Certificado Microsoft Nivel Avanzado Experto.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-content">
-                                    <h3>Mauricio Acevedo</h3>
-                                    <span>Líder en Desarrollo de Proyectos Informáticos</span>
-                                </div>
-=======
                             <div class="team-content">
                                 <h3>Mauricio Acevedo</h3>
                                 <span>Líder en Desarrollo de Proyectos Informáticos</span>
->>>>>>> origin
+
                             </div>
                         </div>
                     </div>
                 </div>
 
-<<<<<<< HEAD
-                    <!-- Equipo de desarrollo 1 -->
-                    <div class="row" style="margin-top: 2em;">
-                        <!-- Luis Gelvis -->
-                        <div class="col-sm-4" style="margin-top: 1em;">
-                            <div class="team" >
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="img/FOTOS EQUIPO/luis.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p class="p">
-                                                Experto en Blockchain, Diseñador Web y desarrollador de aplicaciones, Tecnólogo en análisis
-                                                y desarrollo de sistemas informáticos.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-content">
-                                    <h3>Luis Gelvis</h3>
-                                    <span>Desarrollador de Software</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- David Casadiegos -->
-                        <div class="col-sm-4" style="margin-top: 1em;">
-                            <div class="team" >
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/david.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p class="p">
-                                                Experto en Blockchain, Diseñador Web y desarrollador de aplicaciones, Tecnólogo en análisis
-                                                y desarrollo de sistemas informáticos.
-                                            </p>
-                                        </div>
-=======
                 <!-- Equipo de desarrollo 1 -->
                 <div class="row" style="margin-top: 2em;">
                     <!-- Luis Gelvis -->
@@ -833,49 +743,11 @@
                                             Experto en Blockchain, Diseñador Web y desarrollador de aplicaciones, Tecnólogo en análisis
                                             y desarrollo de sistemas informáticos.
                                         </p>
->>>>>>> origin
-                                    </div>
-                                </div>
-                            </div>
-<<<<<<< HEAD
-                        </div>
-                        <!-- Wilmar Alvarado -->
-                        <div class="col-sm-4" style="margin-top: 1em;">
-                            <div class="team" >
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/wilmar.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p class="p">
-                                                Experto en Blockchain, Diseñador Web y desarrollador de aplicaciones, Tecnólogo en análisis
-                                                y desarrollo de sistemas informáticos.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-content">
-                                    <h3>Wilmar Alvarado</h3>
-                                    <span>Desarrollador de Software</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <!-- Equipo de desarrollo 2 -->
-                    <div class="row" style="margin-top: 2em;">
-                        <!-- MArlon Ramirez -->
-                        <div class="col-sm-4" style="margin-top: 1em;">
-                            <div class="team" >
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/marlon2.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p class="p">
-                                                Especialista en lenguajes de programación como PHP, java, C++, javascript, prolog,
-                                                lenguaje de marcado HTML y XML.
-                                            </p>
-                                        </div>
-=======
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="team-content">
                                 <h3>Luis Gelvis</h3>
                                 <span>Desarrollador de Software</span>
@@ -893,45 +765,10 @@
                                             Experto en Blockchain, Diseñador Web y desarrollador de aplicaciones, Tecnólogo en análisis
                                             y desarrollo de sistemas informáticos.
                                         </p>
->>>>>>> origin
+
                                     </div>
                                 </div>
                             </div>
-<<<<<<< HEAD
-                        </div>
-                        <!-- Ruben Caballero -->
-                        <div class="col-sm-4" style="margin-top: 1em;">
-                            <div class="team" >
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/Nicolas.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p class="p">
-                                                Con 9 años de experiencia en arquitectura de software de la universidad del cauca,
-                                                especialista en Arquitectura de Software.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-content">
-                                    <h3>Ruben Caballero</h3>
-                                    <span>Ingeniero de Electrónica y Comunicaciones</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Rafael Carvallo -->
-                        <div class="col-sm-4" style="margin-top: 1em;">
-                            <div class="team" >
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/rafael.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p class="p">
-                                                Analista de bases de datos relacionales y manejo de Información, Consultor en áreas de
-                                                desarrollo y redes, Implementador de software.
-                                            </p>
-                                        </div>
-=======
                             <div class="team-content">
                                 <h3>David Casadiegos</h3>
                                 <span>Desarrollador de Software</span>
@@ -949,7 +786,6 @@
                                             Experto en Blockchain, Diseñador Web y desarrollador de aplicaciones, Tecnólogo en análisis
                                             y desarrollo de sistemas informáticos.
                                         </p>
->>>>>>> origin
                                     </div>
                                 </div>
                             </div>
@@ -960,26 +796,6 @@
                         </div>
                     </div>
                 </div>               
-
-<<<<<<< HEAD
-                    <!-- Mercadeo -->
-                    <div class="row" style="margin-top: 2em;">
-                        <div class="section-header text-center">
-                            <h2 class="title">Equipo de Mercadeo</h2>
-                        </div>
-                        <!-- Lide de mercadeo -->
-                        <div class="col-sm-12">
-                            <div class="team ismael" >
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/ismael.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p class="text_ismael">
-                                                Ingeniero Industrial, Magister en Gerencia de Empresas Mención Mercadeo, Experto en ventas con 12 años de experiencia en marketing digital
-                                                y campañas publicitarias en nuevos mercados.
-                                            </p>
-                                        </div>
-=======
                 <!-- Mercadeo -->
                 <div class="row" style="margin-top: 2em;">
                     <div class="section-header text-center">
@@ -996,7 +812,6 @@
                                             Ingeniero Industrial, Magister en Gerencia de Empresas Mención Mercadeo, Experto en ventas con 12 años de experiencia en marketing digital
                                             y campañas publicitarias en nuevos mercados.
                                         </p>
->>>>>>> origin
                                     </div>
                                 </div>
                             </div>
@@ -1006,22 +821,6 @@
                             </div>
                         </div>
                     </div>
-<<<<<<< HEAD
-                    <!-- Equipo de mercadeo -->
-                    <div class="row" style="margin-top: 2em;">                    
-                        <!-- Leidy Gomes -->
-                        <div class="col-sm-4" style="margin-top: 1em;">
-                            <div class="team" >
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/leidy.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p class="p">
-                                                Experta en Marketing Digital, Community Manager, especialista en manejo de redes sociales,
-                                                investigación de mercadeo.
-                                            </p>
-                                        </div>
-=======
                 </div>
                 <!-- Equipo de mercadeo -->
                 <div class="row" style="margin-top: 2em;">                    
@@ -1036,45 +835,9 @@
                                             Experta en Marketing Digital, Community Manager, especialista en manejo de redes sociales,
                                             investigación de mercadeo.
                                         </p>
->>>>>>> origin
                                     </div>
                                 </div>
                             </div>
-<<<<<<< HEAD
-                        </div>
-                        <!-- Oriana Pinillos -->
-                        <div class="col-sm-4" style="margin-top: 1em;">
-                            <div class="team" >
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/oriana.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p class="p">
-                                                Comunicadora Social y Periodista con Énfasis en Comunicación Organizacional, formación Complementaria
-                                                en Administración de PQR de Icontec Internacional. 
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-content">
-                                    <h3>Alejandra Pinillos</h3>
-                                    <span>Comunicadora Social</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Pietro Rivellaro -->
-                        <div class="col-sm-4" style="margin-top: 1em;">
-                            <div class="team" >
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/pietro.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p class="p">
-                                                ngeniero Petroquímico de la Universidad Rafael Urdaneta de Maracaibo, Experto en Idiomas
-                                                del Centro Venezolano Americano del Zulia.
-                                            </p>
-                                        </div>
-=======
                             <div class="team-content">
                                 <h3>Leidy Gómez</h3>
                                 <span>Marketing Digital</span>
@@ -1092,7 +855,6 @@
                                             Comunicadora Social y Periodista con Énfasis en Comunicación Organizacional, formación Complementaria
                                             en Administración de PQR de Icontec Internacional. 
                                         </p>
->>>>>>> origin
                                     </div>
                                 </div>
                             </div>
@@ -1102,22 +864,6 @@
                             </div>
                         </div>
                     </div>
-<<<<<<< HEAD
-                    <!-- Equipo de Marketing 2 -->
-                    <div class="row" style="margin-top: 2em;">
-                        <!-- Ximena Jaimes -->
-                        <div class="col-sm-6" style="margin-top: 1em;">
-                            <div class="team ximena" >
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/ximena.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p class="p">
-                                                Especialización en Gerencia Social de la Universidad Simón Bolívar, Experiencia de 9 años
-                                                en comunicación organizacional, relaciones públicas y periodismo corporativo.
-                                            </p>
-                                        </div>
-=======
                     <!-- Pietro Rivellaro -->
                     <div class="col-sm-4" style="margin-top: 1em;">
                         <div class="team" >
@@ -1129,79 +875,16 @@
                                             Ingeniero Petroquímico de la Universidad Rafael Urdaneta de Maracaibo, Experto en Idiomas
                                             del Centro Venezolano Americano del Zulia.
                                         </p>
->>>>>>> origin
                                     </div>
                                 </div>
                             </div>
-<<<<<<< HEAD
-                        </div>
-                        <!-- Ibett Luque -->
-                        <div class="col-sm-6" style="margin-top: 1em;">
-                            <div class="team ibett">
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/Ibett2.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p class="p">
-                                                Licenciada en Psicología, practitioner en programación neurolingüística, Diplomado en Psicologia Organizacional,
-                                                Especialista en Comunicación Corporativa.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-content">
-                                    <h3>Ibett Luque</h3>
-                                    <span>Coaching Organizacional</span>
-                                </div>
-=======
                             <div class="team-content">
                                 <h3>Pietro Crivellaro</h3>
                                 <span>Ejecutivo de Marketing</span>
->>>>>>> origin
                             </div>
                         </div>
                     </div>
                 </div> 
-
-<<<<<<< HEAD
-                    <!-- Departamento legal -->
-                    <div class="row" style="margin-top: 2em;">
-                        <div class="section-header text-center">
-                            <h2 class="title">Departamento Legal</h2>
-                        </div>
-                        <!-- Eduardo Ordoñez -->
-                        <div class="col-sm-4" style="margin-top: 1em;">
-                            <div class="team" >
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/johan.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p class="p">
-                                                Abogado, Especialista en Derecho Administrativo y Especialista en Ciencias Penales y Criminológicas.
-                                                
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-content">
-                                    <h3>Eduardo Ordoñez</h3>
-                                    <span>Líder del Departamento Legal</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Carolina Peña -->
-                        <div class="col-sm-4" style="margin-top: 1em;">
-                            <div class="team" >
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/carolina.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p class="p">
-                                                Asistente Judicial en seguimiento y orientación de las jurisdicciones ordinarias y
-                                                administrativas, Apoyo Jurídico a la gestión contractual.
-                                            </p>
-                                        </div>
-=======
                 <!-- Departamento administrativo -->
 
                 <div class="row" style="margin-top: 2em;">
@@ -1219,35 +902,12 @@
                                             Tecnóloga en Mercadotecnia y Comercio Internacional, técnica en servicio
                                             al cliente y ventas.
                                         </p>
->>>>>>> origin
                                     </div>
                                 </div>
                             </div>
-<<<<<<< HEAD
-                        </div>
-                        <!-- Andres Cruz -->
-                        <div class="col-sm-4" style="margin-top: 1em;">
-                            <div class="team" >
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/ender2.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p class="p">
-                                                Abogado de la Universidad Libre Seccional Cúcuta, Especialista en Asuntos Penales de la
-                                                Universidad Libre, Apoyo Jurídico en procesos litigiosos.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-content">
-                                    <h3>Andrés Cruz</h3>
-                                    <span>Abogado</span>
-                                </div>
-=======
                             <div class="team-content">
                                 <h3>Susana Lizcano</h3>
                                 <span>Administradora</span>
->>>>>>> origin
                             </div>
                         </div>
                     </div>
@@ -1260,66 +920,10 @@
                                     <div class="team-social">
                                         <p class="p">
                                             Abogado, Especialista en Derecho Administrativo y Especialista en Ciencias Penales y Criminológicas.
-
-<<<<<<< HEAD
-                    <!-- Departamento administrativo -->
-
-                    <div class="row" style="margin-top: 2em;">
-                        <div class="section-header text-center">
-                            <h2 class="title">Administración y Contabilidad</h2>
-                        </div>
-                        <!-- Susana Lizcano -->
-                        <div class="col-sm-4" style="margin-top: 1em;">
-                            <div class="team" >
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/susana.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p class="p">
-                                                Tecnóloga en Mercadotecnia y Comercio Internacional de la Fundación, técnica en servicio
-                                                al cliente y ventas.
-                                            </p>
-                                        </div>
-=======
                                         </p>
->>>>>>> origin
                                     </div>
                                 </div>
                             </div>
-<<<<<<< HEAD
-                        </div>
-                        <!-- Willington Serrano -->
-                        <div class="col-sm-4" style="margin-top: 1em;">
-                            <div class="team" >
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/willington.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p class="p">
-                                                Contador Público Titulado, Especialista en revisión Fiscal y Auditoria Externa, Outsourcing Contable,
-                                                Asesoría tributaria y legal, Consultor de negocios.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="team-content">
-                                    <h3>Willington Serrano</h3>
-                                    <span>Contador</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Monica Acevedo -->
-                        <div class="col-sm-4" style="margin-top: 1em;">
-                            <div class="team" >
-                                <div class="team-img">
-                                    <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS-EQUIPO/monica2.png" alt="">
-                                    <div class="overlay">
-                                        <div class="team-social">
-                                            <p class="p">
-                                                Especialista en Análisis y diseño de unidades productivas, con más de 5 años de experiencia en gerencia de empresas.
-                                            </p>
-                                        </div>
-=======
                             <div class="team-content">
                                 <h3>Eduardo Ordoñez</h3>
                                 <span>Abogado</span>
@@ -1337,7 +941,6 @@
                                             Contador Público Titulado, Especialista en revisión Fiscal y Auditoria Externa, Outsourcing Contable,
                                             Asesoría tributaria y legal, Consultor de negocios.
                                         </p>
->>>>>>> origin
                                     </div>
                                 </div>
                             </div>
@@ -1444,13 +1047,60 @@
                         </div>
                     </div>
                 </div>
-                
+                <!-- ico alert -->
                 <div class="row">
-                    <div>
-                        
+                    <div class="col-md-4">
+                        <div class="blog" style="margin: auto">
+                            <div class="blog-img">
+                                <a href="https://www.icoalert.com/?q=golden%20hash&is_v=1" target="_blank">
+                                    <img src="img/icoalert.png" class="img-responsive">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- COin Gecko -->
+                    <div class="col-md-4">
+                        <div class="blog" style="margin: auto">
+                            <div class="blog-img">
+                                <a href="https://www.coingecko.com/es/ico/golden-hash" target="_blank">
+                                    <img src="img/CoinGecko-Full-Logo-1.png" class="img-responsive">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ico bench -->
+                    <div class="col-md-4">
+                        <div class="blog" style="margin: auto">
+                            <div class="blog-img">
+                                <a href="https://icobench.com/u/goldenhash" target="_blank">
+                                    <img src="img/icobench.png" class="img-responsive">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
+                <!-- ico rating -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="blog" style="margin: auto">
+                            <div class="blog-img">
+                                <a href="https://icorating.com/ico/goldenhash/" target="_blank">
+                                    <img src="img/ico-rating-logo.png" class="img-responsive">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ico buffer -->
+                    <div class="col-md-4">
+                        <div class="blog" style="margin: auto">
+                            <div class="blog-img">
+                                <a href="https://icobuffer.com/projects/golden-hash" target="_blank">
+                                    <img src="img/icobuffer.png" class="img-responsive">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- /Container -->
 
