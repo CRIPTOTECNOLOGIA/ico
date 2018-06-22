@@ -1006,28 +1006,48 @@
                             </div>
                         </div>
                     </div>
-                    <!-- /blog -->
-
-                    <div class="col-md-12">
+                    <!-- /blog --> 
+                </div>                
+                <!-- /Row -->
+                
+                <!-- COINCODEX -->
+                <div class="row">
+                    <div class="col-md-4">
                         <div class="blog" style="margin: auto">
                             <div class="blog-img">
                                 <a href="https://coincodex.com/ico/golden-hash/ " target="_blank">
                                     <img src="img/coincodex-logo-desktop.png" class="img-responsive">
                                 </a>
                             </div>
-                            <div class="blog-content">
-                                <h3> Golden Hash (Pre-Sale) ICO.</h3>
-                                <p style="text-align: justify;">
-                                    Golden Hash (XGH) es una criptomoneda que da acceso a una plataforma de almacenamiento encriptada llamada Golden Space.
-                                </p>
-                                <a href="https://coincodex.com/ico/golden-hash/" target="_blank">Leer más</a>
+                        </div>
+                    </div>
+                    <!-- INVESTING -->
+                    <div class="col-md-4">
+                        <div class="blog" style="margin: auto">
+                            <div class="blog-img">
+                                <a href="https://www.investing.com/crypto/ico-calendar" target="_blank">
+                                    <img src="img/investing.png" class="img-responsive">
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <!-- /blog -->
-
+                    <!-- COINHILLS -->
+                    <div class="col-md-4">
+                        <div class="blog" style="margin: auto">
+                            <div class="blog-img">
+                                <a href="https://www.coinhills.com/ico/view/golden-hash/ " target="_blank">
+                                    <img src="img/coinhills.png" class="img-responsive">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!-- /Row -->
+                
+                <div class="row">
+                    <div>
+                        
+                    </div>
+                </div>
 
             </div>
             <!-- /Container -->

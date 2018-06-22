@@ -35,7 +35,7 @@
         <meta property="og:description" content="¿Qué esperas para comprar Golden Hash?. ¡Aprovecha ésta oportunidad, estamos de descuentos!"> 
         <meta property="og:image" content="https://www.icogoldenhash.com/img/GoldenFondo.jpg"/>
         <!-- End SEO-->
-        
+
 
         <!-- Google font -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
@@ -87,7 +87,7 @@
             out.print("<script>alert('Registro completado exitosamente, se te enviará un correo electrónico para confirmar los detalles de tu pago. Información al correo electrónico ventas@goldenhash.org');</script>");
         }
 
-        PreparedStatement pst = null;
+        /*PreparedStatement pst = null;
         ResultSet rs = null;
         conexionSQL con = new conexionSQL();
         String consultaSQL = "select * from informacion";
@@ -97,10 +97,22 @@
         while (rs.next()) {
             out.print("<input type='hidden' id='valor_btc_bd' value='" + rs.getString("precio_btc") + "'/>");
             out.print("<input type='hidden' id='valor_eth_bd' value='" + rs.getString("precio_eth") + "'/>");
-        }
+        }*/
 
     %>
+
     <body>
+        <input type='hidden' id='valor_btc_bd' value=''/>
+        <input type='hidden' id='valor_eth_bd' value=''/>
+        <script  type="text/javascript">
+            fetch("https://api.coinmarketcap.com/v2/ticker/?limit=2")
+                    .then(res => res.json())
+                    .then(data => {
+                        document.getElementById("valor_btc_bd").value = data.data[1].quotes.USD.price;
+                        document.getElementById("valor_eth_bd").value = data.data[1027].quotes.USD.price;
+            });
+            
+        </script>
         <!-- Header -->
         <header id="home_compra">
             <!-- Background Image -->
@@ -409,43 +421,45 @@
 
             </div>
         </div>
-
+        
+        
         <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/registros/registro_datos_usuario.js" type="text/javascript"></script>
         <script src="js/validaciones/validacion.js" type="text/javascript"></script>
         <script src="js/precios/calculo_precios.js" type="text/javascript"></script>
         <script>
-                                function ejecutar_formulario_compra() {
-                                    if (document.getElementById("file_transsaccion").value == "") {
-                                        alert('POR FAVOR, DEBES CARGAR UNA IMAGEN, LA CUAL ESPECIFICA LA TRANSACCIÓN REALIZADA');
-                                        $("#mensaje8").fadeIn("slow");
-                                    } else {
-                                        $("#mensaje8").fadeOut();
-                                        var formulario = document.getElementById("formlario_registro_archivo");
-                                        formulario.submit();
-                                    }
-                                }
+    function ejecutar_formulario_compra() {
+        if (document.getElementById("file_transsaccion").value == "") {
+            alert('POR FAVOR, DEBES CARGAR UNA IMAGEN, LA CUAL ESPECIFICA LA TRANSACCIÓN REALIZADA');
+            $("#mensaje8").fadeIn("slow");
+        } else {
+            $("#mensaje8").fadeOut();
+            var formulario = document.getElementById("formlario_registro_archivo");
+            formulario.submit();
+        }
+    }
 
-                                function datos_formulario() {
-                                    var cantidad_btc = document.getElementById('cantidad_btc').value;
-                                    var cantidad_xgh = document.getElementById('cantidad_xgh').value;
-                                    document.getElementById('formulario_cantidad_btc').value = cantidad_btc;
-                                    document.getElementById('formuario_cantidad_xgh').value = cantidad_xgh;
-                                    $('#myModal').modal('show');
-                                }
+    function datos_formulario() {
+        var cantidad_btc = document.getElementById('cantidad_btc').value;
+        var cantidad_xgh = document.getElementById('cantidad_xgh').value;
+        document.getElementById('formulario_cantidad_btc').value = cantidad_btc;
+        document.getElementById('formuario_cantidad_xgh').value = cantidad_xgh;
+        $('#myModal').modal('show');
+    }
 
-                                function cargarArchivo(elemento) {
-                                    //alert("Proceso Terminado");
-                                    var file = elemento.files[0];
-                                    //$("#file_transsaccion").val(file.name);
-                                    //$('input[name="file_transsaccion"]').val(file.name);
-                                    //document.formulario.target = "null";
-                                    //document.formulario.action = "nuevo_archivo";
-                                    //document.formulario.submit();
-                                    //alert("Proceso Termionado");
-                                }
+    function cargarArchivo(elemento) {
+        //alert("Proceso Terminado");
+        var file = elemento.files[0];
+        //$("#file_transsaccion").val(file.name);
+        //$('input[name="file_transsaccion"]').val(file.name);
+        //document.formulario.target = "null";
+        //document.formulario.action = "nuevo_archivo";
+        //document.formulario.submit();
+        //alert("Proceso Termionado");
+    }
         </script>
+
     </body>
 
 </html>

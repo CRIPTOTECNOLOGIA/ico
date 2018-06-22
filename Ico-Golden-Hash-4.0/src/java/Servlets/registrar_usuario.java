@@ -80,12 +80,12 @@ public class registrar_usuario extends HttpServlet {
         codigo_referido cod_ref = new codigo_referido();
         referidos ref = new referidos();
         transacciones_cantidades tran_cant = new transacciones_cantidades();
-
-        if (usu.registrar_usuario(cedula, nombre, apellido, email, hash_pago, "")) {
-            id_usuario = usu.consulta_id(cedula).getId_usuario();
-            if (id_usuario != null) {
-                if (cod_ref.registrar_codigo_referido(id_usuario)) {
-                    if (tran_cant.registrar_transaccion_cantidad(cantidad_btc, cantidad_xgh, id_usuario)) {
+        
+        if (usu.registrar_usuario(cedula, nombre, apellido, email, hash_pago, "")) { //Registro de datos del usuario
+            id_usuario = usu.consulta_id(cedula).getId_usuario(); // Consulta el id_usarios en la bse de datos
+            if (id_usuario != null) {//id no es nullo hubo un registro
+                if (cod_ref.registrar_codigo_referido(id_usuario)) {// Registro de codigo usuario
+                    if (tran_cant.registrar_transaccion_cantidad(cantidad_btc, cantidad_xgh, id_usuario)) {// Registra la compra del usuario
                         if (codigo_referente != null && codigo_referente != "") {
                             String id_usuario_referente = ref.consulta_id_referente(codigo_referente).getId_usuario_referente();
                             if (id_usuario_referente != null && id_usuario_referente != "") {
