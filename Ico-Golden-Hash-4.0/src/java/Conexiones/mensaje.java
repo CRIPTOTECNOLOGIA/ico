@@ -6,10 +6,10 @@
 package Conexiones;
 
 import java.sql.PreparedStatement;
-
 /**
- *
- * @author CRIPTOTECNOLOGIA
+ * @authors
+ * David Casadiegos - david.2818@outlook.com / Backend
+ * Luis Gelvis - luisgelvis123@gmail.com / Frontend
  */
 public class mensaje extends conexionSQL{
     private String nombre;

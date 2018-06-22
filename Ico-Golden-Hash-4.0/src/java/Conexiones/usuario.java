@@ -9,9 +9,11 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
 /**
- *
- * @author CRIPTOTECNOLOGIA
+ * @authors
+ * David Casadiegos - david.2818@outlook.com / Backend
+ * Luis Gelvis - luisgelvis123@gmail.com / Frontend
  */
+
 public class usuario extends conexionSQL{
     private String id_usuario;
     private String cedula;

@@ -9,9 +9,11 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
- *
- * @author CRIPTOTECNOLOGIA
+ * @authors
+ * David Casadiegos - david.2818@outlook.com / Backend
+ * Luis Gelvis - luisgelvis123@gmail.com / Frontend
  */
+
 public class conexionSQL {
     private String USERNAME = "root";
     private String PASSWORD = "";

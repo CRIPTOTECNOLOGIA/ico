@@ -8,9 +8,11 @@ package Conexiones;
 import java.sql.PreparedStatement;
 
 /**
- *
- * @author CRIPTOTECNOLOGIA
+ * @authors
+ * David Casadiegos - david.2818@outlook.com / Backend
+ * Luis Gelvis - luisgelvis123@gmail.com / Frontend
  */
+
 public class transacciones_cantidades extends conexionSQL{
     private String id_transaccion;
     private String cantidad_btc;

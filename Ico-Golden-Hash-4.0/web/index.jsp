@@ -1,7 +1,9 @@
 <%-- 
-    Document   : index
-    Created on : 9/06/2018, 01:00:43 PM
-    Author     : CRIPTOTECNOLOGIA
+    /**
+    * @authors 
+    * David Casadiegos - david.2818@outlook.com / Backend
+    * Luis Gelvis - luisgelvis123@gmail.com / Frontend
+    */
 --%>
 
 <%@page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
@@ -9,14 +11,27 @@
 <html lang="en">
 
     <head>
+        <title>Golden Hash</title>
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+        BEGIN SEO-->
+        <meta name="description" content="Golden Hash. Es una moneda que te da acceso a una red de almacenamiento encriptada, te ofrece la oportunidad de adquirir espacio exclusivo en nuestros pool de servidores, en donde su información se encuentra respaldada por la tecnología blockchain, lo cual le permitirá tener la seguridad que realmente necesita.">
+        <meta name="keywords" content="">
+
         <meta name="format-detection" content="telephone=no">
         <meta property="og:url" content="https://www.icogoldenhash.com"> 
-        
-        <title>Golden Hash</title>
+        <link rel="shortcut icon" type="image/png" href="img/img-logo/GH_04.png" />
+
+        <meta name="format-detection" content="telephone=no">
+        <meta property="og:url" content="https://www.icogoldenhash.com"> 
+        <meta property="og:type" content="website"> 
+        <meta property="og:title" content="Golden Hash - Criptomoneda"> 
+        <meta property="og:description" content="¿Qué esperas para comprar Golden Hash?. ¡Aprovecha ésta oportunidad, estamos de descuentos!"> 
+        <meta property="og:image" content="https://www.icogoldenhash.com/img/GoldenFondo.jpg"/>
+        <!-- End SEO-->
 
         <!-- Google font -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
@@ -37,7 +52,7 @@
         <!-- Custom stlylesheet -->
         <link type="text/css" rel="stylesheet" href="css/style.css" />
         <link href="css/contador/style.css" rel="stylesheet" type="text/css"/>
-        
+
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -77,30 +92,31 @@
                         </div>
                         <!-- /Logo -->
 
-                        <!-- Collapse nav button -->
-                        <div></span>
+                        <!-- Collapse nav button -->			
+                        <div class="nav-collapse">
+                            <span></span>
                         </div>
-                        <!-- /Collapse nav button -->
+			<!-- /Collapse nav button -->
                     </div>
 
                     <!--  Main navigation  -->
                     <ul class="main-nav nav navbar-nav navbar-right">
-                        <li><a href="#home">Inico</a></li>
-                        <li><a href="#about">¿Que es?</a></li>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#about">¿Qué es?</a></li>
                         <li><a href="#portafolio">Características</a></li>
                         <li class="has-dropdown">
                             <a href="#service" >Golden Space</a>
                             <ul class="dropdown">
-                                <li><a href="#features">Como Funciona</a></li>
+                                <li><a href="#features">Cómo Funciona</a></li>
                             </ul>
                         </li>
                         <li class="has-dropdown"><a href="#pricing">Tokens</a>
                             <ul class="dropdown">
                                 <li><a href="#pricing">Uso</a></li>
-                                <li><a href="#distribucion_tokens">Distribucion</a></li>
+                                <li><a href="#distribucion_tokens">Distribución</a></li>
                             </ul>
                         </li>                        
-                        <li><a href="#timeline">Linea de Tiempo</a></li>
+                        <li><a href="#timeline">Línea de Tiempo</a></li>
                         <li><a href="#team">Equipo</a></li>
                         <li><a href="#contact">Contacto</a></li>
                     </ul>
@@ -129,7 +145,7 @@
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <!-- Section header -->
                             <div class="section-header text-center" >
-                                <h2 class="title" style=" color: #FFFFFF" >50% De Bonus termina en:</h2>
+                                <h2 class="title" style=" color: #FFFFFF" >30% De Bonus termina en:</h2>
                             </div>
                             <!-- /Section header -->
                             <div class="agileits-timer"> 
@@ -278,7 +294,7 @@
                             <p>
                                 Golden Hash es descentralizada, debido a que permite
                                 la participación de la comunidad, sin depender de un
-                                ente regulatorio (intermedirarios).                                
+                                ente regulatorio (intermediarios).                                
                             </p>
                         </div>
                     </div>
@@ -317,8 +333,8 @@
                             'Golang').
                         </p>
                     </div>
-                    <div class="col-md-6">
-                        <img src="img/golden_space.png" class="img-responsive img-golden_space" style="width: 400px;" >
+                    <div class="col-md-6" style="text-align: center;">
+                        <img src="img/logo_golden_space_blanco.png" class="img-responsive" >
                     </div>
                 </div>
                 <!-- /Row -->
@@ -360,7 +376,7 @@
                         <div class="feature">
                             <i class="fa fa-check"></i>
                             <p>
-                                Golden Space busca que el usuario tenga una TARIFA UNICA DE PAGO, y que sus monedas GOLDEN HASH, 
+                                Golden Space busca que el usuario tenga una TARIFA ÚNICA DE PAGO, y que sus monedas GOLDEN HASH, 
                                 sirvan para canjear espacio de almacenamiento.
                             </p>
                         </div>
@@ -618,14 +634,14 @@
                     </ul>
                     <!-- /Section header -->
                     <div class="inicio">
-                        <h4 style="color: inherit; margin-top: 18px; text-align: center; ">Fín</h4>
+                        <h4 style="color: inherit; margin-top: 18px; text-align: center; ">Fin</h4>
                     </div>
                 </div>
             </div>
             <!-- /Row -->
 
         </div>
-        
+
         <!-- Team -->
         <div id="team" class="section md-padding">
             <!-- Container -->
@@ -636,35 +652,22 @@
                     <div class="section-header text-center">
                         <h2 class="title">Nuestro Equipo</h2>
                     </div>
+<<<<<<< HEAD
                     <!-- /Section header -->
                     <!-- Arturo -->
                     <div class="col-sm-6" style="margin-top: 1em;">
                         <div class="team arturo" >
                             <div class="team-img"style="width: 100%; height: 100%;">
                                 <img class="img-responsive " style="border-radius: 100%;" src="img/FOTOS EQUIPO/arturo.png" alt="">
-                                <div class="overlay">
-                                    <div class="team-social">
-                                        <p>
-                                            Especialista en Planificación Estratégica, Estrategia de mercadotecnia,
-                                            Gestor de proyectos, Investigación de mercado, Operaciones de venta, Marketing
-                                            digital y análisis financiero.
-                                        </p>
-                                   </div>
-                                </div>
-                            </div>
-                            <div class="team-content">
-                                <h3>Arturo Izquierdo</h3>
-                                <span>CEO & Fundador</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /team -->                   
+=======
+                    <!-- /Section header -->                              
 
                     <!-- Javier -->
-                    <div class="col-sm-6" style="margin-top: 1em;">
-                        <div class="team" >
+                    <div class="col-sm-12" style="margin-top: 1em;">
+                        <div class="team ismael">
                             <div class="team-img" style="width: 100%; height: 100%;">
-                                <img class="img-responsive javier" style="border-radius: 100%;" src="img/FOTOS EQUIPO/javier.png" alt="">
+                                <img class="img-responsive javier" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/javier.png" alt="">
+>>>>>>> origin
                                 <div class="overlay">
                                     <div class="team-social">
                                         <p>
@@ -675,12 +678,46 @@
                                 </div>
                             </div>
                             <div class="team-content">
-                                <h3>Javier</h3>
-                                <span>Co Fundador</span>
+                                <h3>Javier Lizcano</h3>
+                                <span>CEO & Fundador</span>
                             </div>
                         </div>
                         <!-- /team -->
                     </div>
+                </div            
+                <!-- Lideres de desarrollo -->
+                <div class="row" style="margin-top: 2em;">
+                    <!-- Section header -->
+                    <div class="section-header text-center" >
+                        <h2 class="title" >Equipo de Desarrollo</h2>
+                    </div>
+                    <!-- /Section header -->
+                    <!-- Lider ALejandro -->
+                    <div class="col-sm-6" style="margin-top: 1em;">
+                        <div class="team" >
+<<<<<<< HEAD
+                            <div class="team-img" style="width: 100%; height: 100%;">
+                                <img class="img-responsive javier" style="border-radius: 100%;" src="img/FOTOS EQUIPO/javier.png" alt="">
+=======
+                            <div class="team-img">
+                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/alejandro.png" alt="">
+>>>>>>> origin
+                                <div class="overlay">
+                                    <div class="team-social">
+                                        <p>
+                                            Experto en Blockchain, Gestor empresarial y director de talento humano, productor de multimedia, desarrollador de plataformas
+                                            morpg y diplomado en liderazgo organizacional corporativo.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h3>Alejandro Yañez</h3>
+                                <span>Líder de Desarrollo de Software</span>
+                            </div>
+                        </div>
+                    </div>
+<<<<<<< HEAD
                 </div            
                     <!-- Lideres de desarrollo -->
                     <div class="row" style="margin-top: 2em;">
@@ -701,13 +738,23 @@
                                                 morpg y diplomado en liderazgo organizacional corporativo.
                                             </p>
                                         </div>
+=======
+                    <!-- Lider Mauricio -->
+                    <div class="col-sm-6" style="margin-top: 1em;">
+                        <div class="team" >
+                            <div class="team-img">
+                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/mauricio2.png" alt="">
+                                <div class="overlay">
+                                    <div class="team-social">
+                                        <p>
+                                            Consultor Tecnologías de Información, Magister Gestión de Proyectos Informáticos, Especialista Diagnóstico y Análisis Organizacional,
+                                            Programador Certificado Microsoft Nivel Avanzado Experto.
+                                        </p>
+>>>>>>> origin
                                     </div>
                                 </div>
-                                <div class="team-content">
-                                    <h3>Alejandro Yañez</h3>
-                                    <span>Lider de Desarrolo de Software</span>
-                                </div>
                             </div>
+<<<<<<< HEAD
                         </div>
                         <!-- Lider Mauricio -->
                         <div class="col-sm-6" style="margin-top: 1em;">
@@ -727,10 +774,17 @@
                                     <h3>Mauricio Acevedo</h3>
                                     <span>Líder en Desarrollo de Proyectos Informáticos</span>
                                 </div>
+=======
+                            <div class="team-content">
+                                <h3>Mauricio Acevedo</h3>
+                                <span>Líder en Desarrollo de Proyectos Informáticos</span>
+>>>>>>> origin
                             </div>
                         </div>
                     </div>
+                </div>
 
+<<<<<<< HEAD
                     <!-- Equipo de desarrollo 1 -->
                     <div class="row" style="margin-top: 2em;">
                         <!-- Luis Gelvis -->
@@ -765,13 +819,25 @@
                                                 y desarrollo de sistemas informáticos.
                                             </p>
                                         </div>
+=======
+                <!-- Equipo de desarrollo 1 -->
+                <div class="row" style="margin-top: 2em;">
+                    <!-- Luis Gelvis -->
+                    <div class="col-sm-4" style="margin-top: 1em;">
+                        <div class="team" >
+                            <div class="team-img">
+                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/luis.png" alt="">
+                                <div class="overlay">
+                                    <div class="team-social">
+                                        <p class="p">
+                                            Experto en Blockchain, Diseñador Web y desarrollador de aplicaciones, Tecnólogo en análisis
+                                            y desarrollo de sistemas informáticos.
+                                        </p>
+>>>>>>> origin
                                     </div>
                                 </div>
-                                <div class="team-content">
-                                    <h3>David Casadiegos</h3>
-                                    <span>Desarrollador de Software</span>
-                                </div>
                             </div>
+<<<<<<< HEAD
                         </div>
                         <!-- Wilmar Alvarado -->
                         <div class="col-sm-4" style="margin-top: 1em;">
@@ -809,13 +875,29 @@
                                                 lenguaje de marcado HTML y XML.
                                             </p>
                                         </div>
+=======
+                            <div class="team-content">
+                                <h3>Luis Gelvis</h3>
+                                <span>Desarrollador de Software</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- David Casadiegos -->
+                    <div class="col-sm-4" style="margin-top: 1em;">
+                        <div class="team" >
+                            <div class="team-img">
+                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/david.png" alt="">
+                                <div class="overlay">
+                                    <div class="team-social">
+                                        <p class="p">
+                                            Experto en Blockchain, Diseñador Web y desarrollador de aplicaciones, Tecnólogo en análisis
+                                            y desarrollo de sistemas informáticos.
+                                        </p>
+>>>>>>> origin
                                     </div>
                                 </div>
-                                <div class="team-content">
-                                    <h3>Marlon Ramirez</h3>
-                                    <span>Ingeniero Desarrollador de Software</span>
-                                </div>
                             </div>
+<<<<<<< HEAD
                         </div>
                         <!-- Ruben Caballero -->
                         <div class="col-sm-4" style="margin-top: 1em;">
@@ -849,16 +931,37 @@
                                                 desarrollo y redes, Implementador de software.
                                             </p>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="team-content">
-                                    <h3>Rafael Carvallo</h3>
-                                    <span>Ingeniero de Sistemas</span>
-                                </div>
+=======
+                            <div class="team-content">
+                                <h3>David Casadiegos</h3>
+                                <span>Desarrollador de Software</span>
                             </div>
                         </div>
                     </div>
+                    <!-- Wilmar Alvarado -->
+                    <div class="col-sm-4" style="margin-top: 1em;">
+                        <div class="team" >
+                            <div class="team-img">
+                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/wilmar.png" alt="">
+                                <div class="overlay">
+                                    <div class="team-social">
+                                        <p class="p">
+                                            Experto en Blockchain, Diseñador Web y desarrollador de aplicaciones, Tecnólogo en análisis
+                                            y desarrollo de sistemas informáticos.
+                                        </p>
+>>>>>>> origin
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h3>Wilmar Alvarado</h3>
+                                <span>Desarrollador de Software</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>               
 
+<<<<<<< HEAD
                     <!-- Mercadeo -->
                     <div class="row" style="margin-top: 2em;">
                         <div class="section-header text-center">
@@ -876,15 +979,34 @@
                                                 y campañas publicitarias en nuevos mercados.
                                             </p>
                                         </div>
+=======
+                <!-- Mercadeo -->
+                <div class="row" style="margin-top: 2em;">
+                    <div class="section-header text-center">
+                        <h2 class="title">Equipo de Mercadeo</h2>
+                    </div>
+                    <!-- Lide de mercadeo -->
+                    <div class="col-sm-12">
+                        <div class="team ismael" >
+                            <div class="team-img">
+                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/ismael.png" alt="">
+                                <div class="overlay">
+                                    <div class="team-social">
+                                        <p class="text_ismael">
+                                            Ingeniero Industrial, Magister en Gerencia de Empresas Mención Mercadeo, Experto en ventas con 12 años de experiencia en marketing digital
+                                            y campañas publicitarias en nuevos mercados.
+                                        </p>
+>>>>>>> origin
                                     </div>
                                 </div>
-                                <div class="team-content">
-                                    <h3>Ismael Zambrano</h3>
-                                    <span>Líder de Mercadeo</span>
-                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h3>Ismael Zambrano</h3>
+                                <span>Líder de Mercadeo</span>
                             </div>
                         </div>
                     </div>
+<<<<<<< HEAD
                     <!-- Equipo de mercadeo -->
                     <div class="row" style="margin-top: 2em;">                    
                         <!-- Leidy Gomes -->
@@ -899,13 +1021,26 @@
                                                 investigación de mercadeo.
                                             </p>
                                         </div>
+=======
+                </div>
+                <!-- Equipo de mercadeo -->
+                <div class="row" style="margin-top: 2em;">                    
+                    <!-- Leidy Gomes -->
+                    <div class="col-sm-4" style="margin-top: 1em;">
+                        <div class="team" >
+                            <div class="team-img">
+                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/leidy.png" alt="">
+                                <div class="overlay">
+                                    <div class="team-social">
+                                        <p class="p">
+                                            Experta en Marketing Digital, Community Manager, especialista en manejo de redes sociales,
+                                            investigación de mercadeo.
+                                        </p>
+>>>>>>> origin
                                     </div>
                                 </div>
-                                <div class="team-content">
-                                    <h3>Leidy Gómez</h3>
-                                    <span>Marketing Digital</span>
-                                </div>
                             </div>
+<<<<<<< HEAD
                         </div>
                         <!-- Oriana Pinillos -->
                         <div class="col-sm-4" style="margin-top: 1em;">
@@ -939,15 +1074,35 @@
                                                 del Centro Venezolano Americano del Zulia.
                                             </p>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="team-content">
-                                    <h3>Pietro rivellaro</h3>
-                                    <span>Ejecutivo de Marketing</span>
-                                </div>
+=======
+                            <div class="team-content">
+                                <h3>Leidy Gómez</h3>
+                                <span>Marketing Digital</span>
                             </div>
                         </div>
                     </div>
+                    <!-- Oriana Pinillos -->
+                    <div class="col-sm-4" style="margin-top: 1em;">
+                        <div class="team" >
+                            <div class="team-img">
+                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/oriana.png" alt="">
+                                <div class="overlay">
+                                    <div class="team-social">
+                                        <p class="p">
+                                            Comunicadora Social y Periodista con Énfasis en Comunicación Organizacional, formación Complementaria
+                                            en Administración de PQR de Icontec Internacional. 
+                                        </p>
+>>>>>>> origin
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h3>Oriana Pinillos</h3>
+                                <span>Comunicadora Social</span>
+                            </div>
+                        </div>
+                    </div>
+<<<<<<< HEAD
                     <!-- Equipo de Marketing 2 -->
                     <div class="row" style="margin-top: 2em;">
                         <!-- Ximena Jaimes -->
@@ -962,13 +1117,23 @@
                                                 en comunicación organizacional, relaciones públicas y periodismo corporativo.
                                             </p>
                                         </div>
+=======
+                    <!-- Pietro Rivellaro -->
+                    <div class="col-sm-4" style="margin-top: 1em;">
+                        <div class="team" >
+                            <div class="team-img">
+                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/pietro.png" alt="">
+                                <div class="overlay">
+                                    <div class="team-social">
+                                        <p class="p">
+                                            Ingeniero Petroquímico de la Universidad Rafael Urdaneta de Maracaibo, Experto en Idiomas
+                                            del Centro Venezolano Americano del Zulia.
+                                        </p>
+>>>>>>> origin
                                     </div>
                                 </div>
-                                <div class="team-content">
-                                    <h3>Ximena Jaimes</h3>
-                                    <span>Comunicadora Social</span>
-                                </div>
                             </div>
+<<<<<<< HEAD
                         </div>
                         <!-- Ibett Luque -->
                         <div class="col-sm-6" style="margin-top: 1em;">
@@ -988,10 +1153,17 @@
                                     <h3>Ibett Luque</h3>
                                     <span>Coaching Organizacional</span>
                                 </div>
+=======
+                            <div class="team-content">
+                                <h3>Pietro Crivellaro</h3>
+                                <span>Ejecutivo de Marketing</span>
+>>>>>>> origin
                             </div>
                         </div>
                     </div>
+                </div> 
 
+<<<<<<< HEAD
                     <!-- Departamento legal -->
                     <div class="row" style="margin-top: 2em;">
                         <div class="section-header text-center">
@@ -1029,13 +1201,29 @@
                                                 administrativas, Apoyo Jurídico a la gestión contractual.
                                             </p>
                                         </div>
+=======
+                <!-- Departamento administrativo -->
+
+                <div class="row" style="margin-top: 2em;">
+                    <div class="section-header text-center">
+                        <h2 class="title">Administración</h2>
+                    </div>
+                    <!-- Susana Lizcano -->
+                    <div class="col-sm-4" style="margin-top: 1em;">
+                        <div class="team" >
+                            <div class="team-img">
+                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/susana.png" alt="">
+                                <div class="overlay">
+                                    <div class="team-social">
+                                        <p class="p">
+                                            Tecnóloga en Mercadotecnia y Comercio Internacional, técnica en servicio
+                                            al cliente y ventas.
+                                        </p>
+>>>>>>> origin
                                     </div>
                                 </div>
-                                <div class="team-content">
-                                    <h3>Carolina Peña</h3>
-                                    <span>Abogada</span>
-                                </div>
                             </div>
+<<<<<<< HEAD
                         </div>
                         <!-- Andres Cruz -->
                         <div class="col-sm-4" style="margin-top: 1em;">
@@ -1055,10 +1243,25 @@
                                     <h3>Andrés Cruz</h3>
                                     <span>Abogado</span>
                                 </div>
+=======
+                            <div class="team-content">
+                                <h3>Susana Lizcano</h3>
+                                <span>Administradora</span>
+>>>>>>> origin
                             </div>
                         </div>
                     </div>
+                    <!-- Eduardo Ordoñez -->
+                    <div class="col-sm-4" style="margin-top: 1em;">
+                        <div class="team" >
+                            <div class="team-img">
+                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/johan.png" alt="">
+                                <div class="overlay">
+                                    <div class="team-social">
+                                        <p class="p">
+                                            Abogado, Especialista en Derecho Administrativo y Especialista en Ciencias Penales y Criminológicas.
 
+<<<<<<< HEAD
                     <!-- Departamento administrativo -->
 
                     <div class="row" style="margin-top: 2em;">
@@ -1077,13 +1280,13 @@
                                                 al cliente y ventas.
                                             </p>
                                         </div>
+=======
+                                        </p>
+>>>>>>> origin
                                     </div>
                                 </div>
-                                <div class="team-content">
-                                    <h3>Susana Lizcano</h3>
-                                    <span>Administradora</span>
-                                </div>
                             </div>
+<<<<<<< HEAD
                         </div>
                         <!-- Willington Serrano -->
                         <div class="col-sm-4" style="margin-top: 1em;">
@@ -1116,20 +1319,41 @@
                                                 Especialista en Análisis y diseño de unidades productivas, con más de 5 años de experiencia en gerencia de empresas.
                                             </p>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="team-content">
-                                    <h3>Monica Acevedo</h3>
-                                    <span>Administradora</span>
-                                </div>
+=======
+                            <div class="team-content">
+                                <h3>Eduardo Ordoñez</h3>
+                                <span>Abogado</span>
                             </div>
                         </div>
                     </div>
+                    <!-- Willington Serrano -->
+                    <div class="col-sm-4" style="margin-top: 1em;">
+                        <div class="team" >
+                            <div class="team-img">
+                                <img class="img-responsive" style="border-radius: 100%;" src="./img/FOTOS EQUIPO/willington.png" alt="">
+                                <div class="overlay">
+                                    <div class="team-social">
+                                        <p class="p">
+                                            Contador Público Titulado, Especialista en revisión Fiscal y Auditoria Externa, Outsourcing Contable,
+                                            Asesoría tributaria y legal, Consultor de negocios.
+                                        </p>
+>>>>>>> origin
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h3>Willington Serrano</h3>
+                                <span>Contador</span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <!-- /Container -->
             </div>
+            <!-- /Container -->
+        </div>
         <!-- /team -->       
-        
+
         <!-- Blog -->
         <div id="blog" class="section md-padding bg-grey">
             <!-- Container -->
@@ -1151,7 +1375,7 @@
                                 </a>
                             </div>
                             <div class="blog-content">                                
-                                <h3>Cripto Moneda Golden Hash (XGH) promete ser referencia en Amérixa Latina</h3>
+                                <h3>Cripto Moneda Golden Hash (XGH) promete ser referencia en América Latina</h3>
                                 <p style="text-align: justify;">
                                     América Latina es un área geográfica que últimamente ha tenido un alto interés
                                     por las criptomonedas y la tecnología descentralizada. A raíz de esto, un gran
@@ -1159,7 +1383,7 @@
                                     una criptomoneda basada en el protocolo de Ethereum, que dará sus inicios, a mediados
                                     del presente mes.
                                 </p>
-                                <a href="https://www.actualcoin.net/leermas?idNoticia=247" target="_blank">Read more</a>
+                                <a href="https://www.actualcoin.net/leermas?idNoticia=247" target="_blank">Leer más</a>
                             </div>
                         </div>
                     </div>
@@ -1174,20 +1398,58 @@
                                 </a>
                             </div>
                             <div class="blog-content">
-                                <h3> Critptomoneda desarrollada bajo el protocolo de Ethereum, que selanzará almercadopronto.</h3>
+                                <h3> Critptomoneda desarrollada bajo el protocolo de Ethereum, que se lanzará al mercado pronto.</h3>
                                 <p style="text-align: justify;">
-                                    Lo particular de esta divisa esqueproporciona a susinversionistas, colaboradores y usuarios,elaccesoaespacios de
-                                    almacenamientodedatos enla plataforma GoldenSpace, mediante una clave privada, además de la participación en distintos programas
+                                    Lo particular de esta divisa esqueproporciona a susinversionistas, colaboradores y usuarios,el acceso a espacios de
+                                    almacenamiento de datos enla plataforma GoldenSpace, mediante una clave privada, además de la participación en distintos programas
                                     de recompensa. 
                                 </p>
-                                <a href="PDF/Borbon.pdf" target="_blank">Read more</a>
+                                <a href="PDF/Borbon.pdf" target="_blank">Leer Más</a>
                             </div>
                         </div>
                     </div>
-                    <!-- /blog -->
-                    
-                </div>
+                    <!-- /blog --> 
+                </div>                
                 <!-- /Row -->
+                
+                <!-- COINCODEX -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="blog" style="margin: auto">
+                            <div class="blog-img">
+                                <a href="https://coincodex.com/ico/golden-hash/ " target="_blank">
+                                    <img src="img/coincodex-logo-desktop.png" class="img-responsive">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- INVESTING -->
+                    <div class="col-md-4">
+                        <div class="blog" style="margin: auto">
+                            <div class="blog-img">
+                                <a href="https://www.investing.com/crypto/ico-calendar" target="_blank">
+                                    <img src="img/investing.png" class="img-responsive">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- COINHILLS -->
+                    <div class="col-md-4">
+                        <div class="blog" style="margin: auto">
+                            <div class="blog-img">
+                                <a href="https://www.coinhills.com/ico/view/golden-hash/ " target="_blank">
+                                    <img src="img/coinhills.png" class="img-responsive">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div>
+                        
+                    </div>
+                </div>
 
             </div>
             <!-- /Container -->
@@ -1203,7 +1465,7 @@
                 <div class="row">
                     <!-- Section-header -->
                     <div class="section-header text-center">
-                        <h2 class="title">Contactenos</h2>
+                        <h2 class="title">Contáctenos</h2>
                     </div>
                     <!-- /Section-header -->                   
 
@@ -1223,7 +1485,7 @@
                             <input name="contactName" type="text" id="contactName" class="input" placeholder="Nombre" value="" minlength="2" required="" aria-required="true">
                             <input name="contactEmail" type="email" id="contactEmail" class="input" placeholder="Email" value="" required="" aria-required="true">
                             <input name="contactSubject" type="text" id="contactSubject" class="input" placeholder="Asunto" value="" required="" aria-required="true">
-                            <textarea name="contactMessage" id="contactMessage" class="input" placeholder="Mensaje" rows="10" cols="50" required=""></textarea>
+                            <textarea name="contactMessage" id="contactMessage" class="input" placeholder="Mensaje" rows="10" cols="50" maxlength="500" required=""></textarea>
                             <button class="main-btn">Enviar Mensaje</button>
                         </form>
                     </div>
@@ -1249,13 +1511,14 @@
                         <div class="footer-logo">
                             <a href="index.html"><img src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo"></a>
                         </div>
-                         <!-- /footer logo -->
+                        <!-- /footer logo -->
                     </div>
                     <div class="col-md-4">
                         <!-- footer follow -->
                         <ul class="footer-follow">
                             <li><a class="facebook" href="https://www.facebook.com/GoldenHash-2104300649854518/?ref=bookmarks" target="_blank"><i class="fa fa-facebook">  Facebook</i></a></li>
-                            <li><a class="twitter" href="https://twitter.com/?logged_out=1&lang=es" target="_blank"><i class="fa fa-twitter">  Twitter</i></a></li>                            
+                            <li><a class="twitter" href="https://twitter.com/xgh_moneda?lang=es" target="_blank"><i class="fa fa-twitter">  Twitter</i></a></li>  
+                            <li><a class="blogger" href="https://infogoldenhash.blogspot.com/" target="_blank"><i class="fa fa-google-plus" > Blogger</i></a></li>
                         </ul>
                         <!-- /footer follow -->
                     </div>
@@ -1300,15 +1563,20 @@
         <script type="text/javascript" src="js/main.js"></script>
         <script src="js/grafica/highcharts.js" type="text/javascript"></script>
         <script src="js/grafica/highcharts-3d.js" type="text/javascript"></script>
-                
+
         <script src="js/moment.js" type="text/javascript"></script>
         <script src="js/moment-timezone-with-data.js" type="text/javascript"></script>
         <script src="js/timer.js" type="text/javascript"></script>
-        
+
         <!-- Script que realiza el registro del mensaje contactanos -->
         <script src="js/registros/registro_mensaje.js" type="text/javascript"></script>
-        
-        
+
+        <style>
+            .highcharts-credits{
+                display: none;
+            }
+        </style>
+
         <script>
             Highcharts.chart('grafica', {
                 colors: [' #45668e ', '#007F73 ', '#4ABDAC', '#7BB5FC', '#304763'],

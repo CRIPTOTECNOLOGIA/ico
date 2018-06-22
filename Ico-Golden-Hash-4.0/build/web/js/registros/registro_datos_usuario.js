@@ -32,6 +32,7 @@ $(document).ready(function () {
         } else {
             $("#mensaje2").fadeOut();
         }
+        
         //Validacion del campo apellido
         if (apellidoVar == "") {
             $("#mensaje3").fadeIn("slow");
