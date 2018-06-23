@@ -67,6 +67,18 @@
 
         <!-- Línea de tiempo-->
         <link href="css/timeline.css" rel="stylesheet" type="text/css"/>
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119919075-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-119919075-1');
+        </script>
     </head>
 
     <body>
@@ -145,7 +157,7 @@
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <!-- Section header -->
                             <div class="section-header text-center" >
-                                <h2 class="title" style=" color: #FFFFFF" >50% De Bonus termina en:</h2>
+                                <h2 class="title" style=" color: #FFFFFF" >30% De Bonus termina en:</h2>
                             </div>
                             <!-- /Section header -->
                             <div class="agileits-timer"> 

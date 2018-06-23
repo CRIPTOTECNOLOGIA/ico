@@ -72,6 +72,18 @@
 
         <!-- Línea de tiempo-->
         <link href="css/timeline.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119919075-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-119919075-1');
+        </script>
     </head>
     <%
         String codigo_usuario_referente = "";
@@ -110,8 +122,8 @@
                     .then(data => {
                         document.getElementById("valor_btc_bd").value = data.data[1].quotes.USD.price;
                         document.getElementById("valor_eth_bd").value = data.data[1027].quotes.USD.price;
-            });
-            
+                    });
+
         </script>
         <!-- Header -->
         <header id="home_compra">
@@ -216,6 +228,7 @@
 
                                     </div>
                                 </div>
+
                                 <div class="col-sm-12 col-md-2" style="text-align: center; margin-top: 1em;">
                                     <img src="img/intercambio-1.png">
                                 </div>
@@ -226,7 +239,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="alert alert-danger alert-dismissible fade" id="mensaje_alerta">
+                            <div class="alert alert-danger fade" id="mensaje_alerta">
                                 <button type="button" class="close" data-dismiss="alert">&times;</button>
                                 <strong>Advertencia!</strong> Contribucion minima en BTC es 0.01 y ETH de 0.125.
                             </div>
@@ -239,13 +252,13 @@
                         <p style="color: #000;">
                             Descarga Trust Wallet para recepcionar tus Golden Hash (XGH)
                         </p>
-                        <!-- Div Imagen -->
-                        <!--<div class="col-sm-12 col-md-6" style="margin: 0 auto;">
-                            <img src="img/intercambio.png" class="img-fluid">
-                        </div>-->
+
+                        <!-- Video Youtube TrustWallet -->
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" style="padding-top: 1em; margin: auto;" src="https://www.youtube.com/embed/E4MERgi7XOI" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item" style="padding-top: 1em; margin: auto;" src="https://www.youtube.com/embed/fzqkm07gMYA" allowfullscreen></iframe>
                         </div>  
+
+                        <!-- Instalar aplicacion trustwallet -->
                         <div class="row">
                             <div class="col-sm-12 col-md-6" style="text-align: center;">                                
                                 <img src="img/android-app-store-latest.png" onclick="location.href = 'https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp'" style="margin-top: 2em; height: 76.19px; width: 253.717px; cursor: pointer;" class="img-responsive">                                
@@ -391,11 +404,11 @@
                             </p>
                             <h4 style="text-align: center;">Código QR</h4>
                             <div style="width: 100%; text-align: center;">
-                                <img class="img-fluid" id="img-qr-pago" src="img/qr-bitcoin.png" style="width: 300px;">
+                                <img class="img-fluid" id="img-qr-pago" src="img/qr-bitcoin.jpg" style="width: 300px;">
                             </div>
                             <h5>Dirección de pago</h5>
                             <div class="form-group">
-                                <input type="text" style="font-family: Arial; font-size: 20px" disabled class="form-control" id="hash-billetera" value="1L338vcUVqCEnAP2okFkcBHTpm2YmJMYAd">
+                                <input type="text" style="font-family: Arial; font-size: 20px" disabled class="form-control" id="hash-billetera" value="18f7DQBiQc43JxE3xFLNXuYyRcEVqJ3PCF">
                                 <br>
                             </div>
 
@@ -421,43 +434,56 @@
 
             </div>
         </div>
-        
-        
+
+
         <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/registros/registro_datos_usuario.js" type="text/javascript"></script>
         <script src="js/validaciones/validacion.js" type="text/javascript"></script>
         <script src="js/precios/calculo_precios.js" type="text/javascript"></script>
         <script>
-    function ejecutar_formulario_compra() {
-        if (document.getElementById("file_transsaccion").value == "") {
-            alert('POR FAVOR, DEBES CARGAR UNA IMAGEN, LA CUAL ESPECIFICA LA TRANSACCIÓN REALIZADA');
-            $("#mensaje8").fadeIn("slow");
-        } else {
-            $("#mensaje8").fadeOut();
-            var formulario = document.getElementById("formlario_registro_archivo");
-            formulario.submit();
-        }
-    }
+            function ejecutar_formulario_compra() {
+                let input_transaccion = document.getElementById("file_transsaccion");
+                
+                if (input_transaccion.value != "") {
+                    let extension = input_transaccion.value.split(".");
+                    if (extension[extension.length - 1] == "jpg" ||
+                            extension[extension.length - 1] == "jpeg" ||
+                            extension[extension.length - 1] == "png") {
+                        console.log(input_transaccion.files[0].size);
+                        if(input_transaccion.files[0].size <= 2097152){
+                            var formulario = document.getElementById("formlario_registro_archivo");
+                            formulario.submit();
+                        }else{
+                            alert('El tamaño de la imagen debe ser menor o igual a 2Mb');
+                        }
+                    }else{
+                        alert("Este tipo de archivo no es válido");
+                    }
+                }else{
+                    alert('Por favor, debes cargar una imagen, la cual especifica la transacción finalizada');
+                    $("#mensaje8").fadeIn("slow");
+                }
+            }
 
-    function datos_formulario() {
-        var cantidad_btc = document.getElementById('cantidad_btc').value;
-        var cantidad_xgh = document.getElementById('cantidad_xgh').value;
-        document.getElementById('formulario_cantidad_btc').value = cantidad_btc;
-        document.getElementById('formuario_cantidad_xgh').value = cantidad_xgh;
-        $('#myModal').modal('show');
-    }
+            function datos_formulario() {
+                var cantidad_btc = document.getElementById('cantidad_btc').value;
+                var cantidad_xgh = document.getElementById('cantidad_xgh').value;
+                document.getElementById('formulario_cantidad_btc').value = cantidad_btc;
+                document.getElementById('formuario_cantidad_xgh').value = cantidad_xgh;
+                $('#myModal').modal('show');
+            }
 
-    function cargarArchivo(elemento) {
-        //alert("Proceso Terminado");
-        var file = elemento.files[0];
-        //$("#file_transsaccion").val(file.name);
-        //$('input[name="file_transsaccion"]').val(file.name);
-        //document.formulario.target = "null";
-        //document.formulario.action = "nuevo_archivo";
-        //document.formulario.submit();
-        //alert("Proceso Termionado");
-    }
+            function cargarArchivo(elemento) {
+                //alert("Proceso Terminado");
+                var file = elemento.files[0];
+                //$("#file_transsaccion").val(file.name);
+                //$('input[name="file_transsaccion"]').val(file.name);
+                //document.formulario.target = "null";
+                //document.formulario.action = "nuevo_archivo";
+                //document.formulario.submit();
+                //alert("Proceso Termionado");
+            }
         </script>
 
     </body>

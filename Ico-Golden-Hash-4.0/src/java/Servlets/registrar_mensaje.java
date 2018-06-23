@@ -70,7 +70,7 @@ public class registrar_mensaje extends HttpServlet {
         String email = request.getParameter("contactEmail");
         String tema = request.getParameter("contactSubject");
         String mensaje = request.getParameter("contactMessage");
-        mensaje = mensaje.substring(0,500);
+        //mensaje = mensaje.substring(0,500);
         
         mensaje men = new mensaje();
         if(men.registrar_mensaje(nombre, email, tema, mensaje)){

@@ -69,7 +69,7 @@ public class Correo_envio_html {
         String password = "Qazwsx*-";
 
         // outgoing message information
-        String mailTo = "davidcasadiegos2818@gmail.com";
+        String mailTo = "programacion.golden.hash@gmail.com";
         String subject = asunto;
 
         // message contains HTML markups
@@ -174,16 +174,16 @@ public class Correo_envio_html {
             ex.printStackTrace();
         }
     }
-
-    public static void main(String[] args) {
-        String destinatario = "luisgelvis123@gmail.com"; //A quien le quieres escribir.
-        String asunto = "ALERTA REGISTRO NUEVO SIN REVISAR";
-        String cuerpo = "Hemos encontrado un nuevo registro el cuál no se ha verificado por más de 20 minutos.\n"
-                + "Ingresa a esta URL para verificarlo https://www.icogoldenhash.com/p09RSqfQxac2WCWV82yw.jsp?id_usuario=166 \n"
-                + "Criptotecnología-Programación..\n"
-                + "Mensaje de prueba correos";
-
-        Correo_envio_html corre = new Correo_envio_html();
-        //corre.send_correo("davidcasadiegos2818@gmail.com", "prueba html", "texto");
-    }
+//
+//    public static void main(String[] args) {
+//        String destinatario = "luisgelvis123@gmail.com"; //A quien le quieres escribir.
+//        String asunto = "ALERTA REGISTRO NUEVO SIN REVISAR";
+//        String cuerpo = "Hemos encontrado un nuevo registro el cuál no se ha verificado por más de 20 minutos.\n"
+//                + "Ingresa a esta URL para verificarlo https://www.icogoldenhash.com/p09RSqfQxac2WCWV82yw.jsp?id_usuario=166 \n"
+//                + "Criptotecnología-Programación..\n"
+//                + "Mensaje de prueba correos";
+//
+//        Correo_envio_html corre = new Correo_envio_html();
+//        //corre.send_correo("davidcasadiegos2818@gmail.com", "prueba html", "texto");
+//    }
 }

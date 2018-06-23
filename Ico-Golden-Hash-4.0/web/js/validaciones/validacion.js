@@ -36,8 +36,8 @@ function placeholderPago1() {
     document.getElementById("h2_contribucion").innerHTML = texto;
     document.getElementById("cantidad_btc").value = "0.01";
     verificar_seleccionado(0.01);
-    document.getElementById("img-qr-pago").src = "img/qr-bitcoin.png";
-    document.getElementById("hash-billetera").value = "1L338vcUVqCEnAP2okFkcBHTpm2YmJMYAd";
+    document.getElementById("img-qr-pago").src = "img/qr-bitcoin.jpg";
+    document.getElementById("hash-billetera").value = "18f7DQBiQc43JxE3xFLNXuYyRcEVqJ3PCF";
     var contribuciones = decodeURIComponent("Envíe sus contribuciones BTC a la siguiente dirección o código QR."+
                     "NO envíe BTC de un intercambio, debe ser enviado desde "+
                     "su billetera.");
@@ -51,8 +51,8 @@ function placeholderPago2() {
     $("#cantidad_btc").attr("placeholder", "ETH");
     document.getElementById("h2_contribucion").innerHTML = texto;
     document.getElementById("cantidad_btc").value = "0.125";
-    document.getElementById("img-qr-pago").src = "img/qr-ethereum.png";
-    document.getElementById("hash-billetera").value = "0xe98Bc967D9a9d9DE25b653fda81Bc2Ce90808Ea2";
+    document.getElementById("img-qr-pago").src = "img/qr-ethereum.jpg";
+    document.getElementById("hash-billetera").value = "0x01e6efb6de9b20765b4c043b385b237332f7f90c";
     var contribuciones = decodeURIComponent("Envíe sus contribuciones ETH a la siguiente dirección o código QR."+
                     "NO envíe ETH de un intercambio, debe ser enviado desde "+
                     "su billetera.");

@@ -29,6 +29,7 @@
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
+    margin: 0px 16px;
 }
 .column.days {
     border-left: 2px solid rgba(255, 255, 255, 0.28);

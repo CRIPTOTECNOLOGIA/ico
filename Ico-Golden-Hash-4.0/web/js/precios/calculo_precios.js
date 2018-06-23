@@ -32,10 +32,12 @@ function verificar_seleccionado(cantidad) {
         
         if(cantidad >= 0.01){
             btc_xgh(cantidad);
+            $('#mensaje_alerta').addClass("fade");
             $('#mensaje_alerta').removeClass("show");
             $('#btn_comprar').removeAttr("disabled");
             return true;
         }else{
+            $('#mensaje_alerta').removeClass("fade");
             $('#mensaje_alerta').addClass("show");
             $('#btn_comprar').attr("disabled","disabled");
         }  
@@ -43,10 +45,12 @@ function verificar_seleccionado(cantidad) {
         
         if(cantidad >= 0.125){
             eth_xgh(cantidad);
+            $('#mensaje_alerta').addClass("fade");
             $('#mensaje_alerta').removeClass("show");
             $('#btn_comprar').removeAttr("disabled");
             return true;
         }else{
+            $('#mensaje_alerta').removeClass("fade");
             $('#mensaje_alerta').addClass("show");
             $('#btn_comprar').attr("disabled","disabled");
         }            
@@ -56,7 +60,7 @@ function verificar_seleccionado(cantidad) {
 function btc_xgh(cantidad) {
     var btc_actual = document.getElementById("valor_btc_bd").value;//7378.49;
     var btc_total = cantidad * btc_actual;
-    var cantidad_XGH_btc_desc = btc_total / 0.25;
+    var cantidad_XGH_btc_desc = btc_total / 0.35;
     //alert(cantidad_XGH_btc_desc);
     $("#cantidad_xgh").val(cantidad_XGH_btc_desc);
 }
@@ -66,11 +70,9 @@ function btc_xgh(cantidad) {
 function eth_xgh(cantidad) {
     var eth_actual = document.getElementById("valor_eth_bd").value;
     var eth_total = cantidad * eth_actual;
-    var cantidad_XGH_eth_desc = eth_total / 0.25;
+    var cantidad_XGH_eth_desc = eth_total / 0.35;
     //alert(cantidad_XGH_eth_desc);
-    $("#cantidad_xgh").val(cantidad_XGH_eth_desc);
-//   format("cantidad_btc");
-//    format("cantidad_xgh");
+    $("#cantidad_xgh").val(cnatidad_XGH_eth_desc);
 }
 
 function format(id) {
