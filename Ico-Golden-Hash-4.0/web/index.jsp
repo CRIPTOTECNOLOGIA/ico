@@ -1171,7 +1171,7 @@
                     <div class="col-md-4">
                         <!-- footer logo -->
                         <div class="footer-logo">
-                            <a href="index.html"><img src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo"></a>
+                            <a href="index.jsp"><img src="img/img-logo/Logo Golden Hash Metal Azul.png" alt="logo"></a>
                         </div>
                         <!-- /footer logo -->
                     </div>

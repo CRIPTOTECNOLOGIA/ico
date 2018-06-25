@@ -414,7 +414,7 @@
 
                             <div class="alert alert-danger margin-top-10" >
                                 <input type="hidden" value="" id="cedula_usuario_reg" name="cedula_usuario_reg">
-                                <input type="hidden" name="nombreImagen" value=""/>
+                                <input type="hidden" id="nombre_imagen" name="nombre_imagen"/>
                                 <p>Al realizar la transacción, debes subir una imagen especificando la transacción para poder validar en nuestro sistema</p>
                                 <input type="file" class="form-control-file" name="file_transsaccion" onchange="cargarArchivo(this);" id="file_transsaccion">
                                 <div id="mensaje8" class="errores">POR FAVOR CARGUE LA IMAGEN DE LA TRANSACCIÓN</div>
@@ -452,6 +452,7 @@
                             extension[extension.length - 1] == "png") {
                         console.log(input_transaccion.files[0].size);
                         if(input_transaccion.files[0].size <= 2097152){
+                            
                             var formulario = document.getElementById("formlario_registro_archivo");
                             formulario.submit();
                         }else{
@@ -477,8 +478,7 @@
             function cargarArchivo(elemento) {
                 //alert("Proceso Terminado");
                 var file = elemento.files[0];
-                //$("#file_transsaccion").val(file.name);
-                //$('input[name="file_transsaccion"]').val(file.name);
+                $("#nombre_imagen").val(file.name);
                 //document.formulario.target = "null";
                 //document.formulario.action = "nuevo_archivo";
                 //document.formulario.submit();
