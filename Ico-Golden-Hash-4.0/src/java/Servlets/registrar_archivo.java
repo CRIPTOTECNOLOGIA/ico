@@ -82,8 +82,8 @@ public class registrar_archivo extends HttpServlet {
         usuario usu = new usuario();
         String id_usuario = usu.consulta_id(cedula).getId_usuario();
 
-        //File destino = new File("/var/lib/tomcat/webapps/icogoldenhash/imagenes_goldenhash_transacciones/");
-        File destino = new File("C:/uploads/");
+        File destino = new File("/var/lib/tomcat/webapps/icogoldenhash/imagenes_goldenhash_transacciones/");
+        //File destino = new File("C:/uploads/");
         ServletRequestContext src = new ServletRequestContext(request);
 
         if (ServletFileUpload.isMultipartContent(src)) {
@@ -107,27 +107,14 @@ public class registrar_archivo extends HttpServlet {
                     file = new File(item.getName());
                     nombre_imagen = item.getName();
                     
-                    
-                    
-                    
-                    
-                    
-                    
 
                     String[] extension = nombre_imagen.split("\\.");
-                    System.out.println("extension: "+extension.length);
                     SimpleDateFormat d = new SimpleDateFormat("dd-MM-yyyy-");
                     SimpleDateFormat h = new SimpleDateFormat("HH-mm-ss");
                     Date date = new Date();
                     String nombre_imagen_asignado = cedula+"-"+d.format(date)+h.format(date)+"."+extension[extension.length-1];
-                                     
-                    
-                    
-                    
-
-                    System.out.println("nombre_imagen::: " + nombre_imagen);
+                                                         
                     try {
-                        System.out.println("FILE_IMAGEN:: " + file.getName());
                         //item.setFieldName();
                         item.write(new File(destino, nombre_imagen_asignado));
                     } catch (Exception ex) {
